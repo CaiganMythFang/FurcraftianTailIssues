@@ -1,0 +1,173 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___MeeCreeps",
+  "saveName": "Quick_Start___MeeCreeps",
+  "displayName": "Quick Start - MeeCreeps",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 24,
+          "yPos": 14,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]    MEECREEPS",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 21,
+          "yPos": 28,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://minecraft.curseforge.com/projects/lootbags?gameCategorySlug\u003dmc-mods\u0026projectID\u003d225946"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 229,
+          "yPos": 30,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Creep Cubes are how you summon a MeeCreep. Each box has 5 uses.\n\nThe available options depends on which side of a block you Right Click it on, and what type. If you use it on the side of a tree, you\u0027ll get an option to have the MeeCreep harvest it, for example.\n\n\n\n\nThe Portal Gun enables you to create a portal between two points. It requires a Portal Gun Cartidge, charged with Ender Pearls, to use though.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 25,
+          "yPos": 46,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "MeeCreeps are helpful creatures you can summon to do a single task. This includes digging staircases, building platforms and small houses, and more. \n\nFor digging, they require materials for the staircases. MeeCreeps are not very smart, so encountering liquids can confuse them or even kill them.\n\nIf there is an accessable chest nearby, they MAY drop ores they find into it.\n\nFor building they also require the materials to be dropped close by.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 332,
+          "yPos": 104,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "meecreeps:cartridge",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 312,
+          "yPos": 10,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "meecreeps:creepcube",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 293,
+          "yPos": 107,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "meecreeps:emptyportalgun",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

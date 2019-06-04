@@ -1,0 +1,221 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___Actually_Additions",
+  "saveName": "Quick_Start___Actually_Additions",
+  "displayName": "Quick Start - Actually Additions",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 27,
+          "yPos": 11,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]    ACTUALLY \n    ADDITIONS",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 23,
+          "yPos": 39,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "http://ellpeck.de/actaddmanual/"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 230,
+          "yPos": 30,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Atomic Reconstructor can transform materials into other materials, or even new ones!\n\n\n\nDrills are powerful hand-held mining devices.\n\n\n\nPotion Rings can give you the effects of the given potion, as long as you keep it charged with Blaze Powder.\n\n\n\nWhat a friendly looking cloud!",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 24,
+          "yPos": 52,
+          "width": 177.0,
+          "height": 150.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Actually Additions is a mod packed with a wide variety of blocks, tools, gadgets, and more.\n\n\n\nEverything about the mod can be found in the Actually Additions Manual.\n\n\n\nBlack Quartz can be found somewhat commonly underground, and is a basic material for many items.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 104,
+          "yPos": 121,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:item_misc 5",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 313,
+          "yPos": 12,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:block_atomic_reconstructor",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 311,
+          "yPos": 145,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:block_smiley_cloud",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 311,
+          "yPos": 97,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:item_potion_ring 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 104,
+          "yPos": 76,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:item_booklet",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 314,
+          "yPos": 58,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "actuallyadditions:item_drill 0 {Energy:250000}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

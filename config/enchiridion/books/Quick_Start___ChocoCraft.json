@@ -1,0 +1,237 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___ChocoCraft",
+  "saveName": "Quick_Start___ChocoCraft",
+  "displayName": "Quick Start - ChocoCraft",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 24,
+          "yPos": 14,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]    CHOCOCRAFT",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 21,
+          "yPos": 28,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2269183-1-8-clienthaxs-chococraft-2-happiness-distilled"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 232,
+          "yPos": 29,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Right Click the Chocopedia on a Chocobo to see its stats. It is also used to get a tamed Chocobo to stay or follow you.\n\n\n\nThe Chocobo Saddle is needed to ride tamed Chocobos.\n\n\n\nSpecial Chocobo food items like Aeroshrooms, Dead Peppers, and more can be found in Loot Bags and dungeons. They teach tamed Chocobos special abilities.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 24,
+          "yPos": 43,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Tame, breed, and ride Chocobos! Chocobos can be found wandering the wilderness, and feeding them the proper food will befriend them!\n\n\n\nGysahl Greens can be fed to wild Chocobos to tame them. They can also be used to make Pickles.\n\n\n\nYou can plant and farm Gysahl Green Seeds. Occasionally, harvesting will get you a Lovely Gysahl Green, which is needed to breed two Chocobos together. You can also craft the Lovely Gysahl Green, but is expensive.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 102,
+          "yPos": 80,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:gysahl_green",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 313,
+          "yPos": 12,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:chocobo_saddle 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 118,
+          "yPos": 127,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:lovely_gysahl_green",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 329,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:ability_fruit 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 315,
+          "yPos": 62,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:chocopedia",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 298,
+          "yPos": 103,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:ability_fruit 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 88,
+          "yPos": 127,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "chococraft:gysahl_green_seeds",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

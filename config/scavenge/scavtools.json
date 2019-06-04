@@ -1,0 +1,277 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "stonescavenging",
+			"type": 
+			{
+                "type": "block_list",
+                "blocks": 
+                [
+                    {
+                    "name": "chisel:factory",
+                    "meta": 2
+                    },
+                    {
+                    "name": "chisel:factory",
+                    "meta": 5
+                    },
+                    {
+                    "name": "chisel:factory",
+                    "meta": 8
+                    },
+                    {
+                    "name": "chisel:factory",
+                    "meta": 9
+                    },
+                    {
+                    "name": "chisel:futura",
+                    "meta": 0
+                    },
+                    {
+                    "name": "chisel:futura",
+                    "meta": 3
+                    },
+                    {
+                    "name": "chisel:futura",
+                    "meta": 4
+                    },
+                    {
+                    "name": "chisel:glass",
+                    "meta": 2
+                    },
+                    {
+                    "name": "chisel:glass",
+                    "meta": 6
+                    },
+                    {
+                    "name": "chisel:netherbrick",
+                    "meta": 13
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 0
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 6
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 7
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 8
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 14
+                    },
+                    {
+                    "name": "chisel:technical",
+                    "meta": 15
+                    },
+                    {
+                    "name": "chisel:technicalnew",
+                    "meta": 2
+                    },
+                    {
+                    "name": "chisel:technicalnew",
+                    "meta": 5
+                    },
+                    {
+                    "name": "chisel:technicalnew",
+                    "meta": 6
+                    },
+                    {
+                    "name": "chisel:technicalnew",
+                    "meta": 7
+                    },
+                    {
+                    "name": "chisel:tyrian",
+                    "meta": 14
+                    },
+                    {
+                    "name": "xtones:korp",
+                    "meta": 9
+                    },
+                    {
+                    "name": "xtones:kryp",
+                    "meta": 14
+                    }
+                ]
+			},
+			"clicktype": "RightClick",
+			"properties":
+			[
+				{
+                    "type": "require_item",
+                    "name": "contenttweaker:scavenger_tools"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": 66
+                },
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "block.gravel.fall",
+                    "volume": 0.6
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "mobSpell",
+                    "amount": 15,
+                    "speed": 0.4
+                }
+			],
+			"drops":
+			[
+				{
+                    "name": "minecraft:iron_ingot",
+                    "meta": "0",
+                    "weight": 175,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 0,
+                        "maxValue": 0
+                        }
+                    ]
+                },
+				{
+                    "name": "contenttweaker:ticket_orange",
+                    "meta": "0",
+                    "weight": 50,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 1
+                        }
+                    ]
+                },
+				{
+                    "name": "minecraft:iron_nugget",
+                    "meta": "0",
+                    "weight": 20,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "minecraft:gold_nugget",
+                    "meta": "0",
+                    "weight": 5,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "20",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "21",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "22",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "23",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "24",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                },
+				{
+                    "name": "immersiveengineering:metal",
+                    "meta": "28",
+                    "weight": 10,
+                    "properties":
+                    [
+                        {
+                        "type": "set_random_size",
+                        "minValue": 1,
+                        "maxValue": 3
+                        }
+                    ]
+                }
+			],
+			"messages":
+			[
+                {
+                    "id": "consume_block",
+                    "message": "The block crumbles as you Scavenge through it."
+                },
+                {
+                    "id": "require_left",
+                    "message": "You try to scavenge some useful materials."
+                }
+			]
+		}
+	]
+}

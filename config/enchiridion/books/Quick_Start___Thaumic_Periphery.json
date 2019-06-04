@@ -1,0 +1,205 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___Thaumic_Periphery",
+  "saveName": "Quick_Start___Thaumic_Periphery",
+  "displayName": "Quick Start - Thaumic Periphery",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 35,
+          "yPos": 14,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]    THAUMIC \n   PERIPHERY",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 22,
+          "yPos": 44,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://minecraft.curseforge.com/projects/thaumic-periphery"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 229,
+          "yPos": 30,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Pauldron can be upgraded into a Pauldron of Repulsion, which can knock all creature back when you are hit. It takes 5 seconds to recharge after being hit.\n\n\n\nThe Elementium Caster\u0027s Gauntlet is a version of the Caster\u0027s Gauntlet that uses Botania Mana instead of Vis.\n\n\n\nThe Clockwork Caster\u0027s Gauntlet, on the other hand, uses Ember\u0027s Ember instead of Vis.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 25,
+          "yPos": 54,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Thaumic Periphery is an addon for Thaumcraft that tweaks and adds some cross-mod compatability. \n\n\n\nSome Baubles will render on the player when equipped. Botania\u0027s Phantom Ink will make them invisible again.\n\n\n\nThe Pauldron is a body Bauble that adds a bit of Armor and Armor Toughness.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 107,
+          "yPos": 132,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thaumicperiphery:pauldron",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 317,
+          "yPos": 13,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thaumicperiphery:pauldron_repulsion",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 315,
+          "yPos": 123,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thaumicperiphery:caster_ember",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 108,
+          "yPos": 80,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thaumcraft:amulet_vis 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 315,
+          "yPos": 71,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thaumicperiphery:caster_elementium",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

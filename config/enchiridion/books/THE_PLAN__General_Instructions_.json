@@ -1,0 +1,616 @@
+{
+  "modid": "",
+  "uniqueName": "THE_PLAN__General_Instructions_",
+  "saveName": "THE_PLAN__General_Instructions_",
+  "displayName": "THE PLAN (General Instructions)",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 21,
+          "yPos": 10,
+          "width": 180.0,
+          "height": 96.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/THE_PLAN__General_Instructions_/logo.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 22,
+          "yPos": 115,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[i]Special Modpack made for [b][REDACTED][/b].\n\n[i]Concept, design, custom art, scripting, and more all by Caigan.\n\nSpecial thanks to the Forge and mod devs who make this all possible.\n\nPlease enjoy the pack, and if you don\u0027t, may you find one works for you!\n                                        -Caigan",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 274,
+          "yPos": 10,
+          "width": 95.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]PROLOGUE[/u]",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 232,
+          "yPos": 30,
+          "width": 175.0,
+          "height": 84.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[i]Roughly once a year, I try to take a week or two off my current larger projects to work on something smaller. Specifically : a modpack for one of my communities.\n\nThis is one of those modpacks. \n\nUnlike the previous ones, this one I started with the goal of sharing my work with everyone.\n\nThe ulterior motive of doing this was also to try something different than what I am doing with The Ferret Business, and learn some of the new tools and mods that I hope to use in my next pack! (Yes, it will be The Ferret Business 2, some time down the line!)\n\nThis modpack will not have giant questlines or super heavily gated progression. There are some of both, but only to provide some loose goals for players to strive for.\n\nRead on for the LORE and some guides!",
+              "size": 0.6999999
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 250,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://github.com/CaiganMythFang/FurcraftianTailIssues"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Report Issues Here!",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Report Issues Here!",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 23,
+          "yPos": 40,
+          "width": 175.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Cleansing is what we call the final act of the Ancient One\u0027s summoning.\n\nMany years ago, The Cult of All sought to cleanse the world of all evil, and danced with the devil. The devil were two of the Ancient Ones, elder gods who once lived in this reality.\n\nThey were summoned in diminished form, but with the help of the Cult, they regained their full power, and granted their wishes.\n\nBut like the proverbial genie, the wish is taken literally, figuratively, and to the letter all at once.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 35,
+          "yPos": 19,
+          "width": 175.0,
+          "height": 12.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]THE CLEANSING[/u]",
+              "size": 1.8000002
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 234,
+          "yPos": 20,
+          "width": 175.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Ancient Ones swept across the land, decimating everyone they came across. Many would be heroes, wizards, armies, all fell to their eldritch power.\n\nSome hid. Some survived the deadly war path. The lucky ones survived the Cleansing in tiny pockets in the wilderness. Those in the cities, however, did not.\n\nAlong with the majority of civilization itself, the Ancient Ones also destroyed what knowledge they could with their otherworldly powers. Knowledge gained by generations was \u0027destroyed\u0027 and lost to the world.\n\nWith the world cleansed of evil, both living and that created by it, the Ancient Ones left.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 1,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 25,
+          "yPos": 30,
+          "width": 175.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Two beacons of hope survived The Cleansing intact. Warned early of The Cult of All\u0027s plans, two cities gathered all the power and knowledge they could and created a barrier to hide themselves from the Ancient Ones.\n\nThey saved as many nearby villages as they could and warned everyone else, offering the knowledge of how to save more lives, but no one believed them until it was too late.\n\nFerretopia and its sister city Port Burda remained, forming the FOGCraft group. \n\nAnd you, Engineer of FOGCraft, are the best hope to rebuild Civilization.\n\nYou shall help enact The Plan.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 39,
+          "yPos": 14,
+          "width": 175.0,
+          "height": 12.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]THE SURVIVORS",
+              "size": 1.6000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 270,
+          "yPos": 13,
+          "width": 95.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]THE PLAN[/b][/u]",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 233,
+          "yPos": 34,
+          "width": 175.0,
+          "height": 84.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Welcome to the Overworld post Cleansing, Engineer. We\u0027ve waited years, constructing the FOGLiner and the research we\u0027d need to rebuild civilization. And now it is time to enact The Plan.\n\nThe Plan can be summed up in a few simple steps, Engineer : \n\n[b]1)[/b] Gather materials and establish a base of operations.\n[b]2)[/b] Gear up to protect yourself.\n[b]3)[/b] Secure every Village you find, and clean out as many haunted Lost City structures as possible.\n[b]4)[/b] Build a Rail Station in every Village and Lost City, connecting as many of them as possible into a giant rail network.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        }
+      ],
+      "pageNumber": 2,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 233,
+          "yPos": 128,
+          "width": 172.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]THE RAIL TICKETS[/u]",
+              "size": 1.6000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 230,
+          "yPos": 161,
+          "width": 178.0,
+          "height": 36.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Since the Cleansing, these rail tickets have begun appearing under certain circumstances. The magic contained in each is the key to rebuilding civilization. There are 9 different Rail Tickets.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 271,
+          "yPos": 33,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "contenttweaker:unlock_anedible",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 302,
+          "yPos": 31,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "enchiridion:book 0 {identifier:\"Quick_Start___Pam_s_Harvestcraft\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 331,
+          "yPos": 31,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "contenttweaker:unlock_actually",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 357,
+          "yPos": 32,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "enchiridion:book 0 {identifier:\"Quick_Start___Actually_Additions\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 50,
+          "yPos": 13,
+          "width": 115.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]THE LEDGER",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 23,
+          "yPos": 31,
+          "width": 175.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You have been left with The Ledger, which should help guide you along the Plan.\n\nIt also provides communication back to The Conductor, who is coordinating all Engineers in executing The Plan.\n\nIt contains instructions as well as quests for you to complete. They are vital to unlocking the knowledge lost during the Cleansing, which will aid you in your overall mission.\n\nIf you ever lose The Ledger, you can craft a new one, or access your magical ledger with the Grave key (`/~).",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 248,
+          "yPos": 15,
+          "width": 148.0,
+          "height": 18.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][u]LOST KNOWLEDGE[/u]",
+              "size": 1.6000001
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 234,
+          "yPos": 51,
+          "width": 175.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Ferretopia and Port Burda scientists have learned how to recover the knowledge destroyed during the Cleansing.\n\nBy tapping into the power of the mysterious Rail Tickets, the knowledge can be recalled from alternate realities, bringing it back to this world.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 306,
+          "yPos": 143,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "contenttweaker:ticket_rainbow",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 3,
+      "isScrollable": false
+    }
+  ]
+}

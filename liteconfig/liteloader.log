@@ -1,0 +1,562 @@
+[07:59:24] [main/INFO]: LiteLoader 1.12.2 starting up...
+[07:59:24] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[07:59:24] [main/INFO]: Java reports OS="windows 10"
+[07:59:24] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[07:59:24] [main/INFO]: Enumerating class path...
+[07:59:24] [main/INFO]: Class path separator=";"
+[07:59:24] [main/INFO]: Class path entries=(
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\minecraftforge\forge\1.12.2-14.23.4.2705\forge-1.12.2-14.23.4.2705.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\jline\jline\2.13\jline-2.13.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\realms\1.10.21\realms-1.10.21.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+   classpathEntry=D:\Windows Folders\Documents\Curse\Minecraft\Install\versions\1.12.2\1.12.2.jar
+)
+[07:59:24] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[07:59:24] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods]
+[07:59:24] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\1.12.2]
+[07:59:24] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@1292071f]
+[07:59:24] [main/INFO]: Discovering valid mod files in folder D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ActuallyAdditions-1.12.2-r135.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ActuallyAdditions-1.12.2-r135.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ActuallyBaubles-1.12-1.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ActuallyBaubles-1.12-1.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'actuallycomputers-2.1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\actuallycomputers-2.1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'AdHooks-1.12.2-3.1.3.0-build.0121.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\AdHooks-1.12.2-3.1.3.0-build.0121.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Animalium-0.3.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Animalium-0.3.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'animania-1.12.2-1.4.8.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\animania-1.12.2-1.4.8.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Aroma1997Core-1.12.2-2.0.0.0.b155.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Aroma1997Core-1.12.2-2.0.0.0.b155.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Aroma1997s-Dimensional-World-1.12-1.3.0.0.b37.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'autooredictconv-1.12-1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\autooredictconv-1.12-1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'AutoRegLib-1.3-18.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\AutoRegLib-1.3-18.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Avaritia-1.12-3.2.0.13-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Avaritia-1.12-3.2.0.13-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'AvaritiaTweaks-1.12.2-1.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\AvaritiaTweaks-1.12.2-1.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'base-1.12.2-3.9.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\base-1.12.2-3.9.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Baubles-1.12-1.5.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Baubles-1.12-1.5.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'BetterQuesting-3.5.259.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\BetterQuesting-3.5.259.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'BiblioCraft[v2.4.4][MC1.12.2].jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\BiblioCraft[v2.4.4][MC1.12.2].jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'blockdrops-1.12.2-1.4.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\blockdrops-1.12.2-1.4.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'BlockDropsTweaker-1.12.2-2.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\BlockDropsTweaker-1.12.2-2.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'bonsaitrees-1.0.5-b77.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\bonsaitrees-1.0.5-b77.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Bookshelf-1.12.2-2.3.552.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Bookshelf-1.12.2-2.3.552.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Botania r1.10-354.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Botania r1.10-354.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'BrandonsCore-1.12-2.4.2.157-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\BrandonsCore-1.12-2.4.2.157-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'buildersguides-1.12.2-1.0.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\buildersguides-1.12.2-1.0.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Capsule-1.12.2-3.1.69.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Capsule-1.12.2-3.1.69.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Chameleon-1.12-4.1.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Chameleon-1.12-4.1.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Chargers-1.12.2-1.0.0.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Chargers-1.12.2-1.0.0.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Chisel-MC1.12.2-0.2.0.31.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Chisel-MC1.12.2-0.2.0.31.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'chococraft_1.12.1-0.9.1.52.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\chococraft_1.12.1-0.9.1.52.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Chunk Pregenerator V1.12-1.8.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Chunk Pregenerator V1.12-1.8.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'cjcm-1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\cjcm-1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.1.9.344-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CodeChickenLib-1.12.2-3.1.9.344-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.5.2.19-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CoFHCore-1.12.2-4.5.2.19-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CoFHWorld-1.12.2-1.2.0.5-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CoFHWorld-1.12.2-1.2.0.5-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ContentTweaker-1.12.2-4.6.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ContentTweaker-1.12.2-4.6.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Controlling-3.0.6.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Controlling-3.0.6.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CookingForBlockheads_1.12.2-6.4.40.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CookingForBlockheads_1.12.2-6.4.40.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CosmeticArmorReworked-1.12.2-v1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CosmeticArmorReworked-1.12.2-v1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CraftStudio-1.0.0.93-mc1.12-alpha.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CraftStudio-1.0.0.93-mc1.12-alpha.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CraftTweaker2-1.12-4.1.8.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CraftTweaker2-1.12-4.1.8.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CreativeCore_v1.9.22_mc1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CreativeCore_v1.9.22_mc1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CTM-MC1.12-0.3.0.15.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CTM-MC1.12-0.3.0.15.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CustomMainMenu-MC1.12.2-2.0.8.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CustomMainMenu-MC1.12.2-2.0.8.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CustomNPCs_1.12.2(13may18).jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CustomNPCs_1.12.2(13may18).jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'CustomStartingGear-1.12-1.2.0.9-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\CustomStartingGear-1.12-1.2.0.9-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Cyclic-1.12.2-1.15.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Cyclic-1.12.2-1.15.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'D3Core-1.12.2-1.3.2.71.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\D3Core-1.12.2-1.3.2.71.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Decocraft-2.6.0_1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Decocraft-2.6.0_1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'deepresonance-1.12-1.7.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\deepresonance-1.12-1.7.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'DefaultOptions_1.12.2-9.2.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\DefaultOptions_1.12.2-9.2.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'DefaultWorldGenerator-port-1.12-2.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\DefaultWorldGenerator-port-1.12-2.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'DoomlikeDungeons-1.11.1-MC1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\DoomlikeDungeons-1.11.1-MC1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Draconic-Evolution-1.12-2.3.11.290-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Draconic-Evolution-1.12-2.3.11.290-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'EconomyInc-1.5MC1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\EconomyInc-1.5MC1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ElecCore-1.12.2-1.8.434.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ElecCore-1.12.2-1.8.434.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Electroblob's Wizardry - 4.1.2 - MC 1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Electroblob's Wizardry - 4.1.2 - MC 1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ElevatorMod-1.12.2-1.3.6.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ElevatorMod-1.12.2-1.3.6.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'EmberRootZoo-1.12-1.3.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\EmberRootZoo-1.12-1.3.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'embers-0.230.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\embers-0.230.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Enchiridion-1.12.2-3.3.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Enchiridion-1.12.2-3.3.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'environmentaltech-1.12.2-2.0.11a.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\environmentaltech-1.12.2-2.0.11a.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ExCompressum_1.12.2-3.0.22.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ExCompressum_1.12.2-3.0.22.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ExtraRails-1.12-1.3.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ExtraRails-1.12-1.3.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'foamfix-0.9.9.1-1.12.2-anarchy.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\foamfix-0.9.9.1-1.12.2-anarchy.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ForgeEndertech-1.12.2-4.3.10.0-build.0125.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ForgeEndertech-1.12.2-4.3.10.0-build.0125.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Forgelin-1.7.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Forgelin-1.7.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ForgeMultipart-1.12.2-2.4.2.60-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ForgeMultipart-1.12.2-2.4.2.60-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'FTBLib-5.1.0.22.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\FTBLib-5.1.0.22.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'FTBUtilities-5.1.0.27.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\FTBUtilities-5.1.0.27.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'furniture-4.2.0-1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\furniture-4.2.0-1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'GameStages-1.12.2-2.0.91.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\GameStages-1.12.2-2.0.91.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'guns-0.3.1-1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\guns-0.3.1-1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'HuntingDimension-1.12.2-1.0.24.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\HuntingDimension-1.12.2-1.0.24.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'hydrophobia-1.12 - 1.0.1c.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\hydrophobia-1.12 - 1.0.1c.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Immersive HempCraft-1.12-0.0.6.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Immersive HempCraft-1.12-0.0.6.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ImmersiveEngineering-0.12-82.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ImmersiveEngineering-0.12-82.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ImmersiveRailroading-1.2.1_1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ImmersiveRailroading-1.2.1_1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'incontrol-1.12-3.8.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\incontrol-1.12-3.8.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'industrialforegoing-1.12.2-1.10.1-176.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\industrialforegoing-1.12.2-1.10.1-176.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'inventorypets-1.12-1.5.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\inventorypets-1.12-1.5.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.63.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\InventoryTweaks-1.63.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'IronBackpacks-1.12.2-3.0.8-12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\IronBackpacks-1.12.2-3.0.8-12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ironchest-1.12.2-7.0.44.829.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ironchest-1.12.2-7.0.44.829.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ItemStages-1.12.2-2.0.35.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ItemStages-1.12.2-2.0.35.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'IvToolkit-1.3.3-1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\IvToolkit-1.3.3-1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'JEHC-1.12.2-1.5.1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\JEHC-1.12.2-1.5.1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'jeiintegration_1.12.2-1.5.1.36.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\jeiintegration_1.12.2-1.5.1.36.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'jeivillagers-1.12-1.0.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\jeivillagers-1.12-1.0.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.10.0.199.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\jei_1.12.2-4.10.0.199.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'JsonLootBags-1.12.2-1.0.0.15.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\JsonLootBags-1.12.2-1.0.0.15.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'JustEnoughResources-1.12.2-0.8.6.28.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\JustEnoughResources-1.12.2-0.8.6.28.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'LagGoggles-FORGE-1.12.2-4.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\LagGoggles-FORGE-1.12.2-4.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'liteloader-1.12.2-SNAPSHOT-release.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\liteloader-1.12.2-SNAPSHOT-release.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'LootBags-1.12.2-2.5.6.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\LootBags-1.12.2-2.5.6.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'LootTweaker-1.12.2-0.0.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\LootTweaker-1.12.2-0.0.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'lostcities-1.12-2.0.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\lostcities-1.12-2.0.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'lostsouls-1.12-1.1.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\lostsouls-1.12-1.1.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Mantle-1.12-1.3.2.24.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Mantle-1.12-1.3.2.24.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'mcjtylib-1.12-3.0.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mcjtylib-1.12-3.0.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'mdecore-1.12-1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mdecore-1.12-1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'meecreeps-1.12-1.2.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\meecreeps-1.12-1.2.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'miniheads-1.0.7a-1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\miniheads-1.0.7a-1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'MmmMmmMmmMmm-1.12-1.14.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\MmmMmmMmmMmm-1.12-1.14.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'modnametooltip_1.12.2-1.10.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\modnametooltip_1.12.2-1.10.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Modular Diversity-0.2hotfix.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Modular Diversity-0.2hotfix.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'modularmachinery-1.9.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\modularmachinery-1.9.4.jar
+[07:59:24] [main/INFO]: Considering valid mod file: D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'MoreLootStuff-1.12.2-0.0.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\MoreLootStuff-1.12.2-0.0.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'moreoverlays-1.13-mc1.12.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\moreoverlays-1.13-mc1.12.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'MouseTweaks-2.8-mc1.12.1.jar'
+[07:59:24] [main/INFO]: Not adding invalid or version-mismatched mod file: D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\MouseTweaks-2.8-mc1.12.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'MrTJPCore-1.12.2-2.1.3.35-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\MrTJPCore-1.12.2-2.1.3.35-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'multishot-1.12.0-3.3.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\multishot-1.12.0-3.3.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'NetherPortalFix_1.12.1-5.3.13.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\NetherPortalFix_1.12.1-5.3.13.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'NoMoreRecipeConflict-0.10(1.12.2).jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\NoMoreRecipeConflict-0.10(1.12.2).jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'NotEnoughItems-1.12.2-2.4.1.233-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\NotEnoughItems-1.12.2-2.4.1.233-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'notenoughroofs-1.12.2-0.8.0.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\notenoughroofs-1.12.2-0.8.0.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'notenoughwands-1.12-1.7.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\notenoughwands-1.12-1.7.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'obfuscate-0.2.4-1.12.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\obfuscate-0.2.4-1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'omlib-1.12.2-3.0.0-148.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\omlib-1.12.2-3.0.0-148.jar
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\OnlinePicFrame_v1.4.18_mc1.12.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'OpenComputers-MC1.12.2-1.7.2.67.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\OpenComputers-MC1.12.2-1.7.2.67.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'openmodularturrets-1.12.2-3.0.1-257.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\openmodularturrets-1.12.2-3.0.1-257.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'OpenPrinter-1.12.2-0.1.0.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\OpenPrinter-1.12.2-0.1.0.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'OreStages-1.12.2-2.0.30.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\OreStages-1.12.2-2.0.30.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Pam's HarvestCraft 1.12.2u.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Pam's HarvestCraft 1.12.2u.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'plustic-6.5.2.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\plustic-6.5.2.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-Base.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-Base.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-fabrication.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-fabrication.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-integration.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-integration.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-lighting.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-lighting.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-mechanical.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-mechanical.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ProjectRed-1.12.2-4.9.1.92-world.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ProjectRed-1.12.2-4.9.1.92-world.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Psi-r1.1-59.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Psi-r1.1-59.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'PTRLib-1.0.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\PTRLib-1.0.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Quark-r1.4-125.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Quark-r1.4-125.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'questbook-3.1.1-1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\questbook-3.1.1-1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'QuickLeafDecay-MC1.12.1-1.2.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\QuickLeafDecay-MC1.12.1-1.2.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RainbowOaks-1.12-1.0.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RainbowOaks-1.12-1.0.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RebornCore-1.12.2-3.8.9.300-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RebornCore-1.12.2-3.8.9.300-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RebornStorage-1.12.2-3.1.0.50.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RebornStorage-1.12.2-3.1.0.50.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RecipeStages-1.1.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RecipeStages-1.1.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RecurrentComplex-1.4.7.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RecurrentComplex-1.4.7.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'recycler-2.0.0-1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\recycler-2.0.0-1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.0.2.3-universal.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\RedstoneFlux-1.12-2.0.2.3-universal.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'refinedstorage-1.5.34.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\refinedstorage-1.5.34.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'refinedstorageaddons-0.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\refinedstorageaddons-0.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ResourceLoader-MC1.12.1-1.5.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ResourceLoader-MC1.12.1-1.5.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'rftools-1.12-7.53.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\rftools-1.12-7.53.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'rftoolsctrl-1.12-1.9.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\rftoolsctrl-1.12-1.9.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'rftoolspower-1.12-1.1.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\rftoolspower-1.12-1.1.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Scannable-MC1.12-1.6.3.19.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Scannable-MC1.12-1.6.3.19.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Scavenge V1.12-1.8.2.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Scavenge V1.12-1.8.2.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'SGExtraParts-1.12-1.4.1-34.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\SGExtraParts-1.12-1.4.1-34.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ShadowMC-1.12-3.8.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ShadowMC-1.12-3.8.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'SilentLib-1.12.2-2.3.2-109.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\SilentLib-1.12.2-2.3.2-109.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'SilentsGems-1.12.2-2.7.2b-270.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\SilentsGems-1.12.2-2.7.2b-270.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'SlashBlade-mc1.12-r13.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\SlashBlade-mc1.12-r13.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'StandardExpansion-3.4.143.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\StandardExpansion-3.4.143.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'statues-1.12.X-0.8.6.3.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\statues-1.12.X-0.8.6.3.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'StevesCarts-1.12.2-2.4.21.105.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\StevesCarts-1.12.2-2.4.21.105.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'StorageDrawers-1.12.2-5.3.6.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\StorageDrawers-1.12.2-5.3.6.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'tacotuesday-1.12.2-2.0.13.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\tacotuesday-1.12.2-2.0.13.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Tails-1.12-1.10.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Tails-1.12-1.10.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'TConstruct-1.12.2-2.10.1.87.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\TConstruct-1.12.2-2.10.1.87.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'tesla-core-lib-1.12.2-1.0.14.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\tesla-core-lib-1.12.2-1.0.14.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'tetra-1.12.2-0.8.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\tetra-1.12.2-0.8.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'theoneprobe-1.12-1.4.23.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\theoneprobe-1.12-1.4.23.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'tinkersoc-0.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\tinkersoc-0.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'tombstone-2.9.7-1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\tombstone-2.9.7-1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'topaddons-1.12.2-1.7.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\topaddons-1.12.2-1.7.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'torchmaster_1.12.2-1.6.4.62.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\torchmaster_1.12.2-1.6.4.62.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'TrackAPI-1.1_1.12.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\TrackAPI-1.1_1.12.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Traverse-1.12.2-1.5.4-61.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Traverse-1.12.2-1.5.4-61.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'TreeChopper-1.12.2-1.2.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\TreeChopper-1.12.2-1.2.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'trumpetskeleton-1.12-1.0.2.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\trumpetskeleton-1.12-1.0.2.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'valkyrielib-1.12.2-2.0.11a.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\valkyrielib-1.12.2-2.0.11a.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'VanillaFix-1.0.8-88.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\VanillaFix-1.0.8-88.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'VariedCommodities_1.12.2(15may18.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\VariedCommodities_1.12.2(15may18.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ViesCraft-1.12.2-5.9.13.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\ViesCraft-1.12.2-5.9.13.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'VillagerTrades-1.12-0.6.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\VillagerTrades-1.12-0.6.4.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'WaterStrainer-1.12-3.2.0.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\WaterStrainer-1.12-3.2.0.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'xnet-1.12-1.7.1.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\xnet-1.12-1.7.1.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'Xtones-1.12-1.0.8-11.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\Xtones-1.12-1.0.8-11.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'yoyos_1.12.2-1.2.2.20.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\yoyos_1.12.2-1.2.2.20.jar
+[07:59:24] [main/INFO]: Inspecting jar metadata in '[1.12]MoVillages-1.5.4.jar'
+[07:59:24] [main/INFO]: Ignoring D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\[1.12]MoVillages-1.5.4.jar
+[07:59:24] [main/INFO]: Discovering valid mod files in folder D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\1.12.2
+[07:59:24] [main/INFO]: Inspecting jar metadata in 'ChickenASM-1.12-1.0.2.7.jar'
+[07:59:24] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[07:59:24] [main/INFO]: Discovering tweaks on class path...
+[07:59:24] [main/INFO]: Registering discovered mod files in folder D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods
+[07:59:24] [main/INFO]: Adding newest valid mod file 'D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod' at revision 1701.0000
+[07:59:24] [main/INFO]: Registering discovered mod files in folder D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\1.12.2
+[07:59:24] [main/INFO]: Mod file 'ChickenASM-1.12-1.0.2.7.jar' provides tweakClass 'codechicken.asm.internal.Tweaker', adding to Launch queue with priority 1000
+[07:59:24] [main/INFO]: tweakClass 'codechicken.asm.internal.Tweaker' was successfully added
+[07:59:24] [main/INFO]: D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\1.12.2\ChickenASM-1.12-1.0.2.7.jar already exists on the classpath, skipping injection
+[07:59:24] [main/INFO]: Registering mixin config mixins.oldnorth.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[07:59:24] [main/INFO]: Registering mixin config mixins.voxelmap.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[07:59:24] [main/INFO]: Initialising LiteLoader Mixins
+[07:59:24] [main/INFO]: LiteLoader PREINIT complete
+[07:59:25] [main/INFO]: FML detected, switching to searge mappings
+[07:59:29] [main/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[07:59:29] [main/INFO]: Successfully generated event handler proxy class with 0 handlers(s) and 0 total invocations
+[08:01:46] [main/INFO]: JInput Component Registry is initialising...
+[08:01:46] [main/INFO]: Inspecting Keyboard controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[08:01:46] [main/INFO]: Inspecting Keyboard controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[08:01:46] [main/INFO]: Inspecting Mouse controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Mouse controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Mouse controller HID-Compliant Mouse on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Splashtop Virtual Hid on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Naga Hex V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Wacom Tablet on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Kraken 7.1 V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer BlackWidow Chroma on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Razer Kraken 7.1 V2 on Unknown...
+[08:01:46] [main/INFO]: Inspecting Unknown controller Splashtop Virtual Hid on Unknown...
+[08:01:46] [main/INFO]: JInput Component Registry initialised, found 20 controller(s) 575 component(s)
+[08:01:46] [main/INFO]: LiteLoader begin INIT...
+[08:01:46] [main/INFO]: Baking listener list for CoreProvider with 2 listeners
+[08:01:46] [main/INFO]: Injecting external mods into class path...
+[08:01:46] [main/INFO]: Injecting external mods into class path...
+[08:01:46] [main/INFO]: Discovering mods on class path...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\minecraftforge\forge\1.12.2-14.23.4.2705\forge-1.12.2-14.23.4.2705.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\jline\jline\2.13\jline-2.13.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\realms\1.10.21\realms-1.10.21.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Install\versions\1.12.2\1.12.2.jar...
+[08:01:46] [main/INFO]: Discovering mods in valid mod files...
+[08:01:46] [main/INFO]: Searching D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod...
+[08:01:47] [main/INFO]: Found 1 potential matches
+[08:01:47] [main/INFO]: Discovering mods in valid mod files...
+[08:01:47] [main/INFO]: Mod class discovery completed
+[08:01:47] [main/INFO]: LiteLoader begin POSTINIT...
+[08:01:47] [main/INFO]: Inhibiting sound handler reload
+[08:01:47] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[08:01:47] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[08:01:47] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[08:01:47] [main/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[08:01:47] [main/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[08:01:47] [main/INFO]: Discovered 1 total mod(s), injected 1 tweak(s)
+[08:01:47] [main/INFO]: Loading mod from com.mamiyaotaru.voxelmap.litemod.LiteModVoxelMap
+[08:01:47] [main/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[08:01:47] [main/INFO]: Successfully added mod VoxelMap version 1.7.1
+[08:01:47] [main/INFO]: Adding "D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[08:01:47] [main/INFO]: Setting up "mod_voxelMap_1.7.1_for_1.12.2.litemod" as mod resource pack with identifier "VoxelMap"
+[08:01:47] [main/INFO]: Successfully added "D:\Windows Folders\Documents\Curse\Minecraft\Instances\FOGCraft Tri - Off the Rails\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[08:01:47] [main/INFO]: Initialising mod VoxelMap version 1.7.1
+[08:01:47] [main/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[08:03:24] [main/INFO]: Calling late init for mod VoxelMap
+[08:03:25] [main/INFO]: Baking listener list for ViewportListener with 0 listeners
+[08:03:25] [main/INFO]: Sound handler reload inhibit removed
+[08:03:25] [main/INFO]: Reloading sound handler
+[08:03:41] [main/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[08:03:41] [main/INFO]: Baking listener list for RenderListener with 1 listeners
+[08:03:41] [main/INFO]: Baking listener list for TickObserver with 3 listeners
+[08:03:41] [main/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[08:03:41] [main/INFO]: Baking listener list for Tickable with 1 listeners
+[08:03:41] [main/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[08:03:52] [main/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[08:03:52] [main/INFO]: Baking listener list for ShutdownObserver with 3 listeners

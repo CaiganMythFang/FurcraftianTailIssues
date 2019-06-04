@@ -1,0 +1,387 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___Builders_Guides",
+  "saveName": "Quick_Start___Builders_Guides",
+  "displayName": "Quick Start - Builders Guides",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 31,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://github.com/Ipsis/BuildersGuides/wiki"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 18,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "  [b]BUILDER\u0027S GUIDES",
+              "size": 1.5000001
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 23,
+          "yPos": 45,
+          "width": 175.0,
+          "height": 158.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Sometimes, you need a helping guide when building large structures. Builder\u0027s Guides is here for you!\n\n\n\nThe Marker is the key block, and the Mallet is the tool to change it. \n\n\n\nMarker Cards tell the Marker what shape to project. Right Click the Marker Card into the Marker to initiate it.",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 78,
+          "yPos": 71,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "buildersguides:marker",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 122,
+          "yPos": 71,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "buildersguides:mallet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 66,
+          "yPos": 179,
+          "width": 97.0,
+          "height": 12.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "         Switch Mallet Mode",
+              "size": 0.6999999
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 68,
+          "yPos": 177,
+          "width": 28.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b][\u003d]",
+              "size": 1.1
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 254,
+          "yPos": 33,
+          "width": 157.0,
+          "height": 148.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Rotate Marker             Remove Marker Card\n\n\n \n\n\nMarker Specifc            Recalculate Marker\n\n\n\n\n\nChange Current Marker Color\n\n\n\n\n\nPush blocks out in direction facing\n\n\nPull blocks in away from direction facing",
+              "size": 0.6999999
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 232,
+          "yPos": 21,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "        [i]MALLET MODE : WRENCH\n\n\n  \n       MALLET MODE : CONFIG\n\n\n   \n     MALLET MODE : DECORATE\n\n\n\n       MALLET MODE : HAMMER",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 327,
+          "yPos": 67,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 237,
+          "yPos": 105,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 224,
+          "yPos": 157,
+          "width": 17.0,
+          "height": 20.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/SpecialButtonSHIFT.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 238,
+          "yPos": 29,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 308,
+          "yPos": 25,
+          "width": 17.0,
+          "height": 20.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/SpecialButtonSHIFT.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 324,
+          "yPos": 29,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 15
+        },
+        {
+          "xPos": 239,
+          "yPos": 142,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 16
+        },
+        {
+          "xPos": 240,
+          "yPos": 161,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 17
+        },
+        {
+          "xPos": 238,
+          "yPos": 67,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 18
+        },
+        {
+          "xPos": 310,
+          "yPos": 63,
+          "width": 17.0,
+          "height": 20.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quick_Start___Builders_Guides/SpecialButtonSHIFT.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 19
+        },
+        {
+          "xPos": 78,
+          "yPos": 114,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "buildersguides:markercard 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 20
+        },
+        {
+          "xPos": 121,
+          "yPos": 114,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "buildersguides:markercard 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 21
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

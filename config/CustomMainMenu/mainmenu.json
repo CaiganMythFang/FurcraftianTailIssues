@@ -1,0 +1,182 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "fogcraft:textures/gui/minecraft.png",
+            "posX" : 10,
+            "posY" : 0,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 25,
+            "posY" : 115,
+            "width" : 76,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 121,
+            "posY" : 115,
+            "width" : 76,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 25,
+            "posY" : 140,
+            "width" : 76,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            },
+            "alignment" : "top_left"
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 121,
+            "posY" : 140,
+            "width" : 76,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "quit":
+        {
+            "text" : " X",
+            "hoverText" : "Quit Game",
+            "posX" : 182,
+            "posY" : 165,
+            "width" : 21,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button2.png",
+            "action" : 
+            {
+                "type" : "quit"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "language":
+        {
+            "text" : " [ ]",
+            "hoverText" : "Language Selection",
+            "posX" : 18,
+            "posY" : 165,
+            "width" : 21,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button2.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "hoverText" : "Mystery",
+            "posX" : 86,
+            "posY" : 165,
+            "width" : 21,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button2.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            },
+            "alignment" : "top_left"
+        },
+        
+        "refresh2":
+        {
+            "text" : "",
+            "hoverText" : "More Mystery!",
+            "posX" : 114,
+            "posY" : 165,
+            "width" : 21,
+            "height" : 20,
+            "texture" : "fogcraft:textures/gui/button2.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            },
+            "alignment" : "top_left"
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["fogcraft:textures/background/screenshot1.png","fogcraft:textures/background/screenshot2.png","fogcraft:textures/background/screenshot3.png","fogcraft:textures/background/screenshot4.png","fogcraft:textures/background/screenshot5.png","fogcraft:textures/background/screenshot6.png","fogcraft:textures/background/screenshot7.png","fogcraft:textures/background/screenshot8.png","fogcraft:textures/background/screenshot9.png","fogcraft:textures/background/screenshot10.png"],
+                "displayDuration" : 150,
+                "fadeDuration" : 40,
+                "shuffle" : true
+            }
+        }
+    }
+}

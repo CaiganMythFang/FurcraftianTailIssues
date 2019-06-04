@@ -1,0 +1,6 @@
+{
+  "parent": "enchiridion:item/book",
+  "textures": {
+    "layer0": "enchiridion:items/old_diary_t"
+  }
+}

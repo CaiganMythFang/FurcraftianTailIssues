@@ -1,0 +1,450 @@
+{
+  "modid": "",
+  "uniqueName": "Quickstart___Advanced_Hook_Launchers",
+  "saveName": "Quickstart___Advanced_Hook_Launchers",
+  "displayName": "Quickstart - Advanced Hook Launchers",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": true,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": true,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": true,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": true,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 23,
+          "yPos": 43,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 230,
+          "yPos": 41,
+          "width": 176.0,
+          "height": 104.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Does no damage when it hooks creatures or blocks. Great for rapelling!\n\n\n\nWelcome to the Apocalypse! Only hooks creatures. Does some damage and pulls them towards you.\n\n\n\n\nSimilar to the Web Hook Launcher, but causes damage. Does not have as much elasticity, though.",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://minecraft.curseforge.com/projects/advanced-hook-launchers"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 21,
+          "yPos": 18,
+          "width": 177.0,
+          "height": 35.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     [b]ADVANCED HOOK   \n       LAUNCHERS[/b]",
+              "size": 1.4000001
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 44,
+          "yPos": 128,
+          "width": 156.0,
+          "height": 51.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [b]Basic Control\n\n\n        When Hooked",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 22,
+          "yPos": 56,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Advanced Hook Launchers provides a set of three Launchers that enable you to pull yourself or other creatures around.\n\nThe hooks rely on physics, though. Larger creatures are stronger, don\u0027t expect to drag the Dragon down on your own!",
+              "size": 0.9
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 42,
+          "yPos": 141,
+          "width": 156.0,
+          "height": 51.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Launch Hook                    Reel Hook Back\n\n\n\nPull                                Loosen\n\n\nUnhook Target           +      Unhook Self",
+              "size": 0.6999999
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 128,
+          "yPos": 162,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/Mouse LB Outline@1x.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 24,
+          "yPos": 136,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/Mouse LB Outline@1x.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 128,
+          "yPos": 179,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/Mouse LB Outline@1x.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 121,
+          "yPos": 132,
+          "width": 19.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/NormalButtonQ.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 22,
+          "yPos": 176,
+          "width": 19.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/NormalButtonQ.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 15
+        },
+        {
+          "xPos": 101,
+          "yPos": 176,
+          "width": 22.0,
+          "height": 18.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/SpecialButtonSHIFT.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 16
+        },
+        {
+          "xPos": 24,
+          "yPos": 161,
+          "width": 14.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Quickstart___Advanced_Hook_Launchers/Mouse RB Outline@1x.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 17
+        },
+        {
+          "xPos": 316,
+          "yPos": 12,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "adhooks:web_launcher 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 18
+        },
+        {
+          "xPos": 251,
+          "yPos": 30,
+          "width": 151.0,
+          "height": 164.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     [b]Web Hook Launcher\n\n\n\n\n\n  Pudge Hook Launcher\n\n\n\n\n\n\n  Spear Hook Launcher",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 19
+        },
+        {
+          "xPos": 310,
+          "yPos": 61,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "adhooks:pudge_launcher 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 20
+        },
+        {
+          "xPos": 307,
+          "yPos": 116,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "adhooks:spear_launcher 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 21
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

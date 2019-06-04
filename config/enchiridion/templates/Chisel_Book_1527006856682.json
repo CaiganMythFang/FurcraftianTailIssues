@@ -1,0 +1,289 @@
+{
+  "templatename": "Chisel Book",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": true,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": true,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 22,
+      "yPos": 127,
+      "width": 180.0,
+      "height": 19.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "   [b]JOURNEYMAP[/b]",
+          "size": 1.9000002
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 20,
+      "yPos": 39,
+      "width": 182.0,
+      "height": 14.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "          [i]QUICKSTART GUIDE[/i]",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 230,
+      "yPos": 86,
+      "width": 175.0,
+      "height": 70.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "To the right of your Inventory is JEI/NEI, which shows all the available items. The bottom has a search bar to narrow what it shows. \nBy default, it only searches item names, but starting a search with @ will search Mod Names.\nYou can also see recipe/uses with JEI, by highlighting the item and pressing :",
+          "size": 0.9
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 261,
+      "yPos": 177,
+      "width": 30.0,
+      "height": 29.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+            "properties": {
+              "url": "https://minecraft.gamepedia.com/Minecraft_Wiki"
+            }
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "Open Wiki/Website",
+          "hoverXOffset": 30,
+          "hoverYOffset": 10,
+          "unhoveredText": "Open Wiki/Website",
+          "unhoveredXOffset": 30,
+          "unhoveredYOffset": 10,
+          "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+          "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    },
+    {
+      "xPos": 21,
+      "yPos": 18,
+      "width": 180.0,
+      "height": 93.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "   [b]MINECRAFT[/b]",
+          "size": 2.1000001
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 6
+    },
+    {
+      "xPos": 232,
+      "yPos": 14,
+      "width": 180.0,
+      "height": 19.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "     [b]JEI / NEI[/b]",
+          "size": 1.9000002
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 7
+    },
+    {
+      "xPos": 22,
+      "yPos": 56,
+      "width": 178.0,
+      "height": 71.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Vanilla Minecraft is something most players know at least the basics of. Crafting items, using inventory, building, combat, etc.\n\nWith Modded Minecraft, there are a few additional things to go over to help new players : ",
+          "size": 0.9
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 8
+    },
+    {
+      "xPos": 271,
+      "yPos": 29,
+      "width": 100.0,
+      "height": 53.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/Quick_Start___Minecraft/jei-inventory.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 9
+    },
+    {
+      "xPos": 144,
+      "yPos": 170,
+      "width": 20.0,
+      "height": 20.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/Quick_Start___Minecraft/NormalButtonj.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 10
+    },
+    {
+      "xPos": 215,
+      "yPos": 165,
+      "width": 197.0,
+      "height": 19.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "              How to craft item           What recipes item\n              +More Information           can be used in",
+          "size": 0.6999999
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 11
+    },
+    {
+      "xPos": 232,
+      "yPos": 158,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/Quick_Start___Minecraft/NormalButtonR.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 12
+    },
+    {
+      "xPos": 320,
+      "yPos": 158,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/Quick_Start___Minecraft/NormalButtonU.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 13
+    },
+    {
+      "xPos": 23,
+      "yPos": 146,
+      "width": 175.0,
+      "height": 50.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "This pack makes use of Journeymap to display a minimap, as well as provide a full map, map markers, and more.\n\n            Default Keybind : ",
+          "size": 0.9
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 14
+    }
+  ],
+  "uniquename": "Chisel_Book_1527006856682"
+}

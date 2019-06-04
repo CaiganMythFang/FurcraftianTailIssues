@@ -1,0 +1,269 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___Silents_Gems",
+  "saveName": "Quick_Start___Silents_Gems",
+  "displayName": "Quick Start - Silents Gems",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 24,
+          "yPos": 14,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]  SILENTS GEMS",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 21,
+          "yPos": 28,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://minecraft.curseforge.com/projects/lootbags?gameCategorySlug\u003dmc-mods\u0026projectID\u003d225946"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 229,
+          "yPos": 27,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Chaos Ore can be mined for Chaos Essence, which is used to upgrade gems, among other things.\n\n\n\nThe Material Grader is used to Grade gems and other materials. Grades go from E \u003c D \u003c B \u003c C \u003c A \u003c S \u003c SS \u003c SSS. The better the grade, the better its stats!\n\n\n\n\nAll tools, weapons, and armor can be made with more than one gem! Mix and match for different effects!",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 25,
+          "yPos": 46,
+          "width": 177.0,
+          "height": 153.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Silent\u0027s Gems is a very customizable tool, weapon, and armor mod. This is a very comprehensive mod. Check out the webpage for much more information.\n\n\n\nGemstones are found all over the three main dimensions : Overworld, Nether, and The End, and each dimension has 16 different gems.\n[i](Compatable with Tinker\u0027s Construct!)[/i]\n\nRecipes can be found easily in JEI. \n\nBeyond weapons, tools, and armor, various blocks like Teleporters can be made!",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 100,
+          "yPos": 81,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:gemoredark 8",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 313,
+          "yPos": 9,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:craftingmaterial 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 156,
+          "yPos": 81,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:gemorelight 10",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 289,
+          "yPos": 126,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:katana 0 {SG_UUIDLeast:-7358120413670216157L,SGProperties:{ToolTier:2,MeleeDamage:6.8999996f,MagicDamage:7.0f,Enchantability:20,ChargeSpeed:4.0f,HarvestSpeed:11.0f,MeleeSpeed:1.1f,Durability:1766,HarvestLevel:4,Protection:22.0f},SGStatistics:{OriginalOwner:\"a cheater!\"},ExampleToolItem:1b,PartListForName:{part0:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:11s},part1:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:11s},part2:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:11s}},SGConstruction:{PartRod:\"silentgems:rodgold#NONE\",Part0:\"silentgems:amethyst_super#NONE\",Part2:\"silentgems:amethyst_super#NONE\",Part1:\"silentgems:amethyst_super#NONE\"},display:{Name:\"Supercharged Amethyst Katana\"},SG_UUIDMost:5913604652457742286L}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 45,
+          "yPos": 80,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:gemore 11",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 312,
+          "yPos": 55,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:materialgrader",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 327,
+          "yPos": 127,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:chestplate 0 {SG_UUIDLeast:-6257519059936751784L,SGProperties:{ToolTier:2,Enchantability:24,Durability:2048,Protection:18.0f},SGStatistics:{OriginalOwner:\"Ã‚Â§dCreative\"},ExampleToolItem:1b,PartListForName:{part0:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:6s},part1:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:6s},part2:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:6s},part3:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:6s}},SGConstruction:{Part3:\"silentgems:beryl_super#NONE\",PartFrame:\"silentgems:frame_chest_super#NONE\",Part0:\"silentgems:beryl_super#NONE\",Part2:\"silentgems:beryl_super#NONE\",Part1:\"silentgems:beryl_super#NONE\"},display:{Name:\"Supercharged Beryl Chestplate\"},SG_UUIDMost:1076412224207078718L}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 364,
+          "yPos": 126,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:shield 0 {SG_UUIDLeast:-4811914738126411441L,SGProperties:{ToolTier:1,MeleeDamage:3.0f,MagicDamage:4.0f,Enchantability:10,ChargeSpeed:3.0f,HarvestSpeed:7.0f,MeleeSpeed:0.8999999f,Durability:480,HarvestLevel:2,Protection:18.0f},SGStatistics:{OriginalOwner:\"a cheater!\"},ExampleToolItem:1b,PartListForName:{part0:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gem\",Count:1b,Damage:11s},part1:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gem\",Count:1b,Damage:11s},part2:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gem\",Count:1b,Damage:11s}},SGConstruction:{PartRod:\"silentgems:rodiron#NONE\",Part0:\"silentgems:amethyst#NONE\",Part2:\"silentgems:amethyst#NONE\",Part1:\"silentgems:amethyst#NONE\"},display:{Name:\"Amethyst Shield\"},SG_UUIDMost:-4660961945583729538L}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 252,
+          "yPos": 126,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "silentgems:paxel 0 {SG_UUIDLeast:-5441528512773798761L,SGProperties:{ToolTier:2,MeleeDamage:9.2f,MagicDamage:5.0f,Enchantability:19,ChargeSpeed:4.0f,HarvestSpeed:10.0f,MeleeSpeed:1.0f,Durability:1177,HarvestLevel:4,Protection:20.0f},SGStatistics:{OriginalOwner:\"a cheater!\"},ExampleToolItem:1b,PartListForName:{part0:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:21s},part1:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:21s},part2:{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"silentgems:gemsuper\",Count:1b,Damage:21s}},SGConstruction:{PartRod:\"silentgems:rodgold#NONE\",Part0:\"silentgems:moldavite_super#NONE\",Part2:\"silentgems:moldavite_super#NONE\",Part1:\"silentgems:moldavite_super#NONE\"},display:{Name:\"Supercharged Moldavite Paxel\"},SG_UUIDMost:-4546414341866632869L}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

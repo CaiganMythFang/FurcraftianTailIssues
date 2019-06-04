@@ -1,0 +1,7 @@
+#English ItemStages Translation
+tooltip.itemstages.name.default=A Strange, Ghostly Item
+tooltip.itemstages.description=You do not have the knowledge to craft this yet!
+tooltip.itemstages.info=Find and use the %s Knowledge Book first!
+tooltip.itemstages.stage=Stage:
+
+message.itemstages.drop=You dropped the %s.

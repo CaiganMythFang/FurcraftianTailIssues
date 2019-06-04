@@ -1,0 +1,2170 @@
+<book title="Knowledge Research Guide">
+
+    <conditions>
+        <stage-unlocked name="factoryunlock" stage="factoryunlock" />
+        <stage-locked name="factoryunlock_locked" stage="factoryunlock" />
+        <stage-unlocked name="theridonkulousunlock" stage="theridonkulousunlock" />
+        <stage-unlocked name="trainedinunlock" stage="trainedinunlock" />
+        <stage-unlocked name="cantripunlock" stage="cantripunlock" />
+        <stage-unlocked name="redgateunlock" stage="redgateunlock" />
+        <stage-unlocked name="armedarmoredunlock" stage="armedarmoredunlock" />
+        <stage-unlocked name="actuallyunlock" stage="actuallyunlock" />
+        <stage-unlocked name="blueeyeswhiteunlock" stage="blueeyeswhiteunlock" />
+        <stage-unlocked name="animalstyleunlock" stage="animalstyleunlock" />
+        <stage-unlocked name="aplaceforunlock" stage="aplaceforunlock" />
+        <stage-unlocked name="thedesignerunlock" stage="thedesignerunlock" />
+        <stage-unlocked name="adistantunlock" stage="adistantunlock" />
+        <stage-unlocked name="factoryunlock" stage="factoryunlock" />
+    </conditions>
+
+    <template id="item_row" height="16">
+        <element index="0" x="0" y="3" />
+        <element index="1" x="19" y="3" />
+        <element index="2" x="38" y="3" />
+        <element index="3" x="57" y="3" />
+        <element index="4" x="76" y="3" />
+        <element index="5" x="95" y="3" />
+    </template>
+
+    <template id="item_locked" height="16">
+        <stack item="minecraft:barrier" meta="0" count="1" x="0" y="3" />
+        <stack item="minecraft:barrier" meta="0" count="1" x="19" y="3" />
+        <stack item="minecraft:barrier" meta="0" count="1" x="38" y="3" />
+        <stack item="minecraft:barrier" meta="0" count="1" x="57" y="3" />
+        <stack item="minecraft:barrier" meta="0" count="1" x="76" y="3" />
+        <stack item="minecraft:barrier" meta="0" count="1" x="95" y="3" />
+    </template>
+    
+    <chapter>
+        <section>
+            <p scale="0.75" color="#606060" space="8" align="center" italics="true">This book is a handy guide to see what you have unlocked. It splits items into different sections, and only shows items you have unlocked.</p>
+            <p scale="0.75" color="#606060" space="8" align="center" italics="true"> </p>
+            <p scale="0.75" color="#606060" space="8" align="center" italics="true">The following mods have been added to this book : </p>
+        </section>
+        <section>
+            <space height="20%" />
+            <p space="0" align="center" scale="1.5">ITEM</p>
+            <p space="0" align="center" scale="1.5">RESEARCH</p>
+            <p space="0" align="center" scale="1.5">GUIDE</p>
+            <p space="6" align="center" scale="1.5">__________</p>
+            <p align="center" scale="1">by the</p>
+            <p align="center" scale="1">FOGCraft</p>
+            <p align="center" scale="1">and</p>
+            <p align="center" scale="1">Burdtopia</p>
+            <p align="center" scale="1">Research Teams</p>
+        </section>
+    </chapter>
+<!-- Index Section -->
+    <chapter>
+        <section>
+            <title>Index</title>
+            <title indent="4" scale="0.75" >Item Logistics</title>
+                <link indent="8" scale="0.5" ref="item_logistics:item_storage">Item Storage</link>
+                <link indent="8" scale="0.5" ref="item_logistics:item_transport">Item Transport</link>
+                <link indent="8" scale="0.5" ref="item_logistics:item_repair">Item Repair</link>
+            <title indent="4" scale="0.75" >Fluid Logistics</title>
+                <link indent="8" scale="0.5" ref="fluid_logistics:fluid_storage">Fluid Storage</link>
+                <link indent="8" scale="0.5" ref="fluid_logistics:fluid_generation">Fluid Generation</link>
+            <title indent="4" scale="0.75" >Block Logistics</title>
+                <link indent="8" scale="0.5" ref="block_logistics:block_placer">Block Placers</link>
+                <link indent="8" scale="0.5" ref="block_logistics:block_mover">Block Movers</link>
+            <title indent="4" scale="0.75" >Furniture</title>
+                <link indent="8" scale="0.5" ref="furniture:seats">Seating</link>
+                <link indent="8" scale="0.5" ref="furniture:beds">Beds</link>
+                <link indent="8" scale="0.5" ref="furniture:lighting">Lighting</link>
+            <title indent="4" scale="0.75" >Magic</title>
+                <link indent="8" scale="0.5" ref="magic:enchanting">Enchanting</link>
+                <link indent="8" scale="0.5" ref="magic:bauble_head">Baubles - Head</link>
+            <title indent="4" scale="0.75" >Tech</title>
+                <link indent="8" scale="0.5" ref="tech:power_storage">Power Storage</link>
+            <title indent="4" scale="0.75" >Redstone</title>
+                <link indent="8" scale="0.5" ref="redstone:activators">Activators</link>
+                <link indent="8" scale="0.5" ref="redstone:transmission">Transmission</link>
+                <link indent="8" scale="0.5" ref="redstone:logistics">Logistics</link>
+            <title indent="4" scale="0.75" >Transportation</title>
+                <link indent="8" scale="0.5" ref="transportation:rails">Rails</link>
+                <link indent="8" scale="0.5" ref="transportation:rail_vehicles">Rail Vehicles</link>
+                <link indent="8" scale="0.5" ref="transportation:land_vehicles">Land Vehicles</link>
+                <link indent="8" scale="0.5" ref="transportation:water_vehicles">Water Vehicles</link>
+                <link indent="8" scale="0.5" ref="transportation:air_vehicles">Air Vehicles</link>
+                <link indent="8" scale="0.5" ref="transportation:teleporters">Teleporters</link>
+            <title indent="4" scale="0.75" >Tools</title>
+                <link indent="8" scale="0.5" ref="tools:pickaxe">Pickaxes</link>
+                <link indent="8" scale="0.5" ref="tools:axe">Axes</link>
+                <link indent="8" scale="0.5" ref="tools:shovel">Shovels</link>
+                <link indent="8" scale="0.5" ref="tools:hoe">Hoes</link>
+                <link indent="8" scale="0.5" ref="tools:shear">Shears</link>
+                <link indent="8" scale="0.5" ref="tools:building">Building Tools</link>
+                <link indent="8" scale="0.5" ref="tools:explosive">Explosives</link>
+                <link indent="8" scale="0.5" ref="tools:misc">Misc</link>
+        </section>
+        <section>
+            <title>Index</title>
+        </section>
+    </chapter>
+    
+    <chapter id="item_logistics">
+<!-- Storage Section -->
+        <section id="item_storage">
+            <title>Item Logistic - Storage</title>
+            <item_row>
+                <stack item="minecraft:chest" meta="0" count="1" />
+                <stack item="minecraft:ender_chest" meta="0" count="1" />
+                <stack item="minecraft:white_shulker_box" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="minecraft:armor_stand" meta="0" count="1" />
+                <stack item="minecraft:trapped_chest" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:chest_minecart" meta="0" count="1" />
+                <stack item="miniheads:displaycase" meta="0" count="1" />
+                <stack item="economy:block_vault" meta="0" count="1" />
+                <stack item="modularmachinery:blockinputbus" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="quark:custom_chest" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="quark:custom_chest_trap" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="quark:birch_button" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:crate" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:barrel" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:weapon_rack" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+    
+<!-- Item Transport Section -->
+        <section id="item_transport">
+            <title>Item Logistic - Transport</title>
+            <item_row>
+                <stack item="minecraft:hopper" meta="0" count="1" />
+                <stack item="minecraft:dispenser" meta="0" count="1" />
+                <stack item="minecraft:dropper" meta="0" count="1" />
+                <stack item="minecraft:chest_minecart" meta="0" count="1" />
+                <stack item="quark:chute" meta="0" count="1" />
+            </item_row>
+            <item_locked condition="factoryunlock_locked">
+            </item_locked>
+            <item_row condition="factoryunlock">
+                <stack item="minecraft:command_block" meta="0" count="1" />
+                <stack item="minecraft:barrier" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+    
+<!-- Item Repair Section -->
+        <section id="item_repair">
+            <title>Item Logistic - Repair</title>
+            <item_row>
+                <stack item="minecraft:anvil" meta="0" count="1" />
+                <stack item="variedcommodities:carpentry_bench" meta="1" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="fluid_logistics">
+<!-- Fluid Storage Section -->
+        <section id="fluid_storage">
+            <title>Fluid Logistic - Storage</title>
+            <item_row>
+                <stack item="modularmachinery:blockfluidoutputhatch" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Fluid Generation Section -->
+        <section id="fluid_generation">
+            <title>Fluid Logistic - Generation</title>
+            <item_row>
+                <stack item="harvestcraft:well" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="block_logistics">
+<!-- Block Placer Section -->
+        <section id="block_placers">
+            <title>Block Logistic - Placers</title>
+            <item_row>
+                <stack item="minecraft:dispenser" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Block Movers Section -->
+        <section id="block_movers">
+            <title>Fluid Logistic - Generation</title>
+            <item_row>
+                <stack item="minecraft:piston" meta="0" count="1" />
+                <stack item="minecraft:sticky_piston" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="furniture">
+<!-- Furniture - Seats Section -->
+        <section id="seats">
+            <title>Furniture - Seating</title>
+            <item_row>
+                <stack item="variedcommodities:chair" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:couch_wool" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:couch_wood" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:stool" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Furniture - Beds Section -->
+        <section id="beds">
+            <title>Furniture - Beds</title>
+            <item_row>
+                <stack item="minecraft:bed" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Furniture - Lighting Section -->
+        <section id="lighting">
+            <title>Furniture - Lighting</title>
+            <item_row>
+                <stack item="minecraft:glowstone" meta="0" count="1" />
+                <stack item="minecraft:lit_pumpkin" meta="0" count="1" />
+                <stack item="minecraft:sea_lantern" meta="0" count="1" />
+                <stack item="minecraft:torch" meta="0" count="1" />
+                <stack item="minecraft:end_rod" meta="0" count="1" />
+                <stack item="minecraft:redstone_lamp" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="chisel:glowstone" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="harvestcraft:candledeco1" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="quark:candle" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="quark:lit_lamp" meta="0" count="1" />
+                <stack item="silentgems:gemlamp" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="silentgems:gemlampinverted" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:candle" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="silentgems:glowrose" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:lamp" meta="0" count="1" />
+                <stack item="variedcommodities:campfire" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="magic">
+<!-- Magic Enchanting Section -->
+        <section id="enchanting">
+            <title>Magic - Enchanting</title>
+            <item_row>
+                <stack item="minecraft:enchanting_table" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Magic Baubles - Head Section -->
+        <section id="bauble_head">
+            <title>Magic Baubles - Head</title>
+            <item_row>
+                <stack item="theoneprobe:probe_goggles" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="tech">
+<!-- Tech Power Storage Section -->
+        <section id="power_storage">
+            <title>Tech - Power Storage</title>
+            <item_row>
+                <stack item="modularmachinery:blockenergyoutputhatch" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Tech Power Generation Section -->
+        <section id="power_generation">
+            <title>Tech - Power Generation</title>
+            <item_row>
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="redstone">
+<!-- Redstone Triggers Section -->
+        <section id="activators">
+            <title>Redstone Activators</title>
+            <item_row>
+                <stack item="minecraft:lever" meta="0" count="1" />
+                <stack item="minecraft:redstone_torch" meta="0" count="1" />
+                <stack item="minecraft:stone_pressure_plate" meta="0" count="1" />
+                <stack item="minecraft:wooden_pressure_plate" meta="0" count="1" />
+                <stack item="minecraft:stone_button" meta="0" count="1" />
+                <stack item="minecraft:tripwire_hook" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:wooden_button" meta="0" count="1" />
+                <stack item="minecraft:trapped_chest" meta="0" count="1" />
+                <stack item="minecraft:light_weighted_pressure_plate" meta="0" count="1" />
+                <stack item="minecraft:heavy_weighted_pressure_plate" meta="0" count="1" />
+                <stack item="minecraft:daylight_sensor" meta="0" count="1" />
+                <stack item="minecraft:redstone_block" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:observer" meta="0" count="1" />
+                <stack item="quark:iron_button" meta="0" count="1" />
+                <stack item="quark:gold_button" meta="0" count="1" />
+                <stack item="quark:obsidian_pressure_plate" meta="0" count="1" />
+                <stack item="quark:weather_sensor" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Redstone Transmission Section -->
+        <section id="transmission">
+            <title>Redstone Transmission</title>
+            <item_row>
+                <stack item="minecraft:redstone" meta="0" count="1" />
+                <stack item="minecraft:repeater" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Redstone Logistics Section -->
+        <section id="logistics">
+            <title>Redstone Logistics</title>
+            <item_row>
+                <stack item="minecraft:comparator" meta="0" count="1" />
+                <stack item="quark:redstone_randomizer" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="transportation">
+<!-- Rails Section -->
+        <section id="rails">
+            <title>Rails</title>
+            <item_row>
+                <stack item="minecraft:golden_rail" meta="0" count="1" />
+                <stack item="minecraft:detector_rail" meta="0" count="1" />
+                <stack item="minecraft:rail" meta="0" count="1" />
+                <stack item="minecraft:activator_rail" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Rail Vehicles Section -->
+        <section id="rail_vehicles">
+            <title>Rail Vehicles</title>
+            <item_row>
+                <stack item="minecraft:minecart" meta="0" count="1" />
+                <stack item="minecraft:chest_minecart" meta="0" count="1" />
+                <stack item="minecraft:furnace_minecart" meta="0" count="1" />
+                <stack item="minecraft:hopper_minecart" meta="0" count="1" />
+                <stack item="minecraft:tnt_minecart" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Land Vehicles Section -->
+        <section id="land_vehicles">
+            <title>Land Vehicles</title>
+            <item_row>
+                <stack item="minecraft:saddle" meta="0" count="1" />
+                <stack item="minecraft:carrot_on_a_stick" meta="0" count="1" />
+                <stack item="adhooks:pudge_launcher" meta="0" count="1" />
+                <stack item="adhooks:spear_launcher" meta="0" count="1" />
+                <stack item="adhooks:web_launcher" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Water Vehicles Section -->
+        <section id="water_vehicles">
+            <title>Water Vehicles</title>
+            <item_row>
+                <stack item="minecraft:boat" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Air Vehicles Section -->
+        <section id="air_vehicles">
+            <title>Air Vehicles</title>
+            <item_row>
+                <stack item="minecraft:elytra" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Teleporters Section -->
+        <section id="teleporters">
+            <title>Teleporters</title>
+            <item_row>
+                <stack item="silentgems:teleportanchor" meta="0" count="1" />
+                <stack item="silentgems:teleporter" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="silentgems:returnhomecharm" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="tools">
+<!-- Pickaxes Section -->
+        <section id="pickaxe">
+            <title>Pickaxes</title>
+            <item_row>
+                <stack item="minecraft:wooden_pickaxe" meta="0" count="1" />
+                <stack item="minecraft:stone_pickaxe" meta="0" count="1" />
+                <stack item="minecraft:iron_pickaxe" meta="0" count="1" />
+                <stack item="minecraft:golden_pickaxe" meta="0" count="1" />
+                <stack item="minecraft:diamond_pickaxe" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:pickaxe" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Axes Section -->
+        <section id="axe">
+            <title>Axes</title>
+            <item_row>
+                <stack item="minecraft:wooden_axe" meta="0" count="1" />
+                <stack item="minecraft:stone_axe" meta="0" count="1" />
+                <stack item="minecraft:iron_axe" meta="0" count="1" />
+                <stack item="minecraft:golden_axe" meta="0" count="1" />
+                <stack item="minecraft:diamond_pickaxe" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:hatchet" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:mattock" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:lumberaxe" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Shovels Section -->
+        <section id="shovel">
+            <title>Shovels</title>
+            <item_row>
+                <stack item="minecraft:wooden_shovel" meta="0" count="1" />
+                <stack item="minecraft:stone_shovel" meta="0" count="1" />
+                <stack item="minecraft:iron_shovel" meta="0" count="1" />
+                <stack item="minecraft:golden_axe" meta="0" count="1" />
+                <stack item="minecraft:diamond_axe" meta="0" count="1" />
+                <stack item="waterstrainer:garden_trowel" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:excavator" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Hoes Section -->
+        <section id="hoe">
+            <title>Hoes</title>
+            <item_row>
+                <stack item="minecraft:wooden_hoe" meta="0" count="1" />
+                <stack item="minecraft:stone_hoe" meta="0" count="1" />
+                <stack item="minecraft:iron_hoe" meta="0" count="1" />
+                <stack item="minecraft:golden_hoe" meta="0" count="1" />
+                <stack item="minecraft:diamond_hoe" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:mattock" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Shears Section -->
+        <section id="shear">
+            <title>Shears</title>
+            <item_row>
+                <stack item="minecraft:shears" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Wrenches Section -->
+        <section id="wrench">
+            <title>Wrenches</title>
+            <item_row>
+                <stack item="base:wrench" meta="0" count="1" />
+                <stack item="teslacorelib:wrench" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Building Section -->
+        <section id="building">
+            <title>Building Tools</title>
+            <item_row>
+                <stack item="quark:trowel" meta="0" count="1" />
+                <stack item="silentgems:holdinggem" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="buildersguides:marker" meta="0" count="1" />
+                <stack item="buildersguides:mallet" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Explosives Section -->
+        <section id="explosive">
+            <title>Explosives</title>
+            <item_row>
+                <stack item="minecraft:tnt" meta="0" count="1" />
+                <stack item="tconstruct:throwball" meta="1" count="1" />
+                <stack item="minecraft:tnt_minecart" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Misc Tools Section -->
+        <section id="misc">
+            <title>Misc Tools</title>
+            <item_row>
+                <stack item="minecraft:flint_and_steel" meta="0" count="1" />
+                <stack item="minecraft:compass" meta="0" count="1" />
+                <stack item="minecraft:fishing_rod" meta="0" count="1" />
+                <stack item="minecraft:clock" meta="0" count="1" />
+                <stack item="microblockcbe:saw_stone" meta="0" count="1" />
+                <stack item="microblockcbe:saw_iron" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="microblockcbe:saw_diamond" meta="0" count="1" />
+                <stack item="economy:item_remover" meta="0" count="1" />
+                <stack item="economy:item_creditcard" meta="0" count="1" />
+                <stack item="scannable:scanner" meta="0" count="1" />
+                <stack item="tconstruct:kama" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:kama" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="trumpetskeleton:trumpet" meta="0" count="1" />
+                <stack item="variedcommodities:banjo" meta="0" count="1" />
+                <stack item="variedcommodities:violin" meta="0" count="1" />
+                <stack item="variedcommodities:violin_bow" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:harp" meta="0" count="1" />
+                <stack item="variedcommodities:guitar" meta="0" count="1" />
+                <stack item="variedcommodities:french_horn" meta="0" count="1" />
+                <stack item="variedcommodities:ocarina" meta="0" count="1" />
+                <stack item="variedcommodities:clarinet" meta="0" count="1" />
+                <stack item="variedcommodities:lighter" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="waterstrainer:efficiency_meter" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="weapons">
+<!-- Ranged Section -->
+        <section id="ranged">
+            <title>Ranged Weapons</title>
+            <item_row>
+                <stack item="minecraft:bow" meta="0" count="1" />
+                <stack item="minecraft:arrow" meta="0" count="1" />
+                <stack item="minecraft:spectral_arrow" meta="0" count="1" />
+                <stack item="minecraft:tipped_arrow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="quark:arrow_ender" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="plustic:laser_gun" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="quark:arrow_explosive" meta="0" count="1" />
+                <stack item="quark:arrow_torch" meta="0" count="1" />
+                <stack item="silentgems:arrow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="silentgems:scepter" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:shortbow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:longbow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:crossbow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:arrow" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:bolt" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:shuriken" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:stone_gun" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:machine_gun" meta="0" count="1" />
+                <stack item="variedcommodities:kunai" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:stone_staff" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:kunai_reversed" meta="0" count="1" />
+                <stack item="variedcommodities:shuriken" meta="0" count="1" />
+                <stack item="variedcommodities:shuriken_giant" meta="0" count="1" />
+                <stack item="variedcommodities:slingshot" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:musket" meta="0" count="1" />
+                <stack item="variedcommodities:crossbow" meta="0" count="1" />
+                <stack item="variedcommodities:crossbow_bolt" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Blades Section -->
+        <section id="blades">
+            <title>Bladed Weapons 1</title>
+            <item_row>
+                <stack item="minecraft:wooden_sword" meta="0" count="1" />
+                <stack item="minecraft:stone_sword" meta="0" count="1" />
+                <stack item="minecraft:iron_sword" meta="0" count="1" />
+                <stack item="minecraft:golden_sword" meta="0" count="1" />
+                <stack item="minecraft:diamond_sword" meta="0" count="1" />
+                <stack item="inventorypets:solstice_sword" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="plustic:katana" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="silentgems:sword" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="silentgems:dagger" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="silentgems:machete" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:broadsword" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:longsword" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:rapier" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:cleaver" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:stone_trident" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:katana" meta="0" count="1" />
+                <stack item="variedcommodities:kukri" meta="0" count="1" />
+                <stack item="variedcommodities:ninja_claw" meta="0" count="1" />
+                <stack item="variedcommodities:steel_claw" meta="0" count="1" />
+                <stack item="variedcommodities:bear_claw" meta="0" count="1" />
+                <stack item="variedcommodities:katar" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:bronze_sword" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:leaf_sword" meta="0" count="1" />
+                <stack item="variedcommodities:cleaver" meta="0" count="1" />
+                <stack item="variedcommodities:saber" meta="0" count="1" />
+                <stack item="variedcommodities:broken_bottle" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:combat_knife" meta="0" count="1" />
+                <stack item="variedcommodities:sai" meta="0" count="1" />
+                <stack item="variedcommodities:chainsaw_gun" meta="0" count="1" />
+                <stack item="variedcommodities:rapier" meta="0" count="1" />
+                <stack item="variedcommodities:swiss_army_knife" meta="0" count="1" />
+                <stack item="variedcommodities:excalibur" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:iron_spear" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:golden_halberd" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:golden_battleaxe" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:stone_dagger" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:stone_dagger_reversed" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:diamond_scythe" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Bladed Weapons 2</title>
+            <item_row>
+                <stack item="variedcommodities:stone_glaive" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:iron_broadsword" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Blunt Section -->
+        <section id="blunt">
+            <title>Blunt Weapons</title>
+            <item_row>
+                <stack item="tconstruct:hammer" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:frypan" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:battlesign" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:golf_club" meta="0" count="1" />
+                <stack item="variedcommodities:hammer" meta="0" count="1" />
+                <stack item="variedcommodities:baseball_bat" meta="0" count="1" />
+                <stack item="variedcommodities:lead_pipe" meta="0" count="1" />
+                <stack item="variedcommodities:hockey_stick" meta="0" count="1" />
+                <stack item="variedcommodities:sledgehammer" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:macuahuitl" meta="0" count="1" />
+                <stack item="variedcommodities:bo_staff" meta="0" count="1" />
+                <stack item="variedcommodities:batton" meta="0" count="1" />
+                <stack item="variedcommodities:crowbar" meta="0" count="1" />
+                <stack item="variedcommodities:pipe_wrench" meta="0" count="1" />
+                <stack item="variedcommodities:wrench" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:iron_warhammer" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:iron_mace" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Misc Melee Section -->
+        <section id="other_melee">
+            <title>Other Melee</title>
+            <item_row>
+            </item_row>
+        </section>
+    </chapter>
+    
+    <chapter id="armor">
+<!-- Full Sets Section -->
+        <section id="full_set">
+            <title>Full Armor Sets</title>
+            <item_row>
+                <stack item="minecraft:leather_chestplate" meta="0" count="1" />
+                <stack item="minecraft:chainmail_chestplate" meta="0" count="1" />
+                <stack item="minecraft:iron_chestplate" meta="0" count="1" />
+                <stack item="minecraft:golden_chestplate" meta="0" count="1" />
+                <stack item="minecraft:diamond_chestplate" meta="0" count="1" />
+                <stack item="inventorypets:solstice_chestplate" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:hardenedleatherchestitem" meta="0" count="1" />
+                <stack item="silentgems:chestplate" meta="1" count="1" />
+                <stack item="variedcommodities:cow_leather_chest" meta="0" count="1" />
+                <stack item="variedcommodities:nanorum_chest" meta="0" count="1" />
+                <stack item="variedcommodities:full_bronze_chest" meta="0" count="1" />
+                <stack item="variedcommodities:full_wooden_chest" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:assassin_chest" meta="0" count="1" />
+                <stack item="variedcommodities:soldier_chest" meta="0" count="1" />
+                <stack item="variedcommodities:x407_chest" meta="0" count="1" />
+                <stack item="variedcommodities:mithril_chest" meta="0" count="1" />
+                <stack item="variedcommodities:demonic_chest" meta="0" count="1" />
+                <stack item="variedcommodities:commisar_chest" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Head Armor Section -->
+        <section id="head">
+            <title>Head Armor</title>
+            <item_row>
+                <stack item="inventorypets:patreon_head" meta="0" count="1" />
+                <stack item="quark:witch_hat" meta="0" count="1" />
+                <stack item="quark:pirate_hat" meta="0" count="1" />
+                <stack item="theoneprobe:diamond_helmet_probe" meta="0" count="1" />
+                <stack item="theoneprobe:gold_helmet_probe" meta="0" count="1" />
+                <stack item="theoneprobe:iron_helmet_probe" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:bandit_mask" meta="0" count="1" />
+                <stack item="variedcommodities:paper_crown" meta="0" count="1" />
+                <stack item="variedcommodities:tactical_head" meta="0" count="1" />
+                <stack item="variedcommodities:full_leather_head" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:wizard_head" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:infantry_helmet" meta="0" count="1" />
+                <stack item="variedcommodities:crown" meta="0" count="1" />
+                <stack item="variedcommodities:crown2" meta="0" count="1" />
+                <stack item="variedcommodities:ninja_head" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Body Armor Section -->
+        <section id="body">
+            <title>Body Armor</title>
+            <item_row>
+                <stack item="inventorypets:patreon_shirt" meta="0" count="1" />
+                <stack item="variedcommodities:tactical_chest" meta="0" count="1" />
+                <stack item="variedcommodities:full_leather_chest" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:tuxedo_chest" meta="0" count="1" />
+                <stack item="variedcommodities:wizard_chest" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="variedcommodities:officer_chest" meta="0" count="1" />
+                <stack item="variedcommodities:ninja_chest" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Leg Armor Section -->
+        <section id="legs">
+            <title>Leg Armor</title>
+            <item_row>
+                <stack item="tconstruct:piggybackpack" meta="0" count="1" />
+                <stack item="variedcommodities:tuxedo_pants" meta="0" count="1" />
+                <stack item="variedcommodities:wizard_pants" meta="0" count="1" />
+                <stack item="variedcommodities:ninja_legs" meta="0" count="1" />
+                <stack item="variedcommodities:chain_skirt" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Feet Armor Section -->
+        <section id="feet">
+            <title>Foot Armor</title>
+            <item_row>
+                <stack item="tconstruct:slime_boots" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="variedcommodities:tuxedo_bottom" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Shields Section -->
+        <section id="shield">
+            <title>Shields</title>
+            <item_row>
+                <stack item="minecraft:shield" meta="0" count="1" />
+                <stack item="variedcommodities:iron_shield_round" meta="0" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Misc Armor Section -->
+        <section id="other_armor">
+            <title>Other Armor</title>
+            <item_row>
+                <stack item="minecraft:iron_horse_armor" meta="0" count="1" />
+                <stack item="minecraft:golden_horse_armor" meta="0" count="1" />
+                <stack item="minecraft:diamond_horse_armor" meta="0" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+
+<!-- Food -->
+    <chapter id="food">
+<!-- Snacks Section -->
+        <section id="snacks">
+            <title>Food - Snacks 1</title>
+            <item_row>
+                <stack item="minecraft:apple" meta="0" count="1" />
+                <stack item="minecraft:mushroom_stew" meta="0" count="1" />
+                <stack item="minecraft:bread" meta="0" count="1" />
+                <stack item="minecraft:porkchop" meta="0" count="1" />
+                <stack item="minecraft:golden_apple" meta="0" count="1" />
+                <stack item="minecraft:golden_apple" meta="1" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:fish" meta="0" count="1" />
+                <stack item="minecraft:fish" meta="1" count="1" />
+                <stack item="minecraft:fish" meta="2" count="1" />
+                <stack item="minecraft:fish" meta="3" count="1" />
+                <stack item="minecraft:cooked_fish" meta="0" count="1" />
+                <stack item="minecraft:cooked_fish" meta="1" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:cookie" meta="0" count="1" />
+                <stack item="minecraft:melon" meta="0" count="1" />
+                <stack item="minecraft:beef" meta="0" count="1" />
+                <stack item="minecraft:chicken" meta="0" count="1" />
+                <stack item="minecraft:cooked_chicken" meta="0" count="1" />
+                <stack item="minecraft:rotten_flesh" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:spider_eye" meta="0" count="1" />
+                <stack item="minecraft:carrot" meta="0" count="1" />
+                <stack item="minecraft:potato" meta="0" count="1" />
+                <stack item="minecraft:baked_potato" meta="0" count="1" />
+                <stack item="minecraft:poisonous_potato" meta="0" count="1" />
+                <stack item="minecraft:golden_carrot" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:rabbit" meta="0" count="1" />
+                <stack item="minecraft:cooked_rabbit" meta="0" count="1" />
+                <stack item="minecraft:mutton" meta="0" count="1" />
+                <stack item="minecraft:cooked_mutton" meta="0" count="1" />
+                <stack item="minecraft:chorus_fruit" meta="0" count="1" />
+                <stack item="minecraft:beetroot" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="minecraft:beetroot_soup" meta="0" count="1" />
+                <stack item="inventorypets:holiday_cookie" meta="0" count="1" />
+                <stack item="inventorypets:rock_candy" meta="0" count="1" />
+                <stack item="harvestcraft:blackberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:candleberryitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:raspberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:cactusfruititem" meta="0" count="1" />
+                <stack item="harvestcraft:asparagusitem" meta="0" count="1" />
+                <stack item="harvestcraft:barleyitem" meta="0" count="1" />
+                <stack item="harvestcraft:oatsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:ryeitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornitem" meta="0" count="1" />
+                <stack item="harvestcraft:bambooshootitem" meta="0" count="1" />
+                <stack item="harvestcraft:cantaloupeitem" meta="0" count="1" />
+                <stack item="harvestcraft:cucumberitem" meta="0" count="1" />
+                <stack item="harvestcraft:wintersquashitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:zucchiniitem" meta="0" count="1" />
+                <stack item="harvestcraft:beetitem" meta="0" count="1" />
+                <stack item="harvestcraft:onionitem" meta="0" count="1" />
+                <stack item="harvestcraft:parsnipitem" meta="0" count="1" />
+                <stack item="harvestcraft:peanutitem" meta="0" count="1" />
+                <stack item="harvestcraft:radishitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 2</title>
+            <item_row>
+                <stack item="harvestcraft:rutabagaitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetpotatoitem" meta="0" count="1" />
+                <stack item="harvestcraft:turnipitem" meta="0" count="1" />
+                <stack item="harvestcraft:rhubarbitem" meta="0" count="1" />
+                <stack item="harvestcraft:celeryitem" meta="0" count="1" />
+                <stack item="harvestcraft:garlicitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:gingeritem" meta="0" count="1" />
+                <stack item="harvestcraft:spiceleafitem" meta="0" count="1" />
+                <stack item="harvestcraft:tealeafitem" meta="0" count="1" />
+                <stack item="harvestcraft:coffeebeanitem" meta="0" count="1" />
+                <stack item="harvestcraft:mustardseeditem" meta="0" count="1" />
+                <stack item="harvestcraft:broccoliitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:caulifloweritem" meta="0" count="1" />
+                <stack item="harvestcraft:leekitem" meta="0" count="1" />
+                <stack item="harvestcraft:lettuceitem" meta="0" count="1" />
+                <stack item="harvestcraft:scallionitem" meta="0" count="1" />
+                <stack item="harvestcraft:artichokeitem" meta="0" count="1" />
+                <stack item="harvestcraft:brusselsproutitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cabbageitem" meta="0" count="1" />
+                <stack item="harvestcraft:spinachitem" meta="0" count="1" />
+                <stack item="harvestcraft:whitemushroomitem" meta="0" count="1" />
+                <stack item="harvestcraft:beanitem" meta="0" count="1" />
+                <stack item="harvestcraft:soybeanitem" meta="0" count="1" />
+                <stack item="harvestcraft:bellpepperitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chilipepperitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggplantitem" meta="0" count="1" />
+                <stack item="harvestcraft:okraitem" meta="0" count="1" />
+                <stack item="harvestcraft:peasitem" meta="0" count="1" />
+                <stack item="harvestcraft:tomatoitem" meta="0" count="1" />
+                <stack item="harvestcraft:cottonitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pineappleitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapeitem" meta="0" count="1" />
+                <stack item="harvestcraft:kiwiitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:riceitem" meta="0" count="1" />
+                <stack item="harvestcraft:seaweeditem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:curryleafitem" meta="0" count="1" />
+                <stack item="harvestcraft:sesameseedsitem" meta="0" count="1" />
+                <stack item="harvestcraft:waterchestnutitem" meta="0" count="1" />
+                <stack item="harvestcraft:gigapickleitem" meta="0" count="1" />
+                <stack item="harvestcraft:kaleitem" meta="0" count="1" />
+                <stack item="harvestcraft:dateitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:papayaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryitem" meta="0" count="1" />
+                <stack item="harvestcraft:figitem" meta="0" count="1" />
+                <stack item="harvestcraft:dragonfruititem" meta="0" count="1" />
+                <stack item="harvestcraft:pamapple" meta="0" count="1" />
+                <stack item="harvestcraft:lemonitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pearitem" meta="0" count="1" />
+                <stack item="harvestcraft:oliveitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruititem" meta="0" count="1" />
+                <stack item="harvestcraft:pomegranateitem" meta="0" count="1" />
+                <stack item="harvestcraft:cashewitem" meta="0" count="1" />
+                <stack item="harvestcraft:vanillabeanitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 3</title>
+            <item_row>
+                <stack item="harvestcraft:starfruititem" meta="0" count="1" />
+                <stack item="harvestcraft:bananaitem" meta="0" count="1" />
+                <stack item="harvestcraft:plumitem" meta="0" count="1" />
+                <stack item="harvestcraft:avocadoitem" meta="0" count="1" />
+                <stack item="harvestcraft:pecanitem" meta="0" count="1" />
+                <stack item="harvestcraft:pistachioitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:limeitem" meta="0" count="1" />
+                <stack item="harvestcraft:peppercornitem" meta="0" count="1" />
+                <stack item="harvestcraft:almonditem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:peachitem" meta="0" count="1" />
+                <stack item="harvestcraft:chestnutitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:coconutitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangoitem" meta="0" count="1" />
+                <stack item="harvestcraft:apricotitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangeitem" meta="0" count="1" />
+                <stack item="harvestcraft:walnutitem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:nutmegitem" meta="0" count="1" />
+                <stack item="harvestcraft:durianitem" meta="0" count="1" />
+                <stack item="harvestcraft:cinnamonitem" meta="0" count="1" />
+                <stack item="harvestcraft:maplesyrupitem" meta="0" count="1" />
+                <stack item="harvestcraft:ediblerootitem" meta="0" count="1" />
+                <stack item="harvestcraft:sunflowerseedsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:calamarirawitem" meta="0" count="1" />
+                <stack item="harvestcraft:calamaricookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:grilledasparagusitem" meta="0" count="1" />
+                <stack item="harvestcraft:bakedsweetpotatoitem" meta="0" count="1" />
+                <stack item="harvestcraft:grilledeggplantitem" meta="0" count="1" />
+                <stack item="harvestcraft:cheeseitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:applesauceitem" meta="0" count="1" />
+                <stack item="harvestcraft:teaitem" meta="0" count="1" />
+                <stack item="harvestcraft:coffeeitem" meta="0" count="1" />
+                <stack item="harvestcraft:popcornitem" meta="0" count="1" />
+                <stack item="harvestcraft:raisinsitem" meta="0" count="1" />
+                <stack item="harvestcraft:ricecakeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:toastedcoconutitem" meta="0" count="1" />
+                <stack item="harvestcraft:roastedpumpkinseedsitem" meta="0" count="1" />
+                <stack item="harvestcraft:applejuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:melonjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:carrotjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryjuiceitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:grapejuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberryjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:papayajuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:starfruitjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangejuiceitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peachjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:limejuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangojuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:pomegranatejuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberryjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberryjuiceitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 4</title>
+            <item_row>
+                <stack item="harvestcraft:kiwijuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberryjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:cactusfruitjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:plumjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:pearjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:apricotjuiceitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:figjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruitjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonjuiceitem" meta="0" count="1" />
+                <stack item="harvestcraft:friesitem" meta="0" count="1" />
+                <stack item="harvestcraft:grilledmushroomitem" meta="0" count="1" />
+                <stack item="harvestcraft:caramelitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:taffyitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatebaritem" meta="0" count="1" />
+                <stack item="harvestcraft:hotchocolateitem" meta="0" count="1" />
+                <stack item="harvestcraft:stockitem" meta="0" count="1" />
+                <stack item="harvestcraft:fruitsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:springsaladitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peanutbutteritem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatestrawberryitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapejellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:candiedgingeritem" meta="0" count="1" />
+                <stack item="harvestcraft:pineappleyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatecherryitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chilichocolateitem" meta="0" count="1" />
+                <stack item="harvestcraft:candiedlemonitem" meta="0" count="1" />
+                <stack item="harvestcraft:steamedpeasitem" meta="0" count="1" />
+                <stack item="harvestcraft:pearyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:coconutmilkitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangoyogurtitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peachyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:celeryandpeanutbutteritem" meta="0" count="1" />
+                <stack item="harvestcraft:limeyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:plumyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangeyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:coconutyogurtitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:starfruityogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:papayayogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:bananayogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:plainyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:appleyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonyogurtitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pomegranateyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberrysauceitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:kiwiyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:peppermintitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:vanillayogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:melonyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:pumpkinyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatemilkitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryyogurtitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 5</title>
+            <item_row>
+                <stack item="harvestcraft:grapeyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolateyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:saltedsunflowerseedsitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonjellyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cranberryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangejellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:kiwijellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:papayajellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:pomegranatejellyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:mangojellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:applejellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:limejellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberryjellyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:fruitpunchitem" meta="0" count="1" />
+                <stack item="harvestcraft:starfruitjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:peachjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:watermelonjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:pinacoladaitem" meta="0" count="1" />
+                <stack item="harvestcraft:apricotyogurtitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:apricotjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:roastedchestnutitem" meta="0" count="1" />
+                <stack item="harvestcraft:figjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:soymilkitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruitjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:figyogurtitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:firmtofuitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruityogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:silkentofuitem" meta="0" count="1" />
+                <stack item="harvestcraft:bamboosteamedriceitem" meta="0" count="1" />
+                <stack item="harvestcraft:crayfishcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:citrussaladitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pralinesitem" meta="0" count="1" />
+                <stack item="harvestcraft:mapleoatmealitem" meta="0" count="1" />
+                <stack item="harvestcraft:clamcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:crabcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:nutellaitem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonjellyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:steamedspinachitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatecaramelfudgeitem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:oystercookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:frogcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:cashewbutteritem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:almondbutteritem" meta="0" count="1" />
+                <stack item="harvestcraft:venisoncookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:applecideritem" meta="0" count="1" />
+                <stack item="harvestcraft:turkeycookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:turkeyrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:friedonionsitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 6</title>
+            <item_row>
+                <stack item="harvestcraft:scallopcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:shrimpcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:pearjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:coconutcreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:sesamesnapsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pistachiobutteritem" meta="0" count="1" />
+                <stack item="harvestcraft:paneeritem" meta="0" count="1" />
+                <stack item="harvestcraft:plumjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberryjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberryyogurtitem" meta="0" count="1" />
+                <stack item="harvestcraft:musselcookeditem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chocovoxelsitem" meta="0" count="1" />
+                <stack item="harvestcraft:saltedcaramelitem" meta="0" count="1" />
+                <stack item="harvestcraft:pepperjellyitem" meta="0" count="1" />
+                <stack item="harvestcraft:crispyricepuffcerealitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookiesandmilkitem" meta="0" count="1" />
+                <stack item="harvestcraft:cantonesegreensitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:bakedcactusitem" meta="0" count="1" />
+                <stack item="harvestcraft:greenteaitem" meta="0" count="1" />
+                <stack item="harvestcraft:earlgreyteaitem" meta="0" count="1" />
+                <stack item="harvestcraft:duckcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolateorangeitem" meta="0" count="1" />
+                <stack item="harvestcraft:duckrawitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:rosepetalteaitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofabbititem" meta="0" count="1" />
+                <stack item="harvestcraft:kalechipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofuduckitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofenisonitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofishitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cookedtofeegitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofeegitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofurkeyitem" meta="0" count="1" />
+                <stack item="harvestcraft:squidinkspaghettiitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofaconitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofuttonitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:rawtofickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofeakitem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofeakitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofaconitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofenisonitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofickenitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cookedtofuttonitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofurkeyitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofuduckitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedtofabbititem" meta="0" count="1" />
+                <stack item="harvestcraft:rawtofishitem" meta="0" count="1" />
+                <stack item="harvestcraft:perchrawitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:charrrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:walleyerawitem" meta="0" count="1" />
+                <stack item="harvestcraft:oysterrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:sardinerawitem" meta="0" count="1" />
+                <stack item="harvestcraft:tunarawitem" meta="0" count="1" />
+                <stack item="harvestcraft:shrimprawitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 7</title>
+            <item_row>
+                <stack item="harvestcraft:eelrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:mudfishrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:cookedgrubitem" meta="0" count="1" />
+                <stack item="harvestcraft:grouperrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:snailrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:catfishrawitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:crabrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:greenheartfishitem" meta="0" count="1" />
+                <stack item="harvestcraft:bassrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:tilapiarawitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeyitem" meta="0" count="1" />
+                <stack item="harvestcraft:carprawitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:scalloprawitem" meta="0" count="1" />
+                <stack item="harvestcraft:clamrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:troutrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:octopusrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:herringrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:frograwitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:icecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:caramelappleitem" meta="0" count="1" />
+                <stack item="harvestcraft:pumpkinsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:melonsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:carrotsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:glazedcarrotsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:butteredpotatoitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatosaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatosoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:bakedhamitem" meta="0" count="1" />
+                <stack item="harvestcraft:friedeggitem" meta="0" count="1" />
+                <stack item="harvestcraft:scrambledeggitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:boiledeggitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:spidereyesoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:zombiejerkyitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolateicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:spagettiitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:tomatosoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:porklettucewrapitem" meta="0" count="1" />
+                <stack item="harvestcraft:cucumbersaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:ricesoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:fishlettucewrapitem" meta="0" count="1" />
+                <stack item="harvestcraft:cucumbersoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:hotwingsitem" meta="0" count="1" />
+                <stack item="harvestcraft:omeletitem" meta="0" count="1" />
+                <stack item="harvestcraft:picklesitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:vegetarianlettucewrapitem" meta="0" count="1" />
+                <stack item="harvestcraft:grilledskewersitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:strawberrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:creamedcornitem" meta="0" count="1" />
+                <stack item="harvestcraft:chiliitem" meta="0" count="1" />
+                <stack item="harvestcraft:trailmixitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornonthecobitem" meta="0" count="1" />
+                <stack item="harvestcraft:tortillaitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 8</title>
+            <item_row>
+                <stack item="harvestcraft:refriedbeansitem" meta="0" count="1" />
+                <stack item="harvestcraft:bakedbeansitem" meta="0" count="1" />
+                <stack item="harvestcraft:stuffedpepperitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatocakesitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberrysaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapesaladitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:gingersnapsitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonaideitem" meta="0" count="1" />
+                <stack item="harvestcraft:spicymustardporkitem" meta="0" count="1" />
+                <stack item="harvestcraft:pancakesitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:beetsoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:blueberrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:pickledbeetsitem" meta="0" count="1" />
+                <stack item="harvestcraft:candiedsweetpotatoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:broccolindipitem" meta="0" count="1" />
+                <stack item="harvestcraft:mashedsweetpotatoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:espressoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chaiteaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberrymuffinitem" meta="0" count="1" />
+                <stack item="harvestcraft:bakedbeetsitem" meta="0" count="1" />
+                <stack item="harvestcraft:roastedrootveggiemedleyitem" meta="0" count="1" />
+                <stack item="harvestcraft:broccolimacitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:raspberryicedteaitem" meta="0" count="1" />
+                <stack item="harvestcraft:candiedwalnutsitem" meta="0" count="1" />
+                <stack item="harvestcraft:peachsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangosmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:papayasmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangesmoothieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peasandceleryitem" meta="0" count="1" />
+                <stack item="harvestcraft:bananasmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:limesmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:poachedpearitem" meta="0" count="1" />
+                <stack item="harvestcraft:starfruitsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:donutitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:marshmellowsitem" meta="0" count="1" />
+                <stack item="harvestcraft:jellybeansitem" meta="0" count="1" />
+                <stack item="harvestcraft:kiwismoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:pomegranatesmoothieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:seedsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:cactussoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:gardensoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:gummybearsitem" meta="0" count="1" />
+                <stack item="harvestcraft:sushiitem" meta="0" count="1" />
+                <stack item="harvestcraft:gingersodaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:grapefruitsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:caramelicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:rootbeersodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:beefjerkyitem" meta="0" count="1" />
+                <stack item="harvestcraft:apricotsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:colasodaitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 9</title>
+            <item_row>
+                <stack item="harvestcraft:orangesodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherrysodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonlimesodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:ovenroastedcaulifloweritem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberrysodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryicecreamitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:apricotglazedporkitem" meta="0" count="1" />
+                <stack item="harvestcraft:vanillaicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruitsodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:figsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:herbbutterparsnipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:scallionbakedpotatoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:grapesodaitem" meta="0" count="1" />
+                <stack item="harvestcraft:vegemiteitem" meta="0" count="1" />
+                <stack item="harvestcraft:peachesandcreamoatmealitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeycombchocolatebaritem" meta="0" count="1" />
+                <stack item="harvestcraft:maplesausageitem" meta="0" count="1" />
+                <stack item="harvestcraft:cinnamonappleoatmealitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:baconwrappeddatesitem" meta="0" count="1" />
+                <stack item="harvestcraft:snickersbaritem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:lavendershortbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:maplecandiedbaconitem" meta="0" count="1" />
+                <stack item="harvestcraft:pistachiobakedsalmonitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chocolatebaconitem" meta="0" count="1" />
+                <stack item="harvestcraft:timtamitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherrycoconutchocolatebaritem" meta="0" count="1" />
+                <stack item="harvestcraft:chaoscookieitem" meta="0" count="1" />
+                <stack item="harvestcraft:manjuuitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberrymilkshakeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:roastchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:neapolitanicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:steakandchipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:roastpotatoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:suaderoitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryicecreamitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pumpkinmuffinitem" meta="0" count="1" />
+                <stack item="harvestcraft:porksausageitem" meta="0" count="1" />
+                <stack item="harvestcraft:pickledonionsitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatemilkshakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:coleslawitem" meta="0" count="1" />
+                <stack item="harvestcraft:spumoniicecreamitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pistachioicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:bananamilkshakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberrysmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:mochiitem" meta="0" count="1" />
+                <stack item="harvestcraft:okrachipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberrysmoothieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:friedpecanokraitem" meta="0" count="1" />
+                <stack item="harvestcraft:jamrollitem" meta="0" count="1" />
+                <stack item="harvestcraft:plumsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:gravyitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapesmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:crackeritem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 10</title>
+            <item_row>
+                <stack item="harvestcraft:pearsmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:applesmoothieitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolaterollitem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberrymilkshakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:sausageitem" meta="0" count="1" />
+                <stack item="harvestcraft:coconutsmoothieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:durianmuffinitem" meta="0" count="1" />
+                <stack item="harvestcraft:sardinesinhotsauceitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangochutneyitem" meta="0" count="1" />
+                <stack item="harvestcraft:marzipanitem" meta="0" count="1" />
+                <stack item="harvestcraft:durianmilkshakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetteaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:baconandeggsitem" meta="0" count="1" />
+                <stack item="harvestcraft:liverandonionsitem" meta="0" count="1" />
+                <stack item="harvestcraft:tatertotsitem" meta="0" count="1" />
+                <stack item="harvestcraft:onigiriitem" meta="0" count="1" />
+                <stack item="harvestcraft:gritsitem" meta="0" count="1" />
+                <stack item="harvestcraft:misosoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cheezepuffsitem" meta="0" count="1" />
+                <stack item="harvestcraft:ramenitem" meta="0" count="1" />
+                <stack item="harvestcraft:tomatoherbchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatoesobrienitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatochipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:bubbleteaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:oystersauceitem" meta="0" count="1" />
+                <stack item="harvestcraft:porkrindsitem" meta="0" count="1" />
+                <stack item="harvestcraft:candiedpecansitem" meta="0" count="1" />
+                <stack item="harvestcraft:chorusfruitsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:driedsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:pinkelitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peanutbuttercupitem" meta="0" count="1" />
+                <stack item="harvestcraft:briochebunitem" meta="0" count="1" />
+                <stack item="harvestcraft:carrotcakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:cheesecakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherrycheesecakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatesprinklecakeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:holidaycakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:lamingtonitem" meta="0" count="1" />
+                <stack item="harvestcraft:pavlovaitem" meta="0" count="1" />
+                <stack item="harvestcraft:pineappleupsidedowncakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:pumpkincheesecakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:redvelvetcakeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pumpkinbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:applepieitem" meta="0" count="1" />
+                <stack item="harvestcraft:mashedpotatoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickensandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickennoodlesoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:breadedporkchopitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:hotdogitem" meta="0" count="1" />
+                <stack item="harvestcraft:hamburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:potroastitem" meta="0" count="1" />
+                <stack item="harvestcraft:fishsandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:fishsticksitem" meta="0" count="1" />
+                <stack item="harvestcraft:vegetablesoupitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 11</title>
+            <item_row>
+                <stack item="harvestcraft:spagettiandmeatballsitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickenparmasanitem" meta="0" count="1" />
+                <stack item="harvestcraft:pbandjitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberrypieitem" meta="0" count="1" />
+                <stack item="harvestcraft:nachoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:friedriceitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:marinatedcucumbersitem" meta="0" count="1" />
+                <stack item="harvestcraft:beansandriceitem" meta="0" count="1" />
+                <stack item="harvestcraft:hashitem" meta="0" count="1" />
+                <stack item="harvestcraft:braisedonionsitem" meta="0" count="1" />
+                <stack item="harvestcraft:chilipoppersitem" meta="0" count="1" />
+                <stack item="harvestcraft:mushroomrisottoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:veggiestirfryitem" meta="0" count="1" />
+                <stack item="harvestcraft:peanutbuttercookiesitem" meta="0" count="1" />
+                <stack item="harvestcraft:raisincookiesitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:blueberrypieitem" meta="0" count="1" />
+                <stack item="harvestcraft:creamedbroccolisoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:extremechiliitem" meta="0" count="1" />
+                <stack item="harvestcraft:turnipsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonmeringueitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonbaritem" meta="0" count="1" />
+                <stack item="harvestcraft:pineapplehamitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherrypieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:mochaicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:splitpeasoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggplantparmitem" meta="0" count="1" />
+                <stack item="harvestcraft:beetsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:coffeeconlecheitem" meta="0" count="1" />
+                <stack item="harvestcraft:bakedturnipsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:spicygreensitem" meta="0" count="1" />
+                <stack item="harvestcraft:summerradishsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:creamofavocadosoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:zucchinibreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:zestyzucchiniitem" meta="0" count="1" />
+                <stack item="harvestcraft:keylimepieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:peachcobbleritem" meta="0" count="1" />
+                <stack item="harvestcraft:summersquashwithradishitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickencelerycasseroleitem" meta="0" count="1" />
+                <stack item="harvestcraft:fruitcrumbleitem" meta="0" count="1" />
+                <stack item="harvestcraft:garlicchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:garlicmashedpotatoesitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:guacamoleitem" meta="0" count="1" />
+                <stack item="harvestcraft:asparagussoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:asparagusquicheitem" meta="0" count="1" />
+                <stack item="harvestcraft:banananutbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:orangechickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:celerysoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:biscuititem" meta="0" count="1" />
+                <stack item="harvestcraft:powdereddonutitem" meta="0" count="1" />
+                <stack item="harvestcraft:chocolatedonutitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberrycobbleritem" meta="0" count="1" />
+                <stack item="harvestcraft:creamcookieitem" meta="0" count="1" />
+                <stack item="harvestcraft:sunflowerwheatrollsitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 12</title>
+            <item_row>
+                <stack item="harvestcraft:raspberrypieitem" meta="0" count="1" />
+                <stack item="harvestcraft:softpretzelitem" meta="0" count="1" />
+                <stack item="harvestcraft:cinnamonrollitem" meta="0" count="1" />
+                <stack item="harvestcraft:jellydonutitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberrybaritem" meta="0" count="1" />
+                <stack item="harvestcraft:wafflesitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:sunflowerbroccolisaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:jaffaitem" meta="0" count="1" />
+                <stack item="harvestcraft:custarditem" meta="0" count="1" />
+                <stack item="harvestcraft:papayajellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:mangojellysandwichitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:orangejellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:peachjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:applejellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:limejellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:pomegranatejellysandwichitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:blueberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:cranberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:starfruitjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:cherryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggnogitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:kiwijellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemonjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:meatystewitem" meta="0" count="1" />
+                <stack item="harvestcraft:mixedsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:watermelonjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:pumpkinoatsconesitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:apricotjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:spicebunitem" meta="0" count="1" />
+                <stack item="harvestcraft:gingerchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:grapefruitjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:cashewchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:leekbaconsoupitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:honeylemonlambitem" meta="0" count="1" />
+                <stack item="harvestcraft:figjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:mintchocolatechipicecreamitem" meta="0" count="1" />
+                <stack item="harvestcraft:oldworldveggiesoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:figbaritem" meta="0" count="1" />
+                <stack item="harvestcraft:damperitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:lambkebabitem" meta="0" count="1" />
+                <stack item="harvestcraft:gherkinitem" meta="0" count="1" />
+                <stack item="harvestcraft:californiarollitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatoandcheesepirogiitem" meta="0" count="1" />
+                <stack item="harvestcraft:vegemiteontoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:persimmonjellysandwichitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:zeppoleitem" meta="0" count="1" />
+                <stack item="harvestcraft:datenutbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:raspberrytrifleitem" meta="0" count="1" />
+                <stack item="harvestcraft:pepperoniitem" meta="0" count="1" />
+                <stack item="harvestcraft:lambwithmintsauceitem" meta="0" count="1" />
+                <stack item="harvestcraft:croissantitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 13</title>
+            <item_row>
+                <stack item="harvestcraft:chorizoitem" meta="0" count="1" />
+                <stack item="harvestcraft:energydrinkitem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberrypieitem" meta="0" count="1" />
+                <stack item="harvestcraft:cheeseontoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:naanitem" meta="0" count="1" />
+                <stack item="harvestcraft:veggiestripsitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pearjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:kimchiitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetpickleitem" meta="0" count="1" />
+                <stack item="harvestcraft:hushpuppiesitem" meta="0" count="1" />
+                <stack item="harvestcraft:plumjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:okracreoleitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:sesameballitem" meta="0" count="1" />
+                <stack item="harvestcraft:gooseberryjellysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:museliitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeysandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeyglazedhamitem" meta="0" count="1" />
+                <stack item="harvestcraft:applefritteritem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:hummusitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeyglazedcarrotsitem" meta="0" count="1" />
+                <stack item="harvestcraft:kungpaochickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:creepercookieitem" meta="0" count="1" />
+                <stack item="harvestcraft:lasagnaitem" meta="0" count="1" />
+                <stack item="harvestcraft:crackersitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:creeperwingsitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeybreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:salsaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cottoncandyitem" meta="0" count="1" />
+                <stack item="harvestcraft:chipsanddipitem" meta="0" count="1" />
+                <stack item="harvestcraft:succotashitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:spidereyepieitem" meta="0" count="1" />
+                <stack item="harvestcraft:greeneggsandhamitem" meta="0" count="1" />
+                <stack item="harvestcraft:mozzerellasticksitem" meta="0" count="1" />
+                <stack item="harvestcraft:babaganoushitem" meta="0" count="1" />
+                <stack item="harvestcraft:pastagardeniaitem" meta="0" count="1" />
+                <stack item="harvestcraft:friedgreentomatoesitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:berryvinaigrettesaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:monsterfrieddumplingsitem" meta="0" count="1" />
+                <stack item="harvestcraft:sourcreamandonionpotatochipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:buttercookieitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetandsourmeatballsitem" meta="0" count="1" />
+                <stack item="harvestcraft:fortunecookieitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:crispyricepuffbarsitem" meta="0" count="1" />
+                <stack item="harvestcraft:turkishdelightitem" meta="0" count="1" />
+                <stack item="harvestcraft:threebeansaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:tortillachipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:corndogitem" meta="0" count="1" />
+                <stack item="harvestcraft:surfandturfitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cheddarandsourcreampotatochipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:phoitem" meta="0" count="1" />
+                <stack item="harvestcraft:haggisitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickenkatsuitem" meta="0" count="1" />
+                <stack item="harvestcraft:meatystirfryitem" meta="0" count="1" />
+                <stack item="harvestcraft:cobblestonecobbleritem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Snacks 14</title>
+            <item_row>
+                <stack item="harvestcraft:crayfishrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:anchovyrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:snapperrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:musselrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:jellyfishrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:turtlerawitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:venisonrawitem" meta="0" count="1" />
+                <stack item="harvestcraft:chestnutbutteritem" meta="0" count="1" />
+                <stack item="harvestcraft:snailcookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:octopuscookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:turtlecookeditem" meta="0" count="1" />
+                <stack item="harvestcraft:cornflakesitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:mushroomsteakitem" meta="0" count="1" />
+                <stack item="harvestcraft:crabkimbapitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggrollitem" meta="0" count="1" />
+                <stack item="harvestcraft:cracklinsitem" meta="0" count="1" />
+                <stack item="harvestcraft:garlicsteakitem" meta="0" count="1" />
+                <stack item="harvestcraft:pemmicanitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:froglegstirfryitem" meta="0" count="1" />
+                <stack item="harvestcraft:akutuqitem" meta="0" count="1" />
+                <stack item="harvestcraft:festivalbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:greenbeancasseroleitem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetmuttonpattyitem" meta="0" count="1" />
+                <stack item="harvestcraft:sauerbratenitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:jelliedeelitem" meta="0" count="1" />
+                <stack item="harvestcraft:baconpancakesitem" meta="0" count="1" />
+                <stack item="harvestcraft:peanutbutterbananasandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:steaktartareitem" meta="0" count="1" />
+                <stack item="harvestcraft:escargotitem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetbeefpattyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:gourmetporkpattyitem" meta="0" count="1" />
+                <stack item="harvestcraft:pitepaltitem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetvenisonpattyitem" meta="0" count="1" />
+                <stack item="harvestcraft:strawberryrhubarbpieitem" meta="0" count="1" />
+                <stack item="silentgems:food" meta="1" count="1" />
+                <stack item="silentgems:food" meta="2" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="silentgems:food" meta="3" count="1" />
+                <stack item="silentgems:food" meta="5" count="1" />
+                <stack item="silentgems:food" meta="6" count="1" />
+                <stack item="tconstruct:edible" meta="0" count="1" />
+                <stack item="tconstruct:edible" meta="1" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="tconstruct:edible" meta="10" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:edible" meta="30" count="1" />
+                <stack item="contenttweaker:guidebook_alternates" meta="0" count="1" />
+                <stack item="tconstruct:moms_spaghetti" meta="0" count="1" />
+            </item_row>
+        </section>
+<!-- Meals Section -->
+        <section id="meals">
+            <title>Food - Meals 1</title>
+            <item_row>
+                <stack item="minecraft:cooked_porkchop" meta="0" count="1" />
+                <stack item="minecraft:cake" meta="0" count="1" />
+                <stack item="minecraft:cooked_beef" meta="0" count="1" />
+                <stack item="minecraft:pumpkin_pie" meta="0" count="1" />
+                <stack item="minecraft:rabbit_stew" meta="0" count="1" />
+                <stack item="harvestcraft:cheeseburgeritem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:fishandchipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:rainbowcurryitem" meta="0" count="1" />
+                <stack item="harvestcraft:leafychickensandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:bltitem" meta="0" count="1" />
+                <stack item="harvestcraft:leafyfishsandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:tacoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:beanburritoitem" meta="0" count="1" />
+                <stack item="harvestcraft:fishtacoitem" meta="0" count="1" />
+                <stack item="harvestcraft:stuffedeggplantitem" meta="0" count="1" />
+                <stack item="harvestcraft:softpretzelandmustarditem" meta="0" count="1" />
+                <stack item="harvestcraft:fishdinneritem" meta="0" count="1" />
+                <stack item="harvestcraft:gingerbreaditem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:blueberrypancakesitem" meta="0" count="1" />
+                <stack item="harvestcraft:bananasplititem" meta="0" count="1" />
+                <stack item="harvestcraft:coconutshrimpitem" meta="0" count="1" />
+                <stack item="harvestcraft:brownieitem" meta="0" count="1" />
+                <stack item="harvestcraft:walnutraisinbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:avocadoburritoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:garlicbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:friedchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:footlongitem" meta="0" count="1" />
+                <stack item="harvestcraft:frenchtoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:cinnamonsugardonutitem" meta="0" count="1" />
+                <stack item="harvestcraft:frosteddonutitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:baklavaitem" meta="0" count="1" />
+                <stack item="harvestcraft:shepardspieitem" meta="0" count="1" />
+                <stack item="harvestcraft:lambbarleysoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:gingeredrhubarbtartitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetpotatosouffleitem" meta="0" count="1" />
+                <stack item="harvestcraft:fairybreaditem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:maplesyrupwafflesitem" meta="0" count="1" />
+                <stack item="harvestcraft:generaltsochickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:pecanpieitem" meta="0" count="1" />
+                <stack item="harvestcraft:maplesyruppancakesitem" meta="0" count="1" />
+                <stack item="harvestcraft:beefwellingtonitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornishpastyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:cottagepieitem" meta="0" count="1" />
+                <stack item="harvestcraft:onionhamburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:batteredsausageitem" meta="0" count="1" />
+                <stack item="harvestcraft:bbqpulledporkitem" meta="0" count="1" />
+                <stack item="harvestcraft:sundayroastitem" meta="0" count="1" />
+                <stack item="harvestcraft:dimsumitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:shrimpokrahushpuppiesitem" meta="0" count="1" />
+                <stack item="harvestcraft:vindalooitem" meta="0" count="1" />
+                <stack item="harvestcraft:tunapotatoitem" meta="0" count="1" />
+                <stack item="harvestcraft:potatoandleeksoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickenchowmeinitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetandsourchickenitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Meals 2</title>
+            <item_row>
+                <stack item="harvestcraft:poutineitem" meta="0" count="1" />
+                <stack item="harvestcraft:mushroomlasagnaitem" meta="0" count="1" />
+                <stack item="harvestcraft:charsiuitem" meta="0" count="1" />
+                <stack item="harvestcraft:meatloafitem" meta="0" count="1" />
+                <stack item="harvestcraft:yorkshirepuddingitem" meta="0" count="1" />
+                <stack item="harvestcraft:biscuitsandgravyitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:dhalitem" meta="0" count="1" />
+                <stack item="harvestcraft:lemondrizzlecakeitem" meta="0" count="1" />
+                <stack item="harvestcraft:peaandhamsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:cinnamontoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:teriyakichickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:pepperjellyandcrackersitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:deviledeggitem" meta="0" count="1" />
+                <stack item="harvestcraft:hamandcheesesandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:crackersandcheeseitem" meta="0" count="1" />
+                <stack item="harvestcraft:bbqpotatochipsitem" meta="0" count="1" />
+                <stack item="harvestcraft:sugarcookieitem" meta="0" count="1" />
+                <stack item="harvestcraft:theatreboxitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:fiestacornsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:potstickersitem" meta="0" count="1" />
+                <stack item="harvestcraft:cevicheitem" meta="0" count="1" />
+                <stack item="harvestcraft:springrollitem" meta="0" count="1" />
+                <stack item="harvestcraft:meesuaitem" meta="0" count="1" />
+                <stack item="harvestcraft:orangeduckitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:mettbrotchenitem" meta="0" count="1" />
+                <stack item="harvestcraft:bulgogiitem" meta="0" count="1" />
+                <stack item="harvestcraft:stuffingitem" meta="0" count="1" />
+                <stack item="harvestcraft:stuffedduckitem" meta="0" count="1" />
+                <stack item="harvestcraft:omuriceitem" meta="0" count="1" />
+                <stack item="harvestcraft:pekingduckitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:eggtartitem" meta="0" count="1" />
+                <stack item="harvestcraft:fruitcreamfestivalbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:crayfishsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickenpaellaitem" meta="0" count="1" />
+                <stack item="harvestcraft:padthaiitem" meta="0" count="1" />
+                <stack item="harvestcraft:tiropitaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:slimepieitem" meta="0" count="1" />
+                <stack item="harvestcraft:blackpaellaitem" meta="0" count="1" />
+                <stack item="harvestcraft:sweetpotatopieitem" meta="0" count="1" />
+                <stack item="harvestcraft:zucchinifriesitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickencurryitem" meta="0" count="1" />
+                <stack item="harvestcraft:zucchinibakeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:sausageinbreaditem" meta="0" count="1" />
+                <stack item="harvestcraft:epicbaconitem" meta="0" count="1" />
+                <stack item="harvestcraft:ceasarsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:toastsandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickengumboitem" meta="0" count="1" />
+                <stack item="harvestcraft:futomakiitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:bangersandmashitem" meta="0" count="1" />
+                <stack item="harvestcraft:mincepieitem" meta="0" count="1" />
+                <stack item="harvestcraft:sausagerollitem" meta="0" count="1" />
+                <stack item="harvestcraft:salmonpattiesitem" meta="0" count="1" />
+                <stack item="harvestcraft:porklomeinitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeysoyribsitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Meals 3</title>
+            <item_row>
+                <stack item="harvestcraft:cornedbeefitem" meta="0" count="1" />
+                <stack item="harvestcraft:pizzasoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:honeybunitem" meta="0" count="1" />
+                <stack item="harvestcraft:netherwingsitem" meta="0" count="1" />
+                <stack item="harvestcraft:ironbrewitem" meta="0" count="1" />
+                <stack item="harvestcraft:paneertikkamasalaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:steakfajitaitem" meta="0" count="1" />
+                <stack item="harvestcraft:grilledcheesevegemitetoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:chickendinneritem" meta="0" count="1" />
+                <stack item="harvestcraft:tunasaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:smoresitem" meta="0" count="1" />
+                <stack item="harvestcraft:sausagebeanmeltitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:hotdishcasseroleitem" meta="0" count="1" />
+                <stack item="harvestcraft:wontonsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:hamandpineapplepizzaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cheesyshrimpquinoaitem" meta="0" count="1" />
+                <stack item="harvestcraft:szechuaneggplantitem" meta="0" count="1" />
+                <stack item="harvestcraft:guisoitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:blazingsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:baconcheeseburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:deluxecheeseburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:beansontoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:chilidogitem" meta="0" count="1" />
+                <stack item="harvestcraft:montecristosandwichitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:saucedlambkebabitem" meta="0" count="1" />
+                <stack item="harvestcraft:crawfishetoufeeitem" meta="0" count="1" />
+                <stack item="harvestcraft:takoyakiitem" meta="0" count="1" />
+                <stack item="harvestcraft:chipsandsalsaitem" meta="0" count="1" />
+                <stack item="harvestcraft:enchiladaitem" meta="0" count="1" />
+                <stack item="harvestcraft:toadintheholeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:baconmushroomburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:meatpieitem" meta="0" count="1" />
+                <stack item="harvestcraft:homestylelunchitem" meta="0" count="1" />
+                <stack item="harvestcraft:groiledcheesesandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:spinachpieitem" meta="0" count="1" />
+                <stack item="harvestcraft:pizzaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chikorollitem" meta="0" count="1" />
+                <stack item="harvestcraft:cantonesenoodlesitem" meta="0" count="1" />
+                <stack item="harvestcraft:clamchowderitem" meta="0" count="1" />
+                <stack item="harvestcraft:onionsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:breakfastburritoitem>," meta="0" count="1" />
+                <stack item="harvestcraft:jambalayaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:springfieldcashewchickenitem" meta="0" count="1" />
+                <stack item="harvestcraft:mobsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:supremepizzaitem" meta="0" count="1" />
+                <stack item="harvestcraft:netherstartoastitem" meta="0" count="1" />
+                <stack item="harvestcraft:gumboitem" meta="0" count="1" />
+                <stack item="harvestcraft:homestylelunchitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:chickenandwafflesitem" meta="0" count="1" />
+                <stack item="harvestcraft:beetburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:delightedmealitem" meta="0" count="1" />
+                <stack item="harvestcraft:deluxenachoesitem" meta="0" count="1" />
+                <stack item="harvestcraft:baconmushroomburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:toastedwesternitem" meta="0" count="1" />
+            </item_row>
+        </section>
+        <section>
+            <title>Food - Meals 4</title>
+            <item_row>
+                <stack item="harvestcraft:chimichangaitem" meta="0" count="1" />
+                <stack item="harvestcraft:meatloafsandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:paradiseburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:mcpamitem" meta="0" count="1" />
+                <stack item="harvestcraft:spaghettidinneritem" meta="0" count="1" />
+                <stack item="harvestcraft:toadintheholeitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:pizzaitem" meta="0" count="1" />
+                <stack item="harvestcraft:randomtacoitem" meta="0" count="1" />
+                <stack item="harvestcraft:hamsweetpicklesandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:eggsbenedictitem" meta="0" count="1" />
+                <stack item="harvestcraft:heartybreakfastitem" meta="0" count="1" />
+                <stack item="harvestcraft:enchiladaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:epicbltitem" meta="0" count="1" />
+                <stack item="harvestcraft:onionsoupitem" meta="0" count="1" />
+                <stack item="harvestcraft:glisteningsaladitem" meta="0" count="1" />
+                <stack item="harvestcraft:bbqplatteritem" meta="0" count="1" />
+                <stack item="harvestcraft:kohlundpinkelitem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetporkburgeritem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:montecristosandwichitem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetmuttonburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:anchovypepperonipizzaitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornedbeefhashitem" meta="0" count="1" />
+                <stack item="harvestcraft:weekendpicnicitem" meta="0" count="1" />
+                <stack item="harvestcraft:cornedbeefbreakfastitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:ploughmanslunchitem" meta="0" count="1" />
+                <stack item="harvestcraft:deluxechickencurryitem" meta="0" count="1" />
+                <stack item="harvestcraft:minerstewitem" meta="0" count="1" />
+                <stack item="harvestcraft:salisburysteakitem" meta="0" count="1" />
+                <stack item="harvestcraft:southernstylebreakfastitem" meta="0" count="1" />
+                <stack item="harvestcraft:meatfeastpizzaitem" meta="0" count="1" />
+            </item_row>
+            <item_row>
+                <stack item="harvestcraft:thankfuldinneritem" meta="0" count="1" />
+                <stack item="harvestcraft:koreandinneritem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetvenisonburgeritem" meta="0" count="1" />
+                <stack item="harvestcraft:gourmetbeefburgeritem>," meta="0" count="1" />
+                <stack item="silentgems:food" meta="0" count="1" />
+                <stack item="silentgems:food" meta="4" count="1" />
+            </item_row>
+        </section>
+    </chapter>
+</book>

@@ -1,0 +1,18 @@
+{
+  "inventory": {
+    "0:1": "minecraft:stone_pickaxe",
+    "0:2": "minecraft:stone_axe",
+    "0:3": "harvestcraft:strawberrysodaitem,2",
+    "0:16": "minecraft:rail,32",
+    "0:9": "harvestcraft:sushiitem,5",
+    "1:2": "minecraft:leather_chestplate",
+    "0:0": "variedcommodities:bronze_sword,1,0,{ENABLED:1b,RARITY:2}",
+    "0:10": "harvestcraft:grapesodaitem,5",
+    "0:17": "minecraft:minecart",
+    "0:31": "contenttweaker:ticket_rainbow",
+    "0:27": "questbook:itemquestbook",
+    "1:1": "minecraft:leather_leggings",
+    "0:4": "enchiridion:book,1,0,{identifier:\"THE_PLAN__General_Instructions_\"}",
+    "1:0": "minecraft:leather_boots"
+  }
+}

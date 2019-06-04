@@ -1,0 +1,6008 @@
+{
+	"minecraft:coal_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"embers:ore_quartz,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:redstone_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:lit_redstone_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,3": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,4": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,5": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,6": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,7": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,8": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,9": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,10": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,11": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,12": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,13": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,14": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemore,15": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,3": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,4": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,5": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,6": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,7": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,8": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,9": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,10": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,11": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,12": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,13": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,14": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemoredark,15": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,3": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,4": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,5": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,6": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,7": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,8": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,9": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,10": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,11": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,12": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,13": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,14": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:gemorelight,15": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:essenceore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"silentgems:essenceore,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:lapis_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:quartz_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:diamond_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"minecraft:emerald_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:nether_redstone_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:nether_lapis_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:nether_coal_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:nether_emerald_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:nether_diamond_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:end_redstone_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:end_coal_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:end_lapis_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:end_emerald_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"cyclicmagic:end_diamond_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"draconicevolution:draconium_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"draconicevolution:draconium_ore,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"draconicevolution:draconium_ore,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"projectred-exploration:ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"projectred-exploration:ore,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"projectred-exploration:ore,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"quark:biotite_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"rftools:dimensional_shard_ore,0": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"rftools:dimensional_shard_ore,1": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	},
+	"rftools:dimensional_shard_ore,2": {
+		"replace": false,
+		"allowsilktouch": true,
+		"dropsilktouchalways": true,
+		"toolsBlacklist": true,
+		"tools": [],
+		"biomeBlacklist": true,
+		"biomes": [],
+		"minYLevel": 0,
+		"maxYLevel": 256,
+		"minExp": 0,
+		"maxExp": 0,
+		"gamestageBlacklist": true,
+		"gamestageAll": true,
+		"gameStageList": [],
+		"modifierBlacklist": true,
+		"modifierList": [],
+		"traitBlacklist": true,
+		"traitList": [],
+		"enchantmentBlacklist": true,
+		"enchantmentList": [],
+		"nbtBlacklist": true,
+		"nbtList": [],
+		"fortunechance": {
+			"0": 100,
+			"1": 100,
+			"2": 100,
+			"3": 100
+		},
+		"dropdatalist": [{
+			"id": "contenttweaker:ticket_black",
+			"metadata": 0,
+			"toolsBlacklist": true,
+			"tools": [],
+			"fortunechancemap": {
+				"0": 15,
+				"1": 15,
+				"2": 15,
+				"3": 15
+			},
+			"fortunequantitymap": {
+				"0": {
+					"minquantity": 1,
+					"maxquantity": 1
+				},
+				"1": {
+					"minquantity": 1,
+					"maxquantity": 2
+				},
+				"2": {
+					"minquantity": 1,
+					"maxquantity": 3
+				},
+				"3": {
+					"minquantity": 1,
+					"maxquantity": 4
+				}
+			},
+			"biomeBlacklist": true,
+			"biomes": [],
+			"minYLevel": 0,
+			"maxYLevel": 256,
+			"minExp": 0,
+			"maxExp": 0,
+			"gamestageBlacklist": true,
+			"gamestageAll": true,
+			"gameStageList": [],
+			"modifierBlacklist": true,
+			"modifierList": [],
+			"traitBlacklist": true,
+			"traitList": [],
+			"enchantmentBlacklist": true,
+			"enchantmentList": [],
+			"nbtBlacklist": true,
+			"nbtList": [],
+			"exclusive": false
+		}]
+	}
+}
