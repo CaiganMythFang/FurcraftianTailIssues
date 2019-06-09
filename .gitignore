@@ -53,3 +53,5 @@ usercache\.json
 usernamecache\.json
 
 \.mixin\.out/
+
+local/ftbutilities/backups\.json
