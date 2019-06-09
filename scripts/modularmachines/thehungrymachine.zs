@@ -14,10 +14,11 @@ val fogcraft1food = [
 <actuallyadditions:item_food:5>, <actuallyadditions:item_food:7>, <actuallyadditions:item_canola_seed>, <actuallyadditions:item_coffee_beans>, <actuallyadditions:item_food:18>, <actuallyadditions:item_food:16>, <actuallyadditions:item_food:0>,
 <immersivehempcraft:space_cookie_carrot>, <immersivehempcraft:space_cookie>, <immersivehempcraft:space_cookie_rabbit>, <immersivehempcraft:space_cookie_melon>, <immersivehempcraft:space_cookie_apple>, <immersivehempcraft:space_cookie_spider>, <immersivehempcraft:space_cookie_magma>,
 <tconstruct:edible:1>, <tconstruct:edible:2>, <tconstruct:edible:3>, <tconstruct:edible:4>, <tconstruct:edible:30>,
-<animania:raw_longhorn_steak>, <animania:raw_hereford_steak>, <animania:raw_angus_steak>, <animania:raw_prime_steak>, <animania:raw_large_black_pork>, <animania:raw_duroc_pork>, <animania:raw_old_spot_pork>, <animania:raw_hampshire_pork>, <animania:raw_prime_pork>, <animania:raw_prime_bacon>, <animania:raw_orpington_chicken>, <animania:raw_plymouth_rock_chicken>, <animania:raw_wyandotte_chicken>, <animania:raw_rhode_island_red_chicken>, <animania:raw_prime_chicken>, <animania:raw_large_black_bacon>, <animania:raw_duroc_bacon>, <animania:raw_old_spot_bacon>, <animania:raw_hampshire_bacon>, <animania:raw_prime_mutton>, <animania:raw_prime_rabbit>, <animania:raw_frog_legs>, <animania:raw_horse>, <animania:raw_chevon>, <animania:raw_prime_chevon>, <animania:friesian_cheese_wedge>, <animania:holstein_cheese_wedge>, <animania:jersey_cheese_wedge>, <animania:goat_cheese_wedge>, <animania:sheep_cheese_wedge>
+<animania:raw_prime_steak>, <animania:raw_prime_pork>, <animania:raw_prime_bacon>, <animania:raw_prime_chicken>, <animania:raw_prime_mutton>, <animania:raw_prime_rabbit>, <animania:raw_frog_legs>, <animania:raw_horse>, <animania:raw_chevon>, <animania:raw_prime_chevon>, <animania:friesian_cheese_wedge>, <animania:holstein_cheese_wedge>, <animania:jersey_cheese_wedge>, <animania:goat_cheese_wedge>, <animania:sheep_cheese_wedge>
 ] as IItemStack[];
 for item in fogcraft1food {
     <ore:fogcraft1food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 1 Hunger Items
@@ -40,11 +41,11 @@ val fogcraft2food = [
 <cfm:item_sausage_cooked>, <cfm:item_kebab_cooked>,
 <actuallyadditions:item_food:2>, <actuallyadditions:item_food:9>, <actuallyadditions:item_food:10>, <actuallyadditions:item_food:12>, <actuallyadditions:item_food:20>,
 <cyclicmagic:food_step>,
-<tconstruct:edible:10>, <tconstruct:edible:22>, <tconstruct:edible:23>, <tconstruct:edible:0>, <tconstruct:edible:31>, <tconstruct:edible:32>, <tconstruct:edible:33>, 
-<animania:cooked_hampshire_bacon>, <animania:cooked_prime_mutton>, <animania:cooked_prime_rabbit>, <animania:cooked_frog_legs>, <animania:cooked_chevon>, <animania:cooked_prime_chevon>
+<tconstruct:edible:10>, <tconstruct:edible:22>, <tconstruct:edible:23>, <tconstruct:edible:0>, <tconstruct:edible:31>, <tconstruct:edible:32>, <tconstruct:edible:33>, <animania:cooked_hampshire_bacon>, <animania:cooked_prime_mutton>, <animania:cooked_prime_rabbit>, <animania:cooked_frog_legs>, <animania:cooked_chevon>, <animania:cooked_prime_chevon>
 ] as IItemStack[];
 for item in fogcraft2food {
     <ore:fogcraft2food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 2 Hunger Items
@@ -66,11 +67,11 @@ val fogcraft3food = [
 <tt:watermelon_ice_cream_taco>, <tt:apple_ice_cream_taco>,
 <silentgems:food:2>,
 <actuallyadditions:item_food:17>, <actuallyadditions:item_food:19>, <actuallyadditions:item_food:1>, <actuallyadditions:item_food:15>, <actuallyadditions:item_jam:0>, <actuallyadditions:item_jam:1>, <actuallyadditions:item_jam:2>, <actuallyadditions:item_jam:3>, <actuallyadditions:item_jam:4>, <actuallyadditions:item_jam:5>, <actuallyadditions:item_jam:6>,
-<tconstruct:edible:12>, <tconstruct:edible:14>, <tconstruct:edible:15>, <tconstruct:edible:20>, <tconstruct:edible:21>, <tconstruct:edible:34>,
-<animania:cooked_longhorn_steak>, <animania:cooked_hereford_steak>, <animania:super_omelette>, <animania:truffle_omelette>, <animania:bacon_omelette>, <animania:cheese_omelette>, <animania:plain_omelette>, <animania:chocolate_truffle>, <animania:cooked_duroc_bacon>, <animania:cooked_old_spot_bacon>, <animania:cooked_wyandotte_chicken>
+<tconstruct:edible:12>, <tconstruct:edible:14>, <tconstruct:edible:15>, <tconstruct:edible:20>, <tconstruct:edible:21>, <tconstruct:edible:34>, <animania:super_omelette>, <animania:truffle_omelette>, <animania:bacon_omelette>, <animania:cheese_omelette>, <animania:plain_omelette>, <animania:chocolate_truffle>
 ] as IItemStack[];
 for item in fogcraft3food {
     <ore:fogcraft3food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 3 Hunger Items
@@ -91,11 +92,11 @@ val fogcraft4food = [
 <tt:soft_fish_taco>, <tt:pumpkin_ice_cream_taco>, <tt:cookie_ice_cream_taco>, <tt:plain_ice_cream_taco>, <tt:hard_rabbit_taco>, <tt:hard_fish_taco>, <tt:chocolate_ice_cream_taco>, 
 <silentgems:food:0>,
 <actuallyadditions:item_food:4>, <actuallyadditions:item_coffee>,
-<tconstruct:edible:11>, <tconstruct:edible:13>, 
-<animania:cooked_hampshire_roast>, <animania:cooked_large_black_bacon>, <animania:cooked_rhode_island_red_chicken>
+<tconstruct:edible:11>, <tconstruct:edible:13>
 ] as IItemStack[];
 for item in fogcraft4food {
     <ore:fogcraft4food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 4 Hunger Items
@@ -116,10 +117,11 @@ val fogcraft5food = [
 <harvestcraft:sweetpotatopieitem>, <harvestcraft:zucchinifriesitem>, <harvestcraft:chickencurryitem>, <harvestcraft:zucchinibakeitem>, <harvestcraft:sausageinbreaditem>, <harvestcraft:epicbaconitem>, <harvestcraft:ceasarsaladitem>, <harvestcraft:toastsandwichitem>, <harvestcraft:chickengumboitem>, <harvestcraft:futomakiitem>, <harvestcraft:bangersandmashitem>, <harvestcraft:mincepieitem>, <harvestcraft:sausagerollitem>, <harvestcraft:salmonpattiesitem>, <harvestcraft:porklomeinitem>, <harvestcraft:honeysoyribsitem>, <harvestcraft:cornedbeefitem>, <harvestcraft:pizzasoupitem>, <harvestcraft:honeybunitem>, <harvestcraft:netherwingsitem>, <harvestcraft:ironbrewitem>, <harvestcraft:paneertikkamasalaitem>, <harvestcraft:steakfajitaitem>, <harvestcraft:grilledcheesevegemitetoastitem>, <harvestcraft:chickendinneritem>, <harvestcraft:tunasaladitem>, <harvestcraft:smoresitem>, <harvestcraft:sausagebeanmeltitem>, <harvestcraft:hotdishcasseroleitem>, <harvestcraft:wontonsoupitem>, <harvestcraft:hamandpineapplepizzaitem>, <harvestcraft:cheesyshrimpquinoaitem>, <harvestcraft:szechuaneggplantitem>, <harvestcraft:guisoitem>, <harvestcraft:blazingsoupitem>, <harvestcraft:baconcheeseburgeritem>, <harvestcraft:deluxecheeseburgeritem>, <harvestcraft:beansontoastitem>, <harvestcraft:chilidogitem>, <harvestcraft:montecristosandwichitem>, <harvestcraft:saucedlambkebabitem>, <harvestcraft:crawfishetoufeeitem>, <harvestcraft:takoyakiitem>, <harvestcraft:chipsandsalsaitem>, <harvestcraft:enchiladaitem>, <harvestcraft:toadintheholeitem>, <harvestcraft:baconmushroomburgeritem>, <harvestcraft:meatpieitem>, <harvestcraft:homestylelunchitem>, <harvestcraft:groiledcheesesandwichitem>, <harvestcraft:spinachpieitem>, <harvestcraft:pizzaitem>, <harvestcraft:chikorollitem>, <harvestcraft:cantonesenoodlesitem>, <harvestcraft:clamchowderitem>, <harvestcraft:onionsoupitem>, <harvestcraft:breakfastburritoitem>,
 <tt:hard_chicken_taco>, <tt:soft_chicken_taco>, <tt:soft_rabbit_taco>, <tt:soft_mutton_taco>, <tt:hard_mutton_taco>,
 <actuallyadditions:item_food:11>, <actuallyadditions:item_food:4>, 
-<animania:truffle_soup>, <animania:cooked_longhorn_roast>, <animania:cooked_plymouth_rock_chicken>
+<animania:truffle_soup>
 ] as IItemStack[];
 for item in fogcraft5food {
     <ore:fogcraft5food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 5 Hunger Items
@@ -140,11 +142,12 @@ val fogcraft6food = [
 <harvestcraft:jambalayaitem>, <harvestcraft:springfieldcashewchickenitem>, <harvestcraft:mobsoupitem>, <harvestcraft:supremepizzaitem>, <harvestcraft:netherstartoastitem>, <harvestcraft:gumboitem>, <harvestcraft:homestylelunchitem>, <harvestcraft:chickenandwafflesitem>, <harvestcraft:beetburgeritem>, <harvestcraft:delightedmealitem>, <harvestcraft:deluxenachoesitem>, <harvestcraft:baconmushroomburgeritem>, <harvestcraft:toastedwesternitem>, <harvestcraft:chimichangaitem>, <harvestcraft:meatloafsandwichitem>, <harvestcraft:paradiseburgeritem>, <harvestcraft:mcpamitem>, <harvestcraft:spaghettidinneritem>, <harvestcraft:toadintheholeitem>, <harvestcraft:pizzaitem>, <harvestcraft:randomtacoitem>, <harvestcraft:hamsweetpicklesandwichitem>, <harvestcraft:eggsbenedictitem>, <harvestcraft:heartybreakfastitem>, <harvestcraft:enchiladaitem>, <harvestcraft:epicbltitem>, <harvestcraft:onionsoupitem>, <harvestcraft:glisteningsaladitem>, <harvestcraft:bbqplatteritem>, <harvestcraft:kohlundpinkelitem>, <harvestcraft:gourmetporkburgeritem>, <harvestcraft:montecristosandwichitem>, <harvestcraft:gourmetmuttonburgeritem>, <harvestcraft:anchovypepperonipizzaitem>, <harvestcraft:cornedbeefhashitem>, <harvestcraft:weekendpicnicitem>, <harvestcraft:cornedbeefbreakfastitem>, <harvestcraft:ploughmanslunchitem>, <harvestcraft:deluxechickencurryitem>, <harvestcraft:minerstewitem>, <harvestcraft:salisburysteakitem>, <harvestcraft:southernstylebreakfastitem>, <harvestcraft:meatfeastpizzaitem>, <harvestcraft:thankfuldinneritem>, <harvestcraft:koreandinneritem>, <harvestcraft:gourmetvenisonburgeritem>, <harvestcraft:gourmetbeefburgeritem>,
 <tt:lapis_taco>, <tt:hard_pork_taco>, <tt:op_hard_taco>, <tt:quartz_taco>, <tt:hard_taco_taco>, <tt:taco_taco>, <tt:op_soft_taco>, <tt:diamond_taco>, <tt:hard_redstone_taco>, <tt:hard_lapis_taco>, <tt:secret_taco_soup>, <tt:hard_coal_taco>, <tt:super_op_taco>, <tt:redstone_taco>, <tt:hard_emerald_taco>, <tt:hard_quartz_taco>, <tt:soft_pork_taco>, <tt:soft_beef_taco>, <tt:iron_taco>, <tt:hard_diamond_taco>, <tt:emerald_taco>, <tt:coal_taco>, <tt:hard_beef_taco>, <tt:hard_iron_taco>,
 <silentgems:food:4>,
-<actuallyadditions:item_food:3>, <actuallyadditions:item_food:8>, <actuallyadditions:item_food:13>, <actuallyadditions:item_food:14>,
-<animania:cooked_angus_steak>, <animania:cooked_prime_steak>, <animania:cooked_hereford_roast>, <animania:cooked_angus_roast>, <animania:cooked_prime_beef>, <animania:cooked_large_black_roast>, <animania:cooked_duroc_roast>, <animania:cooked_old_spot_roast>, <animania:cooked_prime_bacon>, <animania:cooked_orpington_chicken>, <animania:cooked_prime_chicken>, <animania:cooked_horse>
+<actuallyadditions:item_food:3>, <actuallyadditions:item_food:8>, <actuallyadditions:item_food:13>, <actuallyadditions:item_food:14>, 
+<animania:cooked_prime_steak>, <animania:cooked_prime_beef>, <animania:cooked_prime_bacon>, <animania:cooked_prime_chicken>, <animania:cooked_horse>
 ] as IItemStack[];
 for item in fogcraft6food {
     <ore:fogcraft6food>.add(item);
+    item.addTooltip(format.green("Hungry Machine Food"));
 }
 
 // Hungry Machine 6 Hunger Items
