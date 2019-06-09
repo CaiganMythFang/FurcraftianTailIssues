@@ -46,6 +46,145 @@ false
 <p>Allow to edit gamerules via Admin Panel</p>
 </td></tr>
 <tr>
+<td><code>betterquesting.command.admin</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>admin commmand permission</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.complete</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to force completes a quest for the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.default</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to saves/loads the current quest database to/from the global default directory</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.delete</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to delete given quest(s) and progression data however it does not delete new world defaults</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.edit</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to activate quest editing mode on and off</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.hardcore</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to activate or not the use of hardcore lives</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.lives</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set lives to the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.purge</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to purge all hidden quests and progression data however it does not delete any in new world defaults</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.reset</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to erases quest completion data for the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>user commmand permission</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.hardcores</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to manually resyncs the local questing database with the server in case of potential desync issues</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.help</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to execute command which gives the player a copy of the in game starter guide.</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.refresh</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to manually resyncs the local questing database with the server in case of potential desync issues</p>
+</td></tr>
+<tr>
 <td><code>block.tap</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -309,7 +448,8 @@ false
 <tr>
 <td><code>customnpcs.soulstone.all</code></td>
 <td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
 <td title='
 true 
 false 
@@ -345,6 +485,16 @@ true
 false 
 '>
 <p>customnpcs.tool.mounter</p>
+</td></tr>
+<tr>
+<td><code>customnpcs.tool.nbtbook</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>customnpcs.tool.nbtbook</p>
 </td></tr>
 <tr>
 <td><code>customnpcs.tool.pather</code></td>
@@ -397,6 +547,17 @@ false
 <p>AFK Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.back</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /back is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.cooldown</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>3m</code></td>
@@ -405,6 +566,17 @@ false
 0s to &infin; 
 '>
 <p>/back Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.home</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /home is used</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.back.infinite</code></td>
@@ -417,6 +589,49 @@ false
 <p>Allow to use 'back' command infinite times</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.respawn</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last death point</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.rtp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /rtp is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.spawn</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /spawn is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.tpa</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /tpa is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.warmup</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>5s</code></td>
@@ -427,12 +642,33 @@ false
 <p>/back Warmup Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.warp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /warp is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.badge</code></td>
 <td><code>string</code></td>
 <td class='other' colspan='2'><code>""</code></td>
 <td title='
 '>
 <p>Badge</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.formatting</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allows to use **bold**, *italic* and ~~striketrough~~ in chat</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.chat.name_format</code></td>
@@ -986,9 +1222,11 @@ false
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
 <tr><td><code>command.aroma1997core.aroma1997</code></td><td class='error' title='Invalid usage language key!'>/aroma1997 reloadclient<br>/aroma1997 setupDeathCounter<br>/aroma1997 setupDeathCounter &lt;location&gt;<br>/aroma1997 setupDeathCounter &lt;location&gt; &lt;name&gt;<br>/aroma1997 dimension<br>/aroma1997 tp &lt;dimension&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dimension&gt;<br>/aroma1997 tabcomplete &lt;command&gt;<br>/aroma1997 openGui<br>/aroma1997 debugCrash</td></tr>
 <tr><td><code>command.aroma1997core.sleep</code></td><td class='error' title='Invalid usage language key!'>/sleep</td></tr>
+<tr><td><code>command.aroma1997sdimension.dimensionalworld</code></td><td class='error' title='Invalid usage language key!'>/dimensionalworld reloadconfig<br>/dimensionalworld findstructure<br>/dimensionalworld chunkcomposition</td></tr>
 <tr><td><code>command.autooredictconv.odc</code></td><td class='error' title='Invalid usage language key!'>/odc help</td></tr>
+<tr><td><code>command.base.base.recipes.reload</code></td><td class='error' title='Invalid usage language key!'>Reloads the Recipe System</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
-<tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid]</td></tr>
+<tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid], /bq_admin purge_hidden_quests</td></tr>
 <tr><td><code>command.betterquesting.bq_user</code></td><td class='error' title='Invalid usage language key!'>/bq_user help, /bq_user refresh, /bq_user hardcore</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.blockdropstweaker.blockdrops.block.add</code></td><td>/bd block add &lt;block id&gt; &lt;metadata&gt;</td></tr>
@@ -1055,7 +1293,8 @@ false
 <tr><td><code>command.bonsaitrees.bonsaitrees</code></td><td>/bonsaitrees [subcommand, leave empty for list of commands]</td></tr>
 <tr><td><code>command.botania.botania-open</code></td><td>&lt;entry&gt;</td></tr>
 <tr><td><code>command.botania.botania-share</code></td><td>&lt;entry&gt;</td></tr>
-<tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bq_loot default [save|load], /bq_loot delete [all|&lt;loot_index&gt;]</td></tr>
+<tr><td><code>command.bq_standard.bqs_advancement_dump</code></td><td class='error' title='Invalid usage language key!'>/bqs_advancement_dump</td></tr>
+<tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bqs_loot default [save|load], /bqs_loot delete [all|&lt;loot_id&gt;]</td></tr>
 <tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
 <tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
 <tr><td><code>command.capsule.capsule</code></td><td class='error' title='Invalid usage language key!'>/capsule &lt;giveEmpty|exportHeldItem|exportSeenBlock|fromExistingReward|fromHeldCapsule|fromStructure|giveRandomLoot|reloadLootList|setAuthor|setBaseColor|setMaterialColor&gt;</td></tr>
@@ -1067,8 +1306,9 @@ false
 <tr><td><code>command.cofhcore.cofh</code></td><td class='error' title='Invalid usage language key!'>/cofh help</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.list</code></td><td>Lists all CoFHWorld features</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
-<tr><td><code>command.cosmeticarmorreworked.clearcosarmor</code></td><td>/clearCosArmor [player]</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | bugs | conflict | copy | creativetab | discord | docs | dumpzs | entities | exportzs | hand | help | inventory | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | wiki | zslint</td></tr>
+<tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
+<tr><td><code>command.cosmeticarmorreworked.clearcosarmor</code></td><td>/clearcosarmor [player]</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | bugs | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | give | hand | help | inventory | jeiCategories | json | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.creativecore.creative-gui</code></td><td class='error' title='Invalid usage language key!'>opens a test gui</td></tr>
 <tr><td><code>command.customnpcs.noppes</code></td><td class='error' title='Invalid usage language key!'>Use as /noppes subcommand</td></tr>
@@ -1077,6 +1317,7 @@ false
 <tr><td><code>command.cyclicmagic.enderchest</code></td><td class='error' title='Invalid usage language key!'>/enderchest</td></tr>
 <tr><td><code>command.cyclicmagic.gethome</code></td><td class='error' title='Invalid usage language key!'>/gethome</td></tr>
 <tr><td><code>command.cyclicmagic.nbtprint</code></td><td class='error' title='Invalid usage language key!'>/nbtprint</td></tr>
+<tr><td><code>command.cyclicmagic.nbtset</code></td><td class='error' title='Invalid usage language key!'>/nbtset &lt;key&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.cyclicmagic.ping</code></td><td class='error' title='Invalid usage language key!'>/ping &lt;nether&gt;</td></tr>
 <tr><td><code>command.cyclicmagic.searchitem</code></td><td class='error' title='Invalid usage language key!'>/searchitem &lt;item&gt;</td></tr>
 <tr><td><code>command.cyclicmagic.searchspawner</code></td><td class='error' title='Invalid usage language key!'>/searchspawner</td></tr>
@@ -1090,11 +1331,12 @@ false
 <tr><td><code>command.deepresonance.drgen</code></td><td class='error' title='Invalid usage language key!'>drgen &lt;subcommand&gt; &lt;args&gt; (try 'drgen help' for more info)</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
 <tr><td><code>command.difficulty</code></td><td>/difficulty &lt;new difficulty&gt;</td></tr>
-<tr><td><code>command.dldungeonsjdg.dlddimid</code></td><td class='error' title='Invalid usage language key!'>/dlddimid</td></tr>
-<tr><td><code>command.dldungeonsjdg.dldforceinstallthemes</code></td><td class='error' title='Invalid usage language key!'>/dldForceInstallThemes</td></tr>
-<tr><td><code>command.dldungeonsjdg.dldinstallthemes</code></td><td class='error' title='Invalid usage language key!'>/dldInstallThemes</td></tr>
-<tr><td><code>command.dldungeonsjdg.dldreload</code></td><td class='error' title='Invalid usage language key!'>/dldreload</td></tr>
-<tr><td><code>command.dldungeonsjdg.dldspawn</code></td><td class='error' title='Invalid usage language key!'>/dldspawn</td></tr>
+<tr><td><code>command.dldungeonsjbg.dlddimid</code></td><td class='error' title='Invalid usage language key!'>/dlddimid</td></tr>
+<tr><td><code>command.dldungeonsjbg.dldforceinstallthemes</code></td><td class='error' title='Invalid usage language key!'>/dldForceInstallThemes</td></tr>
+<tr><td><code>command.dldungeonsjbg.dldinstallthemes</code></td><td class='error' title='Invalid usage language key!'>/dldInstallThemes</td></tr>
+<tr><td><code>command.dldungeonsjbg.dldreload</code></td><td class='error' title='Invalid usage language key!'>/dldreload</td></tr>
+<tr><td><code>command.dldungeonsjbg.dldspawn</code></td><td class='error' title='Invalid usage language key!'>/dldspawn</td></tr>
+<tr><td><code>command.draconicevolution.de_reload_custom_fusion</code></td><td class='error' title='Invalid usage language key!'>Usage: /de_reload_custom_fusion</td></tr>
 <tr><td><code>command.draconicevolution.de_upgrade</code></td><td class='error' title='Invalid usage language key!'>/de_upgrade</td></tr>
 <tr><td><code>command.ebwizardry.allies</code></td><td>/ [player]</td></tr>
 <tr><td><code>command.ebwizardry.ally</code></td><td>/ &lt;player&gt; [player]</td></tr>
@@ -1128,6 +1370,12 @@ false
 <tr><td><code>command.forge.track.reset</code></td><td>Use /forge track reset &lt;te|entity&gt;</td></tr>
 <tr><td><code>command.forge.track.start</code></td><td>Use /forge track start &lt;te|entity&gt; &lt;duration&gt;</td></tr>
 <tr><td><code>command.forge.track.te</code></td><td>Use /forge track te</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.size</code></td><td>/backup size</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.start</code></td><td>/backup start [custom name]</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.time</code></td><td>/backup time</td></tr>
+<tr><td><code>command.ftbbackups.backup.size</code></td><td>/backup size</td></tr>
+<tr><td><code>command.ftbbackups.backup.start</code></td><td>/backup start [custom name]</td></tr>
+<tr><td><code>command.ftbbackups.backup.time</code></td><td>/backup time</td></tr>
 <tr><td><code>command.ftblib.my_settings</code></td><td>/my_settings &lt;config id&gt; [value]</td></tr>
 <tr><td><code>command.ftblib.reload</code></td><td>/reload [*|domain:*|domain:id]</td></tr>
 <tr><td><code>command.ftblib.team.create</code></td><td>/team create &lt;id&gt; [color]</td></tr>
@@ -1142,10 +1390,6 @@ false
 <tr><td><code>command.ftblib.team.status</code></td><td>/team status &lt;player&gt; [set_status]</td></tr>
 <tr><td><code>command.ftblib.team.transfer_ownership</code></td><td>/team transfer_ownership &lt;player&gt;</td></tr>
 <tr><td><code>command.ftbutilities.back</code></td><td>/back</td></tr>
-<tr><td><code>command.ftbutilities.backup.help</code></td><td>/help [page|command name]</td></tr>
-<tr><td><code>command.ftbutilities.backup.size</code></td><td>commands.backup.size.usage</td></tr>
-<tr><td><code>command.ftbutilities.backup.start</code></td><td>/backup start [custom name]</td></tr>
-<tr><td><code>command.ftbutilities.backup.time</code></td><td>commands.backup.time.usage</td></tr>
 <tr><td><code>command.ftbutilities.chunks.claim</code></td><td>/chunks claim</td></tr>
 <tr><td><code>command.ftbutilities.chunks.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.ftbutilities.chunks.load</code></td><td>/chunks load</td></tr>
@@ -1158,11 +1402,11 @@ false
 <tr><td><code>command.ftbutilities.delhome</code></td><td>/delhome [home]</td></tr>
 <tr><td><code>command.ftbutilities.delwarp</code></td><td>/delwarp &lt;warp&gt;</td></tr>
 <tr><td><code>command.ftbutilities.fly</code></td><td>/fly</td></tr>
+<tr><td><code>command.ftbutilities.god</code></td><td>commands.god.usage</td></tr>
 <tr><td><code>command.ftbutilities.heal</code></td><td>/heal [player]</td></tr>
 <tr><td><code>command.ftbutilities.home</code></td><td>/home [list|list_all|home] [player]</td></tr>
+<tr><td><code>command.ftbutilities.inv.disable_right_click</code></td><td>commands.inv.disable_right_click.usage</td></tr>
 <tr><td><code>command.ftbutilities.inv.help</code></td><td>/help [page|command name]</td></tr>
-<tr><td><code>command.ftbutilities.inv.load</code></td><td>/inv load &lt;player&gt; &lt;id&gt;</td></tr>
-<tr><td><code>command.ftbutilities.inv.save</code></td><td>/inv save &lt;player&gt; &lt;id&gt;</td></tr>
 <tr><td><code>command.ftbutilities.inv.view</code></td><td>/inv view &lt;player&gt;</td></tr>
 <tr><td><code>command.ftbutilities.kickme</code></td><td>/kickme</td></tr>
 <tr><td><code>command.ftbutilities.killall</code></td><td>/killall [type] [dimension]</td></tr>
@@ -1181,6 +1425,7 @@ false
 <tr><td><code>command.ftbutilities.ranks.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.ftbutilities.ranks.set</code></td><td>/ranks set &lt;player&gt; &lt;rank|none&gt;</td></tr>
 <tr><td><code>command.ftbutilities.ranks.set_permission</code></td><td>/ranks set_permission &lt;rank&gt; &lt;permission&gt; &lt;true|false|value|none&gt;</td></tr>
+<tr><td><code>command.ftbutilities.rec</code></td><td>/rec</td></tr>
 <tr><td><code>command.ftbutilities.rtp</code></td><td>commands.rtp.usage</td></tr>
 <tr><td><code>command.ftbutilities.sethome</code></td><td>/sethome [home]</td></tr>
 <tr><td><code>command.ftbutilities.setwarp</code></td><td>/setwarp &lt;warp&gt; &lt;player&gt;|{&lt;x&gt; &lt;y&gt; &lt;z&gt; [dim]}</td></tr>
@@ -1198,8 +1443,11 @@ false
 <tr><td><code>command.gamestages.gamestage.check</code></td><td class='error' title='Invalid usage language key!'>/gamestage check &lt;player&gt; &lt;stage&gt;</td></tr>
 <tr><td><code>command.gamestages.gamestage.clear</code></td><td class='error' title='Invalid usage language key!'>/gamestage clear &lt;player&gt;</td></tr>
 <tr><td><code>command.gamestages.gamestage.info</code></td><td class='error' title='Invalid usage language key!'>/gamestage info [player]</td></tr>
+<tr><td><code>command.gamestages.gamestage.jeicategories</code></td><td class='error' title='Invalid usage language key!'>/gamestage jeicategories</td></tr>
 <tr><td><code>command.gamestages.gamestage.reloadfakes</code></td><td class='error' title='Invalid usage language key!'>/gamestage reloadfakes</td></tr>
 <tr><td><code>command.gamestages.gamestage.remove</code></td><td class='error' title='Invalid usage language key!'>/gamestage remove &lt;player&gt; &lt;stage&gt;</td></tr>
+<tr><td><code>command.gamestages.gamestage.silentadd</code></td><td class='error' title='Invalid usage language key!'>/gamestage silentadd &lt;player&gt; &lt;stage&gt;</td></tr>
+<tr><td><code>command.gamestages.gamestage.silentremove</code></td><td class='error' title='Invalid usage language key!'>/gamestage silentremove &lt;player&gt; &lt;stage&gt;</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
@@ -1222,7 +1470,7 @@ false
 <tr><td><code>command.incontrol.ctrlloadsummonaid</code></td><td>ctrlloadsummonaid</td></tr>
 <tr><td><code>command.incontrol.ctrlreload</code></td><td>ctrlreload</td></tr>
 <tr><td><code>command.incontrol.ctrlshowmobs</code></td><td>ctrlshowmobs</td></tr>
-<tr><td><code>command.jeresources.profile</code></td><td class='error' title='Invalid usage language key!'>profile [chunks|stop] [all]</td></tr>
+<tr><td><code>command.jeresources.jer_profile</code></td><td class='error' title='Invalid usage language key!'>jer_profile [chunks|stop] [all]</td></tr>
 <tr><td><code>command.journeymap.jtp</code></td><td class='error' title='Invalid usage language key!'>/jtp &lt;x y z dim&gt;</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
 <tr><td><code>command.laggoggles.laggoggles</code></td><td class='error' title='Invalid usage language key!'>/laggoggles</td></tr>
@@ -1262,9 +1510,11 @@ false
 <tr><td><code>command.oreexcavation.undo_excavation</code></td><td class='error' title='Invalid usage language key!'>/undo_excavation</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
+<tr><td><code>command.psi.psi-learn</code></td><td>/psi-learn &lt;group&gt; [player]</td></tr>
+<tr><td><code>command.psi.psi-unlearn</code></td><td>/psi-unlearn &lt;group&gt; [player]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
-<tr><td><code>command.quark.emote</code></td><td>&lt;emote&gt;</td></tr>
-<tr><td><code>command.quark.quarkconfig</code></td><td class='error' title='Invalid usage language key!'>&lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
+<tr><td><code>command.quark.quarkconfig</code></td><td>/quarkconfig &lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
+<tr><td><code>command.reborncore.rc_dumpmods</code></td><td>rc_dumpmods</td></tr>
 <tr><td><code>command.reborncore.rc_listrecipes</code></td><td>rc_listRecipes</td></tr>
 <tr><td><code>command.rebornstorage.rsmblock</code></td><td class='error' title='Invalid usage language key!'>rsmblock &lt;size&gt;</td></tr>
 <tr><td><code>command.reccomplex.#&</code></td><td class='error' title='Invalid usage language key!'>#&amp; §r §e&lt;1&gt;§r...</td></tr>
@@ -1282,8 +1532,6 @@ false
 <tr><td><code>command.reccomplex.#fill</code></td><td class='error' title='Invalid usage language key!'>#fill §r §e[block]§r §e[source expression]§r... --§bm§retadata §e[metadata]§r --§bs§rhape §e[shape]§r --§bf§rlood §e[direction expression]§r</td></tr>
 <tr><td><code>command.reccomplex.#gen</code></td><td class='error' title='Invalid usage language key!'>#gen §r §e&lt;structure&gt;§r --§bm§rirror --§bs§relect --seed §e[seed]§r --§br§rotation §e[rotation]§r --sugges§bt§r --gen §e[generation type id]§r -x §e[x]§r -z §e[z]§r --§bd§rimension §e[dimension]§r</td></tr>
 <tr><td><code>command.reccomplex.#import</code></td><td class='error' title='Invalid usage language key!'>#import §r §e[structure]§r --§bm§rirror --§bs§relect --§br§rotation §e[rotation]§r -x §e[x]§r -y §e[y]§r -z §e[z]§r --§bd§rimension §e[dimension]§r</td></tr>
-<tr><td><code>command.reccomplex.#list</code></td><td class='error' title='Invalid usage language key!'>#list §r §e[page]§r</td></tr>
-<tr><td><code>command.reccomplex.#lookup</code></td><td class='error' title='Invalid usage language key!'>#lookup §r §e[structure]§r</td></tr>
 <tr><td><code>command.reccomplex.#map</code></td><td class='error' title='Invalid usage language key!'>#map §r §e&lt;resource expression|structure&gt;§r §e[virtual command]§r §e[args...]§r... --§bn§rosave --§bd§rirectory §e[directory]§r</td></tr>
 <tr><td><code>command.reccomplex.#move</code></td><td class='error' title='Invalid usage language key!'>#move §r --§bm§rirror --§br§rotation §e[rotation]§r --no§bs§relect --dupli§bc§rate --§bt§rimes §e[1]§r -x §e[x]§r -y §e[y]§r -z §e[z]§r</td></tr>
 <tr><td><code>command.reccomplex.#natural</code></td><td class='error' title='Invalid usage language key!'>#natural §r&lt;§ehelp§r|§efloor§r|§esmart§r|§espace§r&gt;</td></tr>
@@ -1295,24 +1543,26 @@ false
 <tr><td><code>command.reccomplex.#retro</code></td><td class='error' title='Invalid usage language key!'>#retro §r --exp §e[resource expression: only generate these structures]§r --§bd§rimension §e[dimension]§r</td></tr>
 <tr><td><code>command.reccomplex.#sanity</code></td><td class='error' title='Invalid usage language key!'>#sanity §r --silent --short</td></tr>
 <tr><td><code>command.reccomplex.#schematic</code></td><td class='error' title='Invalid usage language key!'>#schematic §r&lt;§ehelp§r|§eimport§r|§econvert§r|§eexport§r&gt;</td></tr>
-<tr><td><code>command.reccomplex.#search</code></td><td class='error' title='Invalid usage language key!'>#search §r §e[terms]§r... --§ba§rll --§bc§rontaining §e[block expression]§r --§bb§riome §e[biome id]§r --author §e[author]§r --maze §e[maze id]§r --list §e[structure list id]§r --§bd§rimension §e[dimension id]§r</td></tr>
 <tr><td><code>command.reccomplex.#selection</code></td><td class='error' title='Invalid usage language key!'>#selection §r&lt;§ehelp§r|§eexpand§r|§eset§r|§eshrink§r|§eget§r|§ewand§r|§eclear§r|§ecrop§r&gt;</td></tr>
 <tr><td><code>command.reccomplex.#setbiome</code></td><td class='error' title='Invalid usage language key!'>#setbiome §r §e[biome]§r</td></tr>
 <tr><td><code>command.reccomplex.#sight</code></td><td class='error' title='Invalid usage language key!'>#sight §r&lt;§eremember§r|§ehelp§r|§eforget§r|§echeck§r|§einfo§r&gt;</td></tr>
+<tr><td><code>command.reccomplex.#structures</code></td><td class='error' title='Invalid usage language key!'>#structures §r&lt;§ehelp§r|§elookup§r|§esearch§r|§etweak§r|§elist§r&gt;</td></tr>
 <tr><td><code>command.reccomplex.#vanilla</code></td><td class='error' title='Invalid usage language key!'>#vanilla §r&lt;§ehelp§r|§egen§r|§echeck§r&gt;</td></tr>
 <tr><td><code>command.reccomplex.#visual</code></td><td class='error' title='Invalid usage language key!'>#visual §r §e&lt;type&gt;§r §e&lt;true|false&gt;§r</td></tr>
 <tr><td><code>command.reccomplex.#whatisthis</code></td><td class='error' title='Invalid usage language key!'>#whatisthis §r §e[x]§r §e[y]§r §e[z]§r</td></tr>
 <tr><td><code>command.reccomplex.#write</code></td><td class='error' title='Invalid usage language key!'>#write §r §e&lt;file type&gt;§r §e[resource expression]§r... --§bd§rirectory §e[directory]§r</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
-<tr><td><code>command.recipehandler.recipes</code></td><td>/recipes &lt;check &lt;result/ingredients&gt;|check space 'width' 'height'|conflict|container &lt;true/false&gt;|dump|furnace|get 'recipe-name'&gt;</td></tr>
+<tr><td><code>command.recipehandler.recipes_server</code></td><td>/recipes &lt;check &lt;result|ingredients|space 'width' 'height'&gt;|conflict|container &lt;true/false&gt;|dump|furnace|get &lt;by_held/by_item 'item-name'/by_name 'recipe-name'&gt;&gt;</td></tr>
 <tr><td><code>command.recycler.recycler</code></td><td class='error' title='Invalid usage language key!'>recycler &lt;command&gt;
 exportCraftingRecipes - save the list of all crafting recipes in "recycling" format in the config directoryaddRecipe - add the recycling recipe of the crafting result of the item hold in main hand
 removeRecipe - remove the recycling recipe of the item hold in main hand</td></tr>
+<tr><td><code>command.refinedstorage.createdisk</code></td><td>/createdisk &lt;player&gt; &lt;item&gt; &lt;metadata&gt; &lt;id&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
 <tr><td><code>command.rftools.rftdb</code></td><td class='error' title='Invalid usage language key!'>rftdb &lt;subcommand&gt; &lt;args&gt; (try 'rftdb help' for more info)</td></tr>
 <tr><td><code>command.rftools.rftshape</code></td><td class='error' title='Invalid usage language key!'>rftshape &lt;subcommand&gt; &lt;args&gt; (try 'rftshape help' for more info)</td></tr>
 <tr><td><code>command.rftools.rfttp</code></td><td class='error' title='Invalid usage language key!'>rfttp &lt;subcommand&gt; &lt;args&gt; (try 'rfttp help' for more info)</td></tr>
+<tr><td><code>command.rpreload</code></td><td class='error' title='Invalid usage language key!'>/rpreload</td></tr>
 <tr><td><code>command.say</code></td><td>/say &lt;message ...&gt;</td></tr>
 <tr><td><code>command.scavenge.scavenge</code></td><td class='error' title='Invalid usage language key!'>/scavenge Allows to reload the files</td></tr>
 <tr><td><code>command.scoreboard</code></td><td>/scoreboard &lt;objectives|players|teams&gt; ...</td></tr>
@@ -1322,6 +1572,7 @@ removeRecipe - remove the recycling recipe of the item hold in main hand</td></t
 <tr><td><code>command.shadowmc.shadow.calc</code></td><td class='error' title='Invalid usage language key!'>/shadow calc &lt;expr&gt;</td></tr>
 <tr><td><code>command.shadowmc.shadow.help</code></td><td class='error' title='Invalid usage language key!'>/shadow help &lt;command&gt;</td></tr>
 <tr><td><code>command.shadowmc.shadow.killall</code></td><td class='error' title='Invalid usage language key!'>/shadow killall &lt;range&gt;</td></tr>
+<tr><td><code>command.silentlib.silentlib_datadump</code></td><td class='error' title='Invalid usage language key!'>§cUsage: /silentlib_datadump &lt;block|enchantment|entity|item|potion&gt;</td></tr>
 <tr><td><code>command.spawnpoint</code></td><td>/spawnpoint [player] [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
 <tr><td><code>command.spreadplayers</code></td><td>/spreadplayers &lt;x&gt; &lt;z&gt; &lt;spreadDistance&gt; &lt;maxRange&gt; &lt;respectTeams true|false&gt; &lt;player ...&gt;</td></tr>
 <tr><td><code>command.stats</code></td><td>/stats &lt;entity|block&gt; ...</td></tr>
@@ -1334,18 +1585,23 @@ removeRecipe - remove the recycling recipe of the item hold in main hand</td></t
 <tr><td><code>command.testfor</code></td><td>/testfor &lt;player&gt; [dataTag]</td></tr>
 <tr><td><code>command.testforblock</code></td><td>/testforblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; [dataValue|-1|state|*] [dataTag]</td></tr>
 <tr><td><code>command.testforblocks</code></td><td>/testforblocks &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [mode]</td></tr>
+<tr><td><code>command.tetra.tgen</code></td><td class='error' title='Invalid usage language key!'>tgen feature [x y z]</td></tr>
 <tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.title</code></td><td>/title &lt;player&gt; title|subtitle|actionbar|clear|reset|times ...</td></tr>
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
 <tr><td><code>command.tombstone.tbknowledge</code></td><td>Sets the knowledge of death of a player
-/tbknowledge [player] &lt;value&gt;</td></tr>
+/tbknowledge &lt;player&gt; &lt;show|set|give|remove&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.tombstone.tbrecovery</code></td><td>Backups and restores players
 /tbrecovery &lt;save_all_players|save_player &lt;player&gt;|load_player&lt;player&gt; &lt;save&gt;&gt;</td></tr>
 <tr><td><code>command.tombstone.tbrequestteleport</code></td><td>tombstone.command.tbrequestteleport.usage</td></tr>
 <tr><td><code>command.tombstone.tbrestoreinventory</code></td><td>Restores the player inventory with the last known grave
 /tbrestoreinventory [player]</td></tr>
+<tr><td><code>command.tombstone.tbrevivefamiliar</code></td><td>Revives the last dead familiar of a player
+/tbrevivefamiliar &lt;player&gt;</td></tr>
 <tr><td><code>command.tombstone.tbshowlastgrave</code></td><td>Shows the position of the last known grave of a player
 /tbshowlastgrave [player]</td></tr>
+<tr><td><code>command.tombstone.tbsiege</code></td><td>Launches a village siege in the chosen dimension or your current one
+/tbsiege [dim]</td></tr>
 <tr><td><code>command.tombstone.tbteleport</code></td><td>Dimensional teleport
 /tbteleport [entity] &lt;destination&gt;
 &lt;destination&gt; = &lt;targetEntity&gt; or &lt;x&gt; &lt;y&gt; &lt;z&gt; [dim]</td></tr>
