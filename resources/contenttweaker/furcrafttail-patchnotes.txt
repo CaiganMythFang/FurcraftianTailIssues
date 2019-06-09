@@ -1,15 +1,23 @@
 UPDATE OVERVIEW
-Back after a bit of a health related break (heart surgery, yikes...). 
+BEFORE UPDATING TO THIS RELEASE, PLEASE DO THE FOLLOWING : 
+MAKE SURE YOU HAVE BACKUPS! Multiple mods make downgrading to a previous FOGCraft Goes West version impossible due to changes.
+Empty all Corail Recycler inventories. (Block resets)
+Move all items you want to keep out of your Aroma1997 Mining Dimension. (Dimension resets)
+Finish any Better Questing OSS block progress (Block resets)
 
-A lot of mods are updated to fix various bugs and issues. Some quests are updated, and some new stuff is in the works!
+(THINGS TO ADD TO FOOD LIST - Potato Skins, Chili Donut, BBQ Sauce, Vanilla Cupcake, Chocolate Cupcake, Carrot Cupcake, , Chili Cupcake, , Lemon Cupcake, Strawberry Cupcake, Mint Cupcake, Coffee Cupcake, Sprinkles Cupcake, Caramel Cupcake, Cherry Slushie, Pam Bits Box, Stuffed Chili Peppers, Slime Gummies, Chocolate Pudding, BBQ Chicken Pizza, Quesadillia, Mashed Potatoes and Chicken Biscuit, Cheesesteak, , Shrimp Cocktail, Swedish Meatballs, Nopales Salad, Meringue, Apple Snow, Baked Alaska, Berry Meringue Nest, Eton Mess, Meringue Bombe, Meringue Brownie, Meringue Cookie, Meringue Roulade, Merveilleux, Breadfruit, Guava, Jackfruit, Lychee, Passionfruit, Rambutan, and Tamarind, Agave, Amaranth, Arrowroot, Cassava, Chickpea, Elderberry, Flax, Green Grape, Huckleberry, Jicama, Jute, Kenaf, Kohlrabi, Lentil, Millet, Mulberry, Quinoa, Sisal, and Taro, Soba Noodles, Tuna Onigiri, Salmon Onigiri, Taiyaki, Mochi Dessert, Mochi Cake, Imagawayaki, Shrimp Tempura, Gyudon, Strawberry Soufflé, Bratwurst, Schnitzel, Hot Cocoa, Chicken Biscuit, BBQ Chicken Biscuit, Zucchini Bake, Chocolate Coconut Bar, Vanilla Conchas Bread, Cinnamon Bread, Musubi, Fruit Cake, Bologna, Bologna Sandwich, Fried Bologna Sandwich, Cassoulet, Corn Chips, Battenberg, Pumpkin Spice Latte, Root Beer Float, Chili Dog, Peanut Soup, Gravlax, Cheese Danish, Chicken Cordon Bleu, Sunday High Tea, Cucumber Sandwich, Imitation Crab Sticks, Raspberry Milk Shake, Rice Pudding, River Mud Cake, Seed Energy Gel, Butter Tart, Marshmellow Chicks, Bacon Wrapped Chili, Mushroom Ketchup, Mushroom Ketchup Omelet, Bento Box, Fried Feast, Dandelion Salad, Dandelion Tea, Lychee Tea, Miso Paste, BBQ Jackfruit, BBQ Chicken Biscuit, Chicken Biscuit, pizza slices)
 
- 
+
+Back after a bit of a health related break (heart surgery, yikes...) and quite a busy real life shift.
+
+A lot of mods are updated to fix various bugs and issues. Some quests are updated, and some new stuff is in the works! 
 
 NEW MODS
 
 ORE EXCAVATION
 ORE EXCAVATION INTEGRATION
 A vein mining type mod has been highly requested. Ore Excavation with the Integration addon enables you to enchant normal weapons or modify tinker's weapons with the Excavate ability. 
+FTB Utilities - Backups
 
 
 RETURNING MODS
@@ -25,96 +33,563 @@ REMOVED/DISABLED MODS
 CHANGELOG
 
 Questing
-Added "What We Can Provide" section
+>Added "What We Can Provide" section
+
+The Hungry Machine
+>Added tooltip, since not all foods have been added to the Hungry Machine edible list.
+>Removed the following foods from the Hungry Machine : 
+>>Longhorn Steak, Hereford Steak, Angus Steak, Large Black Pork, Duroc Pork, Old Spot Pork, Hampshire Pork, Orpngton Chicken, Plymouth Rock Chicken, Wyandotte Chicken, Rhode Island Red Chicken, Large Black Bacon, Duroc Bacon, Old Spot Bacon, Hampshire Bacon
 
 
 UPDATED FORGE
 
-2725 to 2755
+2725 to 2838
 
 
 UPDATED MODS
 
-Actually Additions (r135 to r140)
-Advanced Hook Launchers (build.0121 to build.0155)
-Animania (1.4.8 to 1.5.1.1)
+Actually Additions (r135 to r148)
+-Bug Fixes
+-Performance improvements
+
+Advanced Hook Launchers (build.0121 to build.0220)
+-New voxel models
+-New Recipes
+-Bug Fixes
+
+Animalium (0.3.7 to 0.3.8)
+-Bug Fixes
+
+Animania (1.4.8 to 1.6.2)
+-Animals now sleep at appropriate times
+-New Blocks
+-Tamed animals no longer teleport to you
+-In Game Book Added
+-Bug Fixes
+
 Aroma1997Core (b155 to b156)
+-Performance Improvements
+-Bug Fixes
+
+Aroma1997s Dimensional World (1.3.0.0.b37 to 2.0.0.2.b96)
+-Performance Improvements
+-Bug Fixes
+
 Auto Ore Dictionary Converter (1.0 to 1.0.1)
-AutoRegLib (1.3-18 to 1.3-20)
-Avaritia (3.2.0.13 to 3.2.0.25)
-B.A.S.E. (3.9.0 to 3.10.0)
-Better Questing (3.5.259 to 3.5.263)
-Better Questing Standard Expansion (3.4.143 to 3.4.145)
+
+AutoRegLib (1.3-18 to 1.3-30)
+-Bug Fixes
+
+Avaritia (3.2.0.13 to 3.3.0.33)
+-Bug Fixes
+
+B.A.S.E. (3.9.0 to 3.12.1)
+-Performance Improvements
+-Bug Fixes
+
+Better Questing (3.5.259 to 3.5.299)
+-New GUIs
+-New Interface Button to Update Quests (finally!)
+-Can now leave parties
+-Performance Improvements
+-Bug Fixes
+
+Better Questing Quest Book (3.1.0 to 3.1.1)
+-Bug Fixes
+
+Better Questing Standard Expansion (3.4.143 to 3.4.158)
+-New Task Types
+-Performance Improvements
+-Bug Fixes
+
 Bibliocraft (2.4.4 to 2.4.5)
-Bonsai Trees (b77 to b117)
-Bookshelf (2.3.552 to 2.3.557)
-Brandon's Core (2.4.2.157 to 2.4.4.173)
-Chisels and Bits (14.18 to 14.22)
-CodeChicken Lib (3.1.9.344 to 3.2.1.351)
-COFHCore (5.2.19 to 5.2.20)
-Connected Textures Mod (0.3.0.15 to 0.3.2.18)
-Content Tweaker (4.6.0 to 4.8.0)
-Cooking for Blockheads (6.4.40 to 6.4.44)
-Corail Recycler (2.0.0 to 3.1.0)
-Corail Tombstone (2.9.7 to 3.0.2)
-Cosmetic Armor Reworked (v1 to v3)
-CraftTweaker (4.1.8 to 4.1.9)
-CreativeCore (1.9.22 to 1.9.29)
-Custom NPCs (13may18 to 09jul18)
-Cyclic (1.15.12 to 1.16.10)
-DecoCraft 2(2.6.0 to 2.6.1)
-Deep Resonance (1.7.0 to 1.7.1)
-Draconic Evolution (290 to 306)
-EmberRoot Zoo (1.3.7 to 1.3.9)
-Environmental Tech (2.0.11a to 2.0.15.1)
-ExCompressum (3.0.22 to 3.0.24)
-FoamFix (0.9.9.1 to 0.10.1)
-Forge Multipart CBE (2.4.2.60 to 2.5.0.71)
-Forge Endertech (0125 to 0163)
-FTB Utilities (5.1.0.27 to 5.2.0.40)
-FTB Lib (5.1.0.22 to 5.2.0.41)
-Game Stages (91 to 98)
-Guidebook (2.6.5 to 2.8.3)
-Hunting Dimension (1.0.24 to 1.0.26)
-Hydrophobia (1.0.1c to 1.0.3)
-Immersive Railroading (1.2.1 to 1.3.2)
-In Control! (3.8.0 to 3.8.1)
-Industrial Foregoing (176 to 206)
-Inventory Pets (1.5 to 1.5.3.1)
-Iron Chests (829 to 831)
-Item Stages (35 to 36)
-Just Enough Harvestcraft (1.5.1 to 1.6.1)
-Just Enough Items (199 to 202)
-Just Enough Resources (28 to 50)
-Lootbags (2.5.6 to 2.5.7)
-McJtyLib (3.0.1 to 3.0.4)
-MeeCreeps (1.2.0 to 1.2.2)
+-Bug Fixes
+
+Bonsai Trees (b77 to b156)
+-Bonsai Pots can now be dyed
+-Performance Improvements
+-Bug Fixes
+
+Bookshelf (2.3.552 to 2.3.582)
+-Performance Improvements
+-Bug Fixes
+
+Botania (1.10-354 to 1.10-361)
+-New Items and Blocks
+-Added Thaumcraft and Buildcraft Support
+-Bug Fixes
+
+Brandon's Core (2.4.2.157 to 2.4.12.205)
+-Bug Fixes
+
+Capsule (3.1.69 to 3.2.92)
+-Bug Fixes
+
+Chargers (1.0.0.1 to 1.2.0.4)
+-Added Slots for Offhand and Baubles
+-Blocks now keep energy when broken
+-Bug Fixes
+
+Chisel (0.2.0.31 to 0.2.1.35)
+-New/Returning Blocks
+-Bug Fixes
+
+Chisels and Bits (14.18 to 14.33)
+-Bit Bags can now be dyed
+-Bug Fixes
+
+Chunk-Pregenerator (1.8.1 to 2.1)
+-Performance Improvements
+-Bug Fixes
+
+CodeChicken Lib (3.1.9.344 to 3.2.2.353)
+-Bug Fixes
+
+COFH Core (4.5.2.19 to 4.6.3.27)
+-Bug Fixes
+
+COFH World (1.2.0.5 to 1.3.1.7)
+-Performance Improvements
+-Bug Fixes
+
+Connected Textures Mod (0.3.0.15 to 0.3.3.22)
+-Performance Improvements
+-Bug Fixes
+
+Content Tweaker (4.6.0 to 4.9.1)
+-New Script Stuff
+-Bug Fixes
+
+Cooking for Blockheads (6.4.40 to 6.4.70)
+-New Blocks
+-Recipe handling improvements
+-Bug Fixes
+
+Corail Recycler (2.0.0 to 3.2.3)
+-New Models
+-New GUIs
+-Recycler can now store energy
+-Bug Fixes
+
+Corail Tombstone (2.9.7 to 3.5.3)
+-Perk system added, replacing inherited bonuses from before
+-Changes to how death is handled
+-Updates to textures
+-Bug Fixes
+
+Cosmetic Armor Reworked (v1 to v4a)
+-Bug Fixes
+
+CraftTweaker (4.1.8 to 4.1.18)
+-New script stuff
+-Performace Improvements
+-Bug Fixes
+
+CraftStudio (1.0.0.93 to 1.0.1.95)
+-Bug Fixes
+
+CreativeCore (1.9.22 to 1.9.45)
+-Performance Improvements
+-Bug Fixes
+
+Custom Main Menu (2.0.8 to 2.0.9)
+-New Stuff for Pack Makers
+
+Custom NPCs (13may18 to 30jan19)
+-New Textures
+-New GUI
+-Bug Fixes
+
+Cyclic (1.15.12 to 1.19.11)
+-New Blocks and Items
+-Health system now compatible with other health boosting mods
+-Improvements to Sack of Holding
+-Updates to some textures and models
+-Performance Improvements
+-Bug Fixes
+
+DecoCraft 2(2.6.0 to 2.6.2)
+-New Models
+-Bug Fixes
+
+Deep Resonance (1.7.0 to 1.8.0)
+-Bug Fixes
+
+Default Options (9.2.7 to 9.2.8)
+-New Options
+
+Doomlike Dungeons (1.11.1 to 1.12.5)
+-Loot better balanced
+-Bug Fixes
+
+Draconic Evolution (290 to 343)
+-Added config options for various things
+-Performance improvements
+-Bug Fixes
+
+ElecCore (1.8.434 to 1.9.452)
+-Performance Improvements
+-Bug Fixes
+
+Electroblob's Wizardry (4.1.2 to 4.1.4)
+-Bug Fixes
+
+EmberRoot Zoo (1.3.7 to 1.3.10)
+-Fallen Knights Slower
+-Bug Fixes
+
+Enchiridion (3.3.3 to 3.3.5)
+-Bug Fixes
+
+Environmental Tech (2.0.11a to 2.0.20.1)
+-New Blocks and Items
+-Guide Improvements
+-Controllers now store contents when broken
+-Bug Fixes
+
+ExCompressum (3.0.22 to 3.0.27)
+-Bug Fixes
+
+FoamFix (0.9.9.1 to 0.10.5)
+-Performance Improvements
+-Bug Fixes
+
+Forge Multipart CBE (2.4.2.60 to 2.6.1.81)
+-Performance Improvements
+-Bug Fixes
+
+Forge Endertech (0125 to 0354)
+-Bug Fixes
+
+FTB Lib (5.1.0.22 to 5.4.3.103)
+-Performance Improvements
+-Bug Fixes
+
+FTB Utilities (5.1.0.27 to 5.4.0.97)
+-Backups moved to separate mod
+-Performance Improvements
+-Bug Fixes
+
+Game Stages (2.0.91 to 2.0.115)
+-Performance Improvements
+-Bug Fixes
+
+Guidebook (2.6.5 to 2.9.1)
+-Bug Fixes
+
+Hunting Dimension (1.0.24 to 1.0.38)
+-Hunting dimension time is no longer locked
+-Bug Fixes
+
+Hydrophobia (1.0.1c to 1.0.4c)
+-Bug Fixes
+
+Immersive Engineering (0.12-82 to 0.12-89)
+-New Blocks and Items
+-Added Thaumcraft Compatability
+-Bug Fixes
+
+Immersive Hempcraft (0.0.6.2 to 0.0.7.1)
+-New Blocks
+-Bug Fixes
+
+Immersive Railroading (1.2.1 to 1.6.1)
+-Thermal Foundation Fuel Support
+-New and Updated Models
+-Updated Track System
+-More crossmod compatability
+-Bug Fixes
+
+In Control! (3.8.0 to 3.9.10)
+-Performance Improvements
+-Bug Fixes
+
+Industrial Foregoing (1.10.1-176 to 1.12.12-236)
+-Improved Textures
+-Hydrator now waters farmland in operation range
+-Performance Improvements
+-Bug Fixes
+
+Inventory Pets (1.5 to 2.0.1)
+-New Items and Blocks
+-New Textures
+-New Dungeons
+-Slime Pet only resurrects once per feeding
+-Bug Fixes
+
+Iron Chests (7.0.44.829 to 7.0.67.844)
+-New Textures
+-Fixed Recipes
+-Named chests will remember name when placed, broken, and upgraded
+-Bug Fixes
+
+Item Stages (1.0.35 to 2.0.50)
+-Bug Fixes
+
+Journeymap (5.5.2 to 5.5.5b7)
+-New Server Stuff
+-Performance Improvements
+-Bug Fixes
+
+Just Enough Harvestcraft (1.5.1 to 1.6.3)
+-Added Water Filter support
+
+Just Enough Items (4.10.0.199 to 15.0.280)
+-Performance Improvements
+-Bug Fixes
+
+Just Enough Resources (0.8.6.28 to 0.9.1.56)
+-Bug Fixes
+
+LagGoggles (4.1 to 4.3)
+-Bug Fixes
+
+Lootbags (2.5.6 to 2.5.8.5)
+-New GUIs
+-Bug Fixes
+
+LootTweaker (0.0.7 to 0.0.9)
+-Bug Fixes
+
+Mantle (1.3.2.24 to 1.3.3.55)
+-Bug Fixes
+
+MattDahEpic Core (1.0 to 1.1)
+-Added config options for some commands
+
+McJtyLib (3.0.1 to 3.5.3)
+-Performance Improvements
+-Bug Fixes
+
+MeeCreeps (1.2.0 to 1.3.1)
+-Performance Improvements
+-Bug Fixes
+
+Modular Diversity (0.2hotfix to 1.1)
+-More mod compatabilities
+-Bug Fixes
+
+Modular Machinery (1.9.4 to 1.10.0)
+-Bug Fixes
+
 More Overlays (1.13 to 1.14)
-MrCrayfish's Furniture Mod (4.2.0 to 5.7.0)
-Mrcrayfish's Gun Mod (0.3.1 to 0.6.4)
-Not Enough Items (233 to 238)
-Obfuscate (0.2.4 to 0.2.5)
-Online Picture Frame (18 to 19)
-Ore Stages (30 to 31)
-Pam's HarvestCraft (2u to 2y)
-Quark (125 to 127)
-RFTools (53 to 55)
-RFTools Control (1.9.0 to 1.9.1)
-RFTools Power (1.1.0 to 1.1.1)
-Scannable (19 to 22)
+-Bug Fixes
+
+Mouse Tweaks (2.8 to 2.10)
+-Bug Fixes
+
+MrCrayfish's Furniture Mod (4.2.0 to 6.3.0)
+-New Blocks and Items
+-New and Fixed Models
+-Performance Improvements
+-Bug Fixes
+
+Mrcrayfish's Gun Mod (0.3.1 to 0.12.1)
+-New Items and Blocks
+-Added reloading mechanic
+-Mobs now get scared when gun fires near them
+-Weapons now made with workbench
+-Bug Fixes
+
+Nether Portal Fix (5.3.13 to 5.3.17)
+-Bug Fixes
+
+Not Enough Items (2.4.1.233 to 2.4.2.240)
+-Bug Fixes
+
+Not Enough Roofs (0.8.0.0 to 0.8.0.1)
+-New Block
+-Bug Fixes
+
+Not Enough Wands (1.7.0 to 1.8.1)
+-Bug Fixes
+
+Obfuscate (0.2.4 to 0.2.6)
+-Bug Fixes
+
+OMLib (3.0.0-148 to 3.1.2-240)
+-Performance Improvements
+-Bug Fixes
+
+Online Picture Frame (1.4.18 to 1.4.24)
+-Bug Fixes
+
+OpenBlocks Elevator (1.3.6 to 1.4.2)
+-Elevator blocks can now be redyed
+-Bug Fixes
+
+OpenComputers (1.7.2.67 to 1.7.4.153)
+-New Blocks and Items
+-New code things
+-Performance Improvements
+-Bug Fixes
+
+OpenComputers Drivers for Tinker's Construct (0.4 to 0.6)
+-Bug Fixes
+
+OpenModularTurrets (3.0.1-257 to 3.1.2-350)
+-New Blocks and Items
+-New GUIs
+-New Textures
+-Turrets and bases cannot be moved by pistons anymore
+-Performance Improvements
+-Bug Fixes
+
+Ore Stages (2.0.30 to 2.0.38)
+-Bug Fixes
+
+Pam's HarvestCraft (2u to 2zd)
+-New Blocks and Items
+-New Textures
+-Bug Fixes
+
+PlusTiC (6.5.2.0 to 7.0.7.0)
+-More mod/integrations support
+-Bug Fixes
+
+Psi (1-59 to 1-76)
+-Spells can now be rotated
+-Improvements to search
+-Bug Fixes
+
+PTRLib (1.0.2 to 1.0.4)
+-Performance Improvements
+-Bug Fixes
+
+Quark (125 to 158)
+-Lots of new blocks and items
+-New Creatures - Stonelings
+-Performance Improvements
+-Bug Fixes
+
+Reborn Core (3.8.9.300 to 3.13.12.447)
+-Performance Improvements
+-Bug Fixes
+
+Reborn Storage (3.1.0.50 to 3.3.4.85)
+-Performance Improvements
+-Bug Fixes
+
+Recurrent Complex (1.4.7 to 1.4.8.2)
+-Trees spawn again
+-Performance Improvements
+-Bug Fixes
+
+Redstone Flux (2.0.2.3 to 2.1.0.6)
+-Bug Fixes
+
+Refined Storage (1.5.34 to 1.6.14)
+-Autocrafting and other systems reworked
+-Performance Improvements
+-Bug Fixes
+
+Refined Storage Addons (0.3 to 0.4.4)
+-Bug Fixes
+
+RFTools (7.53 to 7.71)
+-Performance Improvements
+-Bug Fixes
+
+RFTools Control (1.9.0 to 2.0.2)
+-New Opcodes, functions, and commands
+-Bug Fixes
+
+RFTools Power (1.1.0 to 1.2.0)
+-Performance Improvements
+-Bug Fixes
+
+Scannable (1.6.3.19 to 1.6.3.24)
+-Bug Fixes
+
+Shadowfacts' Forgelin (1.7.4 to 1.8.2)
+-Performance Improvements
+-Bug Fixes
+
 Scavenge (1.8.2 to 1.8.3.2)
-SilentLib (109 to 145)
-Silent's Gems (270 to 293)
-Silent's Gems Extra Parts (34 to 40)
-Statues (0.8.6.3 to 0.8.6.11)
-Steve's Carts Reborn (105 to 109)
-No More Recipe Conflict (10 to 11)
-Storage Drawers (5.3.6 to 5.3.7)
+-Bug Fixes
+
+SilentLib (2.3.2-109 to 3.0.13-167)
+-Performance Improvements
+-Bug Fixes
+
+
+Silent's Gems (2.7.2b-270 to 2.8.18-322)
+-New Blocks and Items
+-TiC support moved to different mod
+-New Textures
+-Bug Fixes
+
+Silent's Gems Extra Parts (1.4.1-34 to 1.4.6-49)
+-Bug Fixes
+
+SlashBlade (r13 to r25)
+-New Items
+-Recipe changes
+-Performance Improvements
+-Bug Fixes
+
+Statues (0.8.6.3 to 0.8.8.1)
+-New Blocks
+-Recipe changes
+-Performance Improvements
+-Bug Fixes
+
+Steve's Carts Reborn (2.4.21.105 to 2.4.30.134)
+-Recipe changes
+-Performance Improvements
+-Bug Fixes
+
+No More Recipe Conflict (0.10 to 0.13)
+-Bug Fixes
+
+Storage Drawers (5.3.6 to 5.3.8)
+-Bug Fixes
+
 Tesla Core Lib (1.0.14.10 to 1.0.15.13)
-Tetra (0.8.1 to 0.12.1)
-The Lost Cities (2.0.7 to 2.0.10)
-TOP Addons (1.7.0 to 1.8.0)
-Trample Stopper (1.0.0.1 to 1.0.0.2)
-Traverse (61 to 65)
-Valkyrie Lib (11a to 15.1)
-XNet (1.7.1 to 1.7.3)
+-Bug Fixes
+
+Tetra (0.8.1 to 0.28.0)
+-New Blocks and Items
+-New material options for multiple parts
+-Improved systems
+-Performance Improvements
+-Bug Fixes
+
+The Lost Cities (2.0.7 to 2.0.20)
+-Performance Improvements
+-Bug Fixes
+
+The One Probe (1.4.23 to 1.4.28)
+-Performance Improvements
+-Bug Fixes
+
+Tinker's Construct (2.10.1.87 to 2.12.0.135)
+-Performance Improvements
+-Bug Fixes
+
+TOP Addons (1.7.0 to 1.11.0)
+-Performance Improvements
+-Bug Fixes
+
+Torchmaster (1.6.4.62 to 1.7.1.74)
+-Mega Torch and Dread Lamp cover a cube instead of a cylinder
+-Use any dye on a Mega Torch to display the area covered. Use a dye or an empty hand on the Torch to remove the display
+-Mega Torches should stop ambient cave sounds
+-Bug Fixes
+
+Trample Stopper (1.0.0.1 to 1.2.0.5)
+-Bug Fixes
+
+Traverse (1.5.4-61 to 1.6.0-69)
+-Bug Fixes
+
+Valkyrie Lib (2.0.11a to 2.0.20.1)
+-Performance Improvements
+-Bug Fixes
+
+Vanilla Fix (1.0.9-97 to 1.0.10-99)
+-Bug Fixes
+
+XNet (1.7.1 to 1.8.1)
+-Performance Improvements
+-Bug Fixes
