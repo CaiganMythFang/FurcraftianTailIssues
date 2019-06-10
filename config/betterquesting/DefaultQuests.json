@@ -1487,7 +1487,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Bag of Junk!",
-          "desc:8": "    By now you\u0027ve probably faced one of the many monstrosities drawn to the Lost Cities and the various villages of survivors. Sometimes, they have collected shiny objects or interesting things in their travels, and that pops out in a convenient Loot Bag for you to open at your leisure!\n\n    Sometimes you don\u0027t want to open these magical grab bags as soon as you get them. You can\u0027t put the cat back in the bag, so to speak, so a Bag Storage container is quite helpful."
+          "desc:8": "    By now you\u0027ve probably faced one of the many monstrosities drawn to the Lost Cities and the various villages of survivors. Sometimes, they have collected shiny objects or interesting things in their travels, and that pops out in a convenient Loot Bag for you to open at your leisure!\n\n    Expect to collect many of these things, the monsters have collected a lot of shiny things. The Loot Opener can automatically open and store the loot for you!"
         }
       },
       "tasks:9": {
@@ -1500,7 +1500,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "lootbags:loot_storage",
+              "id:8": "lootbags:loot_opener",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
