@@ -16,9 +16,11 @@ NEW MODS
 
 ORE EXCAVATION
 ORE EXCAVATION INTEGRATION
-A vein mining type mod has been highly requested. Ore Excavation with the Integration addon enables you to enchant normal weapons or modify tinker's weapons with the Excavate ability. 
-FTB Utilities - Backups
-
+>A vein mining type mod has been highly requested. Ore Excavation with the Integration addon enables you to enchant normal weapons or modify tinker's weapons with the Excavate ability. 
+FTB UTILITIES : BACKUPS
+>The backups function was moved into its own mod
+MOB DROPS YOUR WAY
+>Mod to help me work around changes to forge/some mods for scripting purposes
 
 RETURNING MODS
 
@@ -37,9 +39,12 @@ Questing
 
 The Hungry Machine
 >Added tooltip, since not all foods have been added to the Hungry Machine edible list.
->Removed the following foods from the Hungry Machine : 
->>Longhorn Steak, Hereford Steak, Angus Steak, Large Black Pork, Duroc Pork, Old Spot Pork, Hampshire Pork, Orpngton Chicken, Plymouth Rock Chicken, Wyandotte Chicken, Rhode Island Red Chicken, Large Black Bacon, Duroc Bacon, Old Spot Bacon, Hampshire Bacon
 
+Rail Tickets
+>Drop rate shifted slightly as drops have shifted from scripts to a mod
+>Some creatures that were missing ticket drops have been fixed
+>Toads, Frogs, and Dart Frogs now drop Blue Tickets instead of White Tickets
+>Villagers now drop Yellow tickets
 
 UPDATED FORGE
 
@@ -61,6 +66,8 @@ Animalium (0.3.7 to 0.3.8)
 -Bug Fixes
 
 Animania (1.4.8 to 1.6.2)
+-Many food drops were condensed into the same types, including : 
+--Longhorn Steak, Hereford Steak, Angus Steak, Large Black Pork, Duroc Pork, Old Spot Pork, Hampshire Pork, Orpngton Chicken, Plymouth Rock Chicken, Wyandotte Chicken, Rhode Island Red Chicken, Large Black Bacon, Duroc Bacon, Old Spot Bacon, Hampshire Bacon
 -Animals now sleep at appropriate times
 -New Blocks
 -Tamed animals no longer teleport to you
