@@ -8,6 +8,13 @@ val ticketdrop = <contenttweaker:ticket_red>;
 val dollardrop = <economy:item_oneb>;
 val fivedrop = <economy:item_fiveb>;
 
+/* 
+SELF NOTE
+
+All mob drops got moved to config/Mob Drops/Mob Drops.cfg due to internal changes in some mods, making zenscript access more of a pain than I like.
+
+Commenting out this entire thing in case I want to revert back
+
 //Creeper Red Rail Ticket
 val creeper = LootTables.getTable("minecraft:entities/creeper");
 val redticketcreeper = creeper.addPool("redticketcreeper", -1, 1, 1, 4);
@@ -322,3 +329,5 @@ val redtickettrumpet_skeleton = trumpet_skeleton.addPool("redtickettrumpet_skele
 redtickettrumpet_skeleton.addItemEntry(ticketdrop, 4);
 redtickettrumpet_skeleton.addItemEntry(dollardrop, 7);
 redtickettrumpet_skeleton.addItemEntry(fivedrop, 1);
+
+*/

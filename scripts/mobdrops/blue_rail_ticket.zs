@@ -8,6 +8,15 @@ val ticketdrop = <contenttweaker:ticket_blue>;
 val dollardrop = <economy:item_oneb>;
 val fivedrop = <economy:item_fiveb>;
 
+/* 
+SELF NOTE
+
+All mob drops got moved to config/Mob Drops/Mob Drops.cfg due to internal changes in some mods, making zenscript access more of a pain than I like.
+
+Fishing drops are still in this file though!
+
+Commenting out this entire thing in case I want to revert back
+
 //elder_guardian blue Rail Ticket
 val elder_guardian = LootTables.getTable("minecraft:entities/elder_guardian");
 val blueticketelder_guardian = elder_guardian.addPool("blueticketelder_guardian", -1, 1, 1, 4);
@@ -35,6 +44,8 @@ val blueticketpirahna = pirahna.addPool("blueticketpirahna", -1, 1, 1, 4);
 blueticketpirahna.addItemEntry(ticketdrop, 4);
 blueticketpirahna.addItemEntry(dollardrop, 7);
 blueticketpirahna.addItemEntry(fivedrop, 1);
+
+*/
 
 //fishing Blue Rail Ticket
 val fishing = LootTables.getTable("minecraft:gameplay/fishing");

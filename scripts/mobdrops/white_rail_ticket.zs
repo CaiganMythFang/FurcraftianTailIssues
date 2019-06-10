@@ -8,6 +8,13 @@ val ticketdrop = <contenttweaker:ticket_white>;
 val dollardrop = <economy:item_oneb>;
 val fivedrop = <economy:item_fiveb>;
 
+/* 
+SELF NOTE
+
+All mob drops got moved to config/Mob Drops/Mob Drops.cfg due to internal changes in some mods, making zenscript access more of a pain than I like.
+
+Commenting out this entire thing in case I want to revert back
+
 //chicken white Rail Ticket
 val chicken = LootTables.getTable("minecraft:entities/chicken");
 val whiteticketchicken = chicken.addPool("whiteticketchicken", -1, 1, 1, 4);
@@ -155,6 +162,7 @@ whiteticketbear_tamed.addItemEntry(ticketdrop, 4);
 whiteticketbear_tamed.addItemEntry(dollardrop, 7);
 whiteticketbear_tamed.addItemEntry(fivedrop, 1);
 
+/*
 //rat White Rail Ticket
 val rat = LootTables.getTable("animalium:entities/rat");
 val whiteticketrat = rat.addPool("whiteticketrat", -1, 1, 1, 4);
@@ -1260,3 +1268,5 @@ val whitetickettimberwolf = timberwolf.addPool("whitetickettimberwolf", -1, 1, 1
 whitetickettimberwolf.addItemEntry(ticketdrop, 4);
 whitetickettimberwolf.addItemEntry(dollardrop, 7);
 whitetickettimberwolf.addItemEntry(fivedrop, 1);
+
+*/
