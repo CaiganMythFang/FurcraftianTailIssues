@@ -3633,8 +3633,12 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "animalium:bear_claw",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "animalium:bear_claw"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3658,8 +3662,12 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "animalium:bear_claw",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "animalium:bear_claw"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -3673,8 +3681,12 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "animalium:wild_dog_pelt",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 5,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "animalium:wild_dog_pelt"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             },
@@ -11724,8 +11736,14 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "immersiverailroading:item_rolling_stock",
             "Count:3": 1,
+            "tag:10": {
+              "defID:8": "rolling_stock/locomotives/ge_b40_8w.json",
+              "display:10": {
+                "Name:8": "§rGE B40-8w"
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -11895,9 +11913,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "botania:cosmetic",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 31,
             "OreDict:8": ""
           },
           "bg_image:8": "",
@@ -12465,7 +12483,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12671,7 +12689,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "minecraft:map",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -12723,9 +12741,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "props:props",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1851,
             "OreDict:8": ""
           },
           "bg_image:8": "",
@@ -12754,9 +12772,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "immersiveengineering:toolupgrade",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 10,
             "OreDict:8": ""
           },
           "bg_image:8": "",
