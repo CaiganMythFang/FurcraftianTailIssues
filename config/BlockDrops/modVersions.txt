@@ -100,7 +100,7 @@
   "mrtjpcore": "2.1.3.35",
   "morelootstuff": "0.0.4",
   "opframe": "1.4.0",
-  "embers": "0.230",
+  "embers": "1.13-hotfix2",
   "minecraftmultipartcbe": "2.6.1.81",
   "oeintegration": "2.3.4",
   "recipehandler": "0.13",

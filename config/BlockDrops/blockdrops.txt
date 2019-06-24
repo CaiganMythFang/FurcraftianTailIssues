@@ -525,21 +525,6 @@
     "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
   },
   {
-    "name": "embers:ore_quartz",
-    "meta": 0,
-    "length": 1,
-    "name0": "minecraft:quartz",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 133.02501,
-    "2chance0": 174.675,
-    "3chance0": 217.5,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
-  },
-  {
     "name": "projectred-exploration:ore",
     "meta": 6,
     "length": 1,
@@ -4238,5 +4223,20 @@
     "1pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
     "2pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
     "3pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}"
+  },
+  {
+    "name": "embers:ore_quartz",
+    "meta": 0,
+    "length": 1,
+    "name0": "minecraft:quartz",
+    "meta0": 0,
+    "0chance0": 100.0,
+    "1chance0": 134.85,
+    "2chance0": 174.85,
+    "3chance0": 223.4,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   }
 ]
