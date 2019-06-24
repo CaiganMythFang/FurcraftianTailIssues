@@ -5,7 +5,7 @@ Empty all Corail Recycler inventories. (Block resets)
 Move all items you want to keep out of your Aroma1997 Mining Dimension. (Dimension resets)
 Finish any Better Questing OSS block progress (Block resets)
 
-(THINGS TO ADD TO FOOD LIST - Potato Skins, Chili Donut, BBQ Sauce, Vanilla Cupcake, Chocolate Cupcake, Carrot Cupcake, , Chili Cupcake, , Lemon Cupcake, Strawberry Cupcake, Mint Cupcake, Coffee Cupcake, Sprinkles Cupcake, Caramel Cupcake, Cherry Slushie, Pam Bits Box, Stuffed Chili Peppers, Slime Gummies, Chocolate Pudding, BBQ Chicken Pizza, Quesadillia, Mashed Potatoes and Chicken Biscuit, Cheesesteak, , Shrimp Cocktail, Swedish Meatballs, Nopales Salad, Meringue, Apple Snow, Baked Alaska, Berry Meringue Nest, Eton Mess, Meringue Bombe, Meringue Brownie, Meringue Cookie, Meringue Roulade, Merveilleux, Breadfruit, Guava, Jackfruit, Lychee, Passionfruit, Rambutan, and Tamarind, Agave, Amaranth, Arrowroot, Cassava, Chickpea, Elderberry, Flax, Green Grape, Huckleberry, Jicama, Jute, Kenaf, Kohlrabi, Lentil, Millet, Mulberry, Quinoa, Sisal, and Taro, Soba Noodles, Tuna Onigiri, Salmon Onigiri, Taiyaki, Mochi Dessert, Mochi Cake, Imagawayaki, Shrimp Tempura, Gyudon, Strawberry Soufflé, Bratwurst, Schnitzel, Hot Cocoa, Chicken Biscuit, BBQ Chicken Biscuit, Zucchini Bake, Chocolate Coconut Bar, Vanilla Conchas Bread, Cinnamon Bread, Musubi, Fruit Cake, Bologna, Bologna Sandwich, Fried Bologna Sandwich, Cassoulet, Corn Chips, Battenberg, Pumpkin Spice Latte, Root Beer Float, Chili Dog, Peanut Soup, Gravlax, Cheese Danish, Chicken Cordon Bleu, Sunday High Tea, Cucumber Sandwich, Imitation Crab Sticks, Raspberry Milk Shake, Rice Pudding, River Mud Cake, Seed Energy Gel, Butter Tart, Marshmellow Chicks, Bacon Wrapped Chili, Mushroom Ketchup, Mushroom Ketchup Omelet, Bento Box, Fried Feast, Dandelion Salad, Dandelion Tea, Lychee Tea, Miso Paste, BBQ Jackfruit, BBQ Chicken Biscuit, Chicken Biscuit, pizza slices)
+Consider Random PSIDeas
 
 
 Back after a bit of a health related break (heart surgery, yikes...) and quite a busy real life shift.
@@ -25,6 +25,11 @@ MOB DROPS YOUR WAY
 >Mod to help me work around changes to forge/some mods for scripting purposes
 RANDOM PATCHES
 >Fixes a few things, improves a few things
+
+SWAPPED MODS
+
+Embers > Embers Rekindled
+Embers Rekindled is an updated version of Embers with many bug fixes and additions.
 
 RETURNING MODS
 
