@@ -7,7 +7,9 @@ item.contenttweaker.ticket_white.name=White Rail Ticket
 item.contenttweaker.ticket_green.name=Green Rail Ticket
 item.contenttweaker.ticket_yellow.name=Yellow Rail Ticket
 item.contenttweaker.ticket_rainbow.name=Rainbow Rail Ticket
+
 item.contenttweaker.scavenger_tools.name=Scavanger's Tools
+
 item.contenttweaker.unlock_actually.name=§nActually Unlock§r - A Knowledge Book
 item.contenttweaker.unlock_animalstyle.name=§nAnimal Style Unlock§r - A Knowledge Book
 item.contenttweaker.unlock_theridonkulous.name=§nThe Ridonkulous Unlock§r - A Knowledge Book
@@ -26,5 +28,21 @@ item.contenttweaker.unlock_digitally.name=§nDigitally Unlock§r - A Knowledge B
 item.contenttweaker.unlock_cantrip.name=§nCantrip : Unlock§r - A Knowledge Book
 item.contenttweaker.unlock_power.name=§nPower Unlocked§r - A Knowledge Book
 item.contenttweaker.unlock_adistant.name=§nA Distant Unlock§r - A Knowledge Book
+
 item.contenttweaker.guidebook_alternates.name=Multiple Styles
 item.contenttweaker.locked_item.name=Locked Knowledge!
+
+item.contenttweaker.pride_agender.name=Agendite Alloy Ingot
+item.contenttweaker.pride_aromantic.name=Aromantine Alloy Ingot
+item.contenttweaker.pride_asexual.name=Asexium Alloy Ingot
+item.contenttweaker.pride_bi.name=Biron Alloy Ingot
+item.contenttweaker.pride_enby.name=Enbyrium Alloy Ingot
+item.contenttweaker.pride_gay.name=Gayrum Alloy Ingot
+item.contenttweaker.pride_genderfluid.name=Genfluidium Alloy Ingot
+item.contenttweaker.pride_genderqueer.name=Genqueerite Alloy Ingot
+item.contenttweaker.pride_intersex.name=Intersectrum Alloy Ingot
+item.contenttweaker.pride_lesbian.name=Lesbirion Alloy Ingot
+item.contenttweaker.pride_pan.name=Pansteel Alloy Ingot
+item.contenttweaker.pride_polyam.name=Polyamlyn Alloy Ingot
+item.contenttweaker.pride_polysexual.name=Polysexium Alloy Ingot
+item.contenttweaker.pride_trans.name=Transine Alloy Ingot
