@@ -1,4 +1,4 @@
-13998 nodes in total
+13982 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1902,9 +1902,6 @@ ftbutilities.claims.block.edit.lootbags.loot_storage: OP
 ftbutilities.claims.block.edit.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.edit.meecreeps.creepcube: OP
 ftbutilities.claims.block.edit.meecreeps.portalblock: OP
-ftbutilities.claims.block.edit.megaloot.disenchanter: OP
-ftbutilities.claims.block.edit.megaloot.evolution_chamber: OP
-ftbutilities.claims.block.edit.megaloot.skin_table: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence_gate: OP
@@ -2350,6 +2347,7 @@ ftbutilities.claims.block.edit.plustic.plustic.molten_manasteel: OP
 ftbutilities.claims.block.edit.plustic.plustic.molten_mirion: OP
 ftbutilities.claims.block.edit.plustic.plustic.molten_psimetal: OP
 ftbutilities.claims.block.edit.plustic.plustic.molten_terrasteel: OP
+ftbutilities.claims.block.edit.portalgun.block_portal: OP
 ftbutilities.claims.block.edit.projectred-expansion.machine1: OP
 ftbutilities.claims.block.edit.projectred-expansion.machine2: OP
 ftbutilities.claims.block.edit.projectred-exploration.barrel: OP
@@ -5388,9 +5386,6 @@ ftbutilities.claims.block.interact.lootbags.loot_storage: OP
 ftbutilities.claims.block.interact.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.interact.meecreeps.creepcube: OP
 ftbutilities.claims.block.interact.meecreeps.portalblock: OP
-ftbutilities.claims.block.interact.megaloot.disenchanter: OP
-ftbutilities.claims.block.interact.megaloot.evolution_chamber: OP
-ftbutilities.claims.block.interact.megaloot.skin_table: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
 ftbutilities.claims.block.interact.minecraft.acacia_fence_gate: OP
@@ -5836,6 +5831,7 @@ ftbutilities.claims.block.interact.plustic.plustic.molten_manasteel: OP
 ftbutilities.claims.block.interact.plustic.plustic.molten_mirion: OP
 ftbutilities.claims.block.interact.plustic.plustic.molten_psimetal: OP
 ftbutilities.claims.block.interact.plustic.plustic.molten_terrasteel: OP
+ftbutilities.claims.block.interact.portalgun.block_portal: OP
 ftbutilities.claims.block.interact.projectred-expansion.machine1: OP
 ftbutilities.claims.block.interact.projectred-expansion.machine2: OP
 ftbutilities.claims.block.interact.projectred-exploration.barrel: OP
@@ -11260,31 +11256,6 @@ ftbutilities.claims.item.meecreeps.emptyportalgun: ALL
 ftbutilities.claims.item.meecreeps.portalblock: ALL
 ftbutilities.claims.item.meecreeps.portalgun: ALL
 ftbutilities.claims.item.meecreeps.projectile: ALL
-ftbutilities.claims.item.megaloot.armor_boots: ALL
-ftbutilities.claims.item.megaloot.armor_chestplate: ALL
-ftbutilities.claims.item.megaloot.armor_helmet: ALL
-ftbutilities.claims.item.megaloot.armor_leggings: ALL
-ftbutilities.claims.item.megaloot.baublering: ALL
-ftbutilities.claims.item.megaloot.disenchanter: ALL
-ftbutilities.claims.item.megaloot.evolution_chamber: ALL
-ftbutilities.claims.item.megaloot.infused_emerald_common: ALL
-ftbutilities.claims.item.megaloot.infused_emerald_rare: ALL
-ftbutilities.claims.item.megaloot.rift_stone: ALL
-ftbutilities.claims.item.megaloot.shard_common: ALL
-ftbutilities.claims.item.megaloot.shard_epic: ALL
-ftbutilities.claims.item.megaloot.shard_rare: ALL
-ftbutilities.claims.item.megaloot.skin_table: ALL
-ftbutilities.claims.item.megaloot.tool_axe: ALL
-ftbutilities.claims.item.megaloot.tool_pickaxe: ALL
-ftbutilities.claims.item.megaloot.tool_shovel: ALL
-ftbutilities.claims.item.megaloot.upgradecharm_common: ALL
-ftbutilities.claims.item.megaloot.upgradecharm_epic: ALL
-ftbutilities.claims.item.megaloot.upgradecharm_rare: ALL
-ftbutilities.claims.item.megaloot.weaponbow: ALL
-ftbutilities.claims.item.megaloot.weaponcase_common: ALL
-ftbutilities.claims.item.megaloot.weaponcase_epic: ALL
-ftbutilities.claims.item.megaloot.weaponcase_rare: ALL
-ftbutilities.claims.item.megaloot.weaponsword: ALL
 ftbutilities.claims.item.microblockcbe.microblock: ALL
 ftbutilities.claims.item.microblockcbe.saw_diamond: ALL
 ftbutilities.claims.item.microblockcbe.saw_iron: ALL
@@ -11946,6 +11917,9 @@ ftbutilities.claims.item.plustic.plustic.molten_manasteel: ALL
 ftbutilities.claims.item.plustic.plustic.molten_mirion: ALL
 ftbutilities.claims.item.plustic.plustic.molten_psimetal: ALL
 ftbutilities.claims.item.plustic.plustic.molten_terrasteel: ALL
+ftbutilities.claims.item.portalgun.item_dust_ender_pearl: ALL
+ftbutilities.claims.item.portalgun.item_miniature_black_hole: ALL
+ftbutilities.claims.item.portalgun.item_portalgun: ALL
 ftbutilities.claims.item.projectred-core.drawplate: ALL
 ftbutilities.claims.item.projectred-core.multimeter: ALL
 ftbutilities.claims.item.projectred-core.resource_item: ALL
@@ -12053,6 +12027,8 @@ ftbutilities.claims.item.psi.psimetal_sword: ALL
 ftbutilities.claims.item.psi.spell_bullet: ALL
 ftbutilities.claims.item.psi.spell_drive: ALL
 ftbutilities.claims.item.psi.vector_ruler: ALL
+ftbutilities.claims.item.pumpkinlauncher.pumpkinammo: ALL
+ftbutilities.claims.item.pumpkinlauncher.pumpkinlauncher: ALL
 ftbutilities.claims.item.quark.acacia_button: ALL
 ftbutilities.claims.item.quark.acacia_pressure_plate: ALL
 ftbutilities.claims.item.quark.acacia_trapdoor: ALL
@@ -13320,6 +13296,14 @@ ftbutilities.claims.item.tetra.sword_modular: ALL
 ftbutilities.claims.item.tetra.toolbelt_modular: ALL
 ftbutilities.claims.item.tetra.vent_plate: ALL
 ftbutilities.claims.item.tetra.workbench: ALL
+ftbutilities.claims.item.theeightfabledblades.arrow_slasher: ALL
+ftbutilities.claims.item.theeightfabledblades.disenchanting_saber: ALL
+ftbutilities.claims.item.theeightfabledblades.hay_maker: ALL
+ftbutilities.claims.item.theeightfabledblades.heart_piercer: ALL
+ftbutilities.claims.item.theeightfabledblades.lunar_edge: ALL
+ftbutilities.claims.item.theeightfabledblades.shield_breaker: ALL
+ftbutilities.claims.item.theeightfabledblades.sword_of_the_great_end: ALL
+ftbutilities.claims.item.theeightfabledblades.sword_slicer: ALL
 ftbutilities.claims.item.theoneprobe.creativeprobe: ALL
 ftbutilities.claims.item.theoneprobe.diamond_helmet_probe: ALL
 ftbutilities.claims.item.theoneprobe.gold_helmet_probe: ALL

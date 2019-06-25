@@ -1,8 +1,5 @@
         FURCRAFTIAN TO DO LIST 
-Hungry Machine
-    Pam's Harvestcraft Food
 Quests
     Rats Intro Quest
     Ticket Transfer Quests
-New Metals
-    Pride Metal Alloys
+    TFB Quests

@@ -3,6 +3,7 @@
   "gbook": "2.9.2",
   "gravitygun": "7.0.0",
   "mtrm": "1.2.2.30",
+  "pumpkinlauncher": "1.12.2-1.7.0",
   "draconicevolution": "2.3.22",
   "contenttweaker": "1.12.2-4.9.1",
   "craftstudioapi": "1.0.0",
@@ -124,7 +125,6 @@
   "incontrol": "3.9.10",
   "cofhcore": "4.6.3",
   "autooredictconv": "1.12-1.0.1",
-  "megaloot": "0.2.30",
   "plustic": "7.1.0.0",
   "reborncore": "3.13.12.447",
   "betterquesting": "3.5.300",
@@ -193,6 +193,7 @@
   "chococraft": "0.9.1.52",
   "variedcommodities": "1.12.2",
   "tconstruct": "1.12.2-2.12.0.135",
+  "portalgun": "7.1.0",
   "itemstages": "2.0.50",
   "avaritia": "3.3.0",
   "buildersguides": "1.12.2-1.0.1",
@@ -211,5 +212,6 @@
   "foamfix": "0.10.5-1.12.2",
   "opencomputers|core": "1.7.4.153",
   "silentgems": "2.8.18",
-  "refinedstorageaddons": "0.4.4"
+  "refinedstorageaddons": "0.4.4",
+  "theeightfabledblades": "1.0.0"
 }
