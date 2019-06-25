@@ -10175,7 +10175,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:lettuceitem",
-              "Count:3": 1,
+              "Count:3": 300,
               "OreDict:8": "listAllveggie",
               "Damage:3": 0
             }
@@ -10248,7 +10248,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:beef",
-              "Count:3": 1,
+              "Count:3": 150,
               "OreDict:8": "listAllmeatraw",
               "Damage:3": 0
             }
@@ -10321,7 +10321,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:fish",
-              "Count:3": 1,
+              "Count:3": 150,
               "OreDict:8": "listAllfishraw",
               "Damage:3": 0
             }
@@ -11108,7 +11108,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Bones of the Dead",
-          "desc:8": "    §lREQUEST§r :  50 Bones\n                    10 Necrotic Bones\n    §lREWARDS§r :  30 Dollars\n                     2 Purple Rail Ticket"
+          "desc:8": "    §lREQUEST§r :  50 Bones\n                    10 Necrotic/Withered Bones\n    §lREWARDS§r :  30 Dollars\n                     2 Purple Rail Ticket"
         }
       },
       "tasks:9": {
@@ -11123,13 +11123,13 @@
             "0:10": {
               "id:8": "minecraft:bone",
               "Count:3": 50,
-              "OreDict:8": "",
+              "OreDict:8": "bone",
               "Damage:3": 0
             },
             "1:10": {
               "id:8": "tconstruct:materials",
               "Count:3": 10,
-              "OreDict:8": "",
+              "OreDict:8": "boneWithered",
               "Damage:3": 17
             }
           },
@@ -12048,6 +12048,891 @@
             },
             "2:10": {
               "id:8": "theeightfabledblades:sword_of_the_great_end",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "gravitygun:gravitygun",
+            "Count:3": 1,
+            "tag:10": {
+              "GravityGun:10": {
+                "attackLightning:3": 138040,
+                "clawOpenState:1": 1,
+                "clawStateTime:3": 138040
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Gravity Gun",
+          "desc:8": "    The Gravity Gun is an amazing device that utilizes Zero Point Energy. It can nullify the gravity pull on many blocks and creatures it\u0027s aimed at, enabling you to move it around, pull it close, or even launch it as a projectile.\n    To use the Gravity gun, you can Left Click to \u0027push\u0027 creatures in front of you, turning them into projectiles that can hurt themselves. Right Clicking will draw blocks and creatures to you, grabbing them in zero gravity. You can then launch them away or set them back down.\n    The Gravity Gun is a useful though rare tool, but we can provide one if you give us a bar of Transine Alloy.\n    Transine will require materials you can only make if you have read the §l§nCantrip : Unlock§r knowledge book."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_transine",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gravitygun:gravitygun",
+              "Count:3": 1,
+              "tag:10": {
+                "GravityGun:10": {
+                  "attackLightning:3": 144081,
+                  "clawOpenState:1": 1,
+                  "clawStateTime:3": 144081
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "gravitygun:gravitygun",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Supercharged Gravity Gun",
+          "desc:8": "    The Gravity Gun is an amazing device that utilizes Zero Point Energy, but with a little (aka giant) boost of energy, it can be supercharged with power.\n    When supercharged, the Gravity Gun can grab multiple blocks at once around you. It\u0027s a little unstable, though. To grab multiple blocks, aim and Right Click in the air, holding it down while the grab radius increases. Release when ready to try grabbing everything.\n    The Supercharged Gravity Gun is a dangerous tool. We can provide one if you give us your normal Gravity Gun, along with a bar of Pansteel Alloy.\n    Pansteel will require materials you can only make if you have read the §l§nCantrip : Unlock§r and §l§nDark Magician Unlock§r knowledge books."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_pansteel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gravitygun:gravitygun",
+              "Count:3": 1,
+              "tag:10": {
+                "GravityGun:10": {
+                  "attackLightning:3": 144081,
+                  "clawOpenState:1": 1,
+                  "clawStateTime:3": 144081
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "pumpkinlauncher:pumpkinlauncher",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Jack o\u0027Launcher",
+          "desc:8": "    The Jack o\u0027Launcher is quite a silly weapon we discovered in, well, a bit of a spooky themed dimension. It doesn\u0027t seem like much, but the ease of making ammo for it makes it fairly powerful.\n    While you can\u0027t craft the Jack o\u0027Launcher, you can easily make and customize ammo for it. Combine a pumpkin or jack o lantern with Arrows, Gunpowder, Fire Charges, Wool, Slime Balls, Iron Nuggets, Potions, Ender Pearls, Bone Blocks, or Fireworks. Each item alters the ammo in different ways!\n    The Cleansing removed how to make this fun and powerful weapon, but we can provide one if you give us a bar of Genqueerite Alloy.\n    Genqueerite does not require the reading of any knowledge book to craft."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_genqueerite",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "pumpkinlauncher:pumpkinlauncher",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:heart_amulet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baubley Heart Canisters - Amulet",
+          "desc:8": "    Baubley Heart Canisters contain the life and energy to boost the wearer towards heroic levels.\n    To take advantage of them, you must place them into a Heart Amulet and wear it in your Baubles menu (the little ring in your inventory portrait). The amulet can hold up to 10 of each color Heart Canister.\n    The Heart Amulet is the key to harnessing the life force of the Heart Canisters.\n    We will trade you the Heart Amulet for an ingot of Asexium Alloy.\n    Asexium\u0027s materials requires you to have read the §l§nBig Machine Unlock§r knowledge book to craft them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_asexium",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bhc:heart_amulet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:red_heart_canister",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baubley Heart Canisters - Red",
+          "desc:8": "    Baubley Heart Canisters contain the life and energy to boost the wearer towards heroic levels.\n    To take advantage of them, you must place them into a Heart Amulet and wear it in your Baubles menu (the little ring in your inventory portrait). The amulet can hold up to 10 of each color Heart Canister.\n    The Red Heart Canister is the easiest to obtain. You can occasionally find a lone heart while monster hunting, though the Canister recipe knowledge has been lost.\n    We will trade you a Red Heart Canister for an ingot of Agendite Alloy.\n    Agendite\u0027s materials requires you to have read either the §l§nCantrip : Unlock§r or the §l§nBig Machine Unlock§r + §l§nRed Gate Unlock§r knowledge books to craft them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_agendite",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bhc:red_heart_canister",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:yellow_heart_canister",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baubley Heart Canisters - Yellow",
+          "desc:8": "    Baubley Heart Canisters contain the life and energy to boost the wearer towards heroic levels.\n    To take advantage of them, you must place them into a Heart Amulet and wear it in your Baubles menu (the little ring in your inventory portrait). The amulet can hold up to 10 of each color Heart Canister.\n    The Yellow Heart Canister is a little more powerful than Red. \n    We will trade you a Yellow Heart Canister for an ingot of Biron Alloy.\n    Biron\u0027s materials requires you to have read the §l§nDark Magician Unlock§r knowledge book to craft them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_biron",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bhc:yellow_heart_canister",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:green_heart_canister",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baubley Heart Canisters - Green",
+          "desc:8": "    Baubley Heart Canisters contain the life and energy to boost the wearer towards heroic levels.\n    To take advantage of them, you must place them into a Heart Amulet and wear it in your Baubles menu (the little ring in your inventory portrait). The amulet can hold up to 10 of each color Heart Canister.\n    The Green Heart Canister is quite powerful, at one point only able to be found on Dragons.\n    We will trade you a Green Heart Canister for an ingot of Genfluidium Alloy.\n    Genfluidium\u0027s materials requires you to have read the §l§nDark Magician Unlock§r and §l§nBlue Eyes White Unlock§r knowledge books to craft them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_genfluidium",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bhc:green_heart_canister",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "153:10": {
+      "questID:3": 153,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:blue_heart_canister",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baubley Heart Canisters - Blue",
+          "desc:8": "    Baubley Heart Canisters contain the life and energy to boost the wearer towards heroic levels.\n    To take advantage of them, you must place them into a Heart Amulet and wear it in your Baubles menu (the little ring in your inventory portrait). The amulet can hold up to 10 of each color Heart Canister.\n    The Blue Heart Canister is the most powerful one of the set, which was once thought to be the Green Heart.\n    We will trade you a Blue Heart Canister for an ingot of Aromantine Alloy.\n    Aromantine\u0027s materials requires you to have read the §l§nDark Magician Unlock§r and either the §l§nCantrip : Unlock§r or §l§nRed Gate Unlock§r knowledge books to craft them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_aromantine",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bhc:blue_heart_canister",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "154:10": {
+      "questID:3": 154,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:heart_amulet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "LOST TO TIME",
+          "desc:8": "    We once had the knowledge to take advantage of these hearts. No longer, though we do have an ally who can help us...\n    You can repeatedly submit these items, as well."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "155:10": {
+      "questID:3": 155,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:red_heart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Red Heart",
+          "desc:8": "    §lREQUEST§r :  2 Red Hearts\n    §lREWARDS§r :  10 Dollars\n                     1 Purple Rail Ticket"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:red_heart",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "economy:item_tenb",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ticket_purple",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "156:10": {
+      "questID:3": 156,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:yellow_heart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Yellow Heart",
+          "desc:8": "    §lREQUEST§r :  1 Yellow Heart\n    §lREWARDS§r :  20 Dollars\n                     1 Purple Rail Ticket"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:yellow_heart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "economy:item_tenb",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ticket_purple",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "157:10": {
+      "questID:3": 157,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:green_heart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Green Heart",
+          "desc:8": "    §lREQUEST§r :  1 Green Heart\n    §lREWARDS§r :  30 Dollars\n                     1 Purple Rail Ticket"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:green_heart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "economy:item_tenb",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ticket_purple",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "158:10": {
+      "questID:3": 158,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 6000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "bhc:blue_heart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Blue Heart",
+          "desc:8": "    §lREQUEST§r :  1 Blue Heart\n    §lREWARDS§r :  40 Dollars\n                     1 Purple Rail Ticket"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:blue_heart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "economy:item_tenb",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ticket_purple",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -13089,6 +13974,41 @@
           "y:3": 196,
           "id:3": 139,
           "sizeY:3": 20
+        },
+        "26:10": {
+          "sizeX:3": 32,
+          "x:3": 64,
+          "y:3": 144,
+          "id:3": 154,
+          "sizeY:3": 32
+        },
+        "27:10": {
+          "sizeX:3": 20,
+          "x:3": 60,
+          "y:3": 176,
+          "id:3": 155,
+          "sizeY:3": 20
+        },
+        "28:10": {
+          "sizeX:3": 20,
+          "x:3": 80,
+          "y:3": 176,
+          "id:3": 156,
+          "sizeY:3": 20
+        },
+        "29:10": {
+          "sizeX:3": 20,
+          "x:3": 60,
+          "y:3": 196,
+          "id:3": 157,
+          "sizeY:3": 20
+        },
+        "30:10": {
+          "sizeX:3": 20,
+          "x:3": 80,
+          "y:3": 196,
+          "id:3": 158,
+          "sizeY:3": 20
         }
       },
       "lineID:3": 3,
@@ -13176,7 +14096,7 @@
         "1:10": {
           "sizeX:3": 24,
           "x:3": 200,
-          "y:3": 204,
+          "y:3": 220,
           "id:3": 142,
           "sizeY:3": 24
         },
@@ -13199,6 +14119,62 @@
           "x:3": 120,
           "y:3": 152,
           "id:3": 145,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 176,
+          "y:3": 196,
+          "id:3": 146,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 224,
+          "y:3": 196,
+          "id:3": 147,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 200,
+          "y:3": 172,
+          "id:3": 148,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 272,
+          "y:3": 124,
+          "id:3": 149,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 88,
+          "id:3": 150,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 112,
+          "id:3": 151,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 136,
+          "id:3": 152,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 160,
+          "id:3": 153,
           "sizeY:3": 24
         }
       },

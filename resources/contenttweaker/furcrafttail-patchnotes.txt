@@ -62,6 +62,15 @@ Questing
 >What We Know
 >>Bag of Junk!
 >>>Replaced Lootbag Storage task with Lootbag Opener, updated quest text
+>What We Need
+>>Vegetables
+>>>Fixed to require 300 vegetables instead of 1.
+>>Raw Meat
+>>>Fixed to require 150 raw meat instead of 1.
+>>Raw Fish
+>>>Fixed to rquire 150 raw fish instead of 1.
+>>Bones of the Dead
+>>>Changed Necrotic Bone to Oredictionary: boneWithered, to include Withered Bone drops
 >New Questline - Who We Can Trust
 >>Late game trading with The Ferret Business for special items you can't craft.
 
