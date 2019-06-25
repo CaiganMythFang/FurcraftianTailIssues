@@ -11648,7 +11648,9 @@
     },
     "141:10": {
       "questID:3": 141,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11685,6 +11687,367 @@
           "rewards:9": {
             "0:10": {
               "id:8": "extendedcrafting:table_elite",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "portalgun:item_portalgun",
+            "Count:3": 1,
+            "tag:10": {
+              "lastFired:1": 1,
+              "width:3": 1,
+              "channelName:8": "Chell",
+              "grabStrength:3": 4,
+              "uuid:8": "Global",
+              "username:8": "Global",
+              "height:3": 2
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Portal Gun",
+          "desc:8": "    The Portal Gun is a fabled device we\u0027ve come across, able to open portals on the fly between two points. You can move yourself, creatures, or blocks between the two points as well, and well... you can kind of break physics a bit as well if you know what you are doing!\n    To use the Portal Gun, aim for an acceptable surface (2x1 blocks large!) and Left Click to fire a portal at it. Then choose another location, and Right Click to fire the other portal! Now you can walk through the portals.\n    To remove your portals, hit R on your keyboard!\n    This miniature black hole is the key to making one. Your world lost the secret to it\u0027s making in The Cleansing, but we can provide one if you give us a bar of Gayrum Alloy.\n    Gayrum will require materials you can only make if you have read the §l§nBlue Eyes White Unlock§r knowledge book."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_gayrum",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "portalgun:item_miniature_black_hole",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "theeightfabledblades:fabledcapabilities:10": {
+                "inscrutableDamage:6": 0.0,
+                "hitCount:3": 0,
+                "isDelayingUseSkill:1": 0,
+                "isUpdated:1": 0,
+                "consecutiveStrikes:3": 0,
+                "swordMode:3": 0,
+                "endEnergy:6": 0.0,
+                "timer:3": 0,
+                "swordSign:3": 0,
+                "isUsingSign:1": 0,
+                "awakeningCounter:3": 0,
+                "currentEnergy:6": 0.0,
+                "lunarDamage:6": 0.0,
+                "isAwakened:1": 0,
+                "healthPercentage:6": 0.0,
+                "isUsingSkill:1": 0
+              },
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "theeightfabledblades:arrow_slasher",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Fabled Blades - Arrow and Shield",
+          "desc:8": "    The Eight Fabled Blades are a set of swords that transcend time and space. They are able to exist in multiple places at once, and hold immense power.\n    Especially if they are Awakened, the methods of which differ between each blade, and are lost to time. Legends say they may relate to the abilities of the sword...\n    The two swords we offer here are the Shield Breaker, which disables shields; and the Arrow Slasher, which cleaves arrows out of the air, protecting you.\n    We will trade you ONE of these swords for two ingots of Polyamlyn Alloy.\n    Polyamnlyn does not require you to have read any knowledge book."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_polyamlyn",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "theeightfabledblades:shield_breaker",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "theeightfabledblades:arrow_slasher",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "theeightfabledblades:fabledcapabilities:10": {
+                "inscrutableDamage:6": 0.0,
+                "hitCount:3": 0,
+                "isDelayingUseSkill:1": 0,
+                "isUpdated:1": 0,
+                "consecutiveStrikes:3": 0,
+                "swordMode:3": 0,
+                "endEnergy:6": 0.0,
+                "timer:3": 0,
+                "swordSign:3": 0,
+                "isUsingSign:1": 0,
+                "awakeningCounter:3": 0,
+                "currentEnergy:6": 0.0,
+                "lunarDamage:6": 0.0,
+                "isAwakened:1": 0,
+                "healthPercentage:6": 0.0,
+                "isUsingSkill:1": 0
+              },
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "theeightfabledblades:hay_maker",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Fabled Blades - Sword, Heart, and Haymaker",
+          "desc:8": "    The Eight Fabled Blades are a set of swords that transcend time and space. They are able to exist in multiple places at once, and hold immense power.\n    Especially if they are Awakened, the methods of which differ between each blade, and are lost to time. Legends say they may relate to the abilities of the sword...\n    The three swords we offer here are the Sword Slicer, damaging the opponents held weapon or item, possibly destroying it; the Heart Piercer, which can heavily weaken opponents as you fight them; and the Haymaker, which can send enemies flying.\n    We will trade you ONE of these swords for two ingots of Enbyrium Alloy.\n    Enbyrium\u0027s materials requires you to have read the §l§nCantrip : Unlock§r and §l§nBlue Eyes White Unlock§r knowledge books to craft them."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_enbyrium",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "theeightfabledblades:sword_slicer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "theeightfabledblades:heart_piercer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "theeightfabledblades:hay_maker",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 12000,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "theeightfabledblades:fabledcapabilities:10": {
+                "inscrutableDamage:6": 0.0,
+                "hitCount:3": 0,
+                "isDelayingUseSkill:1": 0,
+                "isUpdated:1": 0,
+                "consecutiveStrikes:3": 0,
+                "swordMode:3": 0,
+                "endEnergy:6": 0.0,
+                "timer:3": 0,
+                "swordSign:3": 0,
+                "isUsingSign:1": 0,
+                "awakeningCounter:3": 0,
+                "currentEnergy:6": 0.0,
+                "lunarDamage:6": 0.0,
+                "isAwakened:1": 0,
+                "healthPercentage:6": 0.0,
+                "isUsingSkill:1": 0
+              },
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "theeightfabledblades:sword_of_the_great_end",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Fabled Blades - Disenchanting, Lunar, Great End",
+          "desc:8": "    The Eight Fabled Blades are a set of swords that transcend time and space. They are able to exist in multiple places at once, and hold immense power.\n    Especially if they are Awakened, the methods of which differ between each blade, and are lost to time. Legends say they may relate to the abilities of the sword...\n    The three swords we offer here are the Disenchanting Saber, which can disenchant the target\u0027s items with each swing; the Lunar Edge, which lets you become invisible at night for assassination strikes; and the Sword of the Great End, which inflicts enemies you strike with it.\n    We will trade you ONE of these swords for one ingot of Polysexium Alloy.\n    Polysexium\u0027s materials requires you to have read the §l§nDark Magician Unlock§r knowledge book to craft them."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pride_polysexium",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "theeightfabledblades:disenchanting_saber",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "theeightfabledblades:lunar_edge",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "theeightfabledblades:sword_of_the_great_end",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -12805,9 +13168,37 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -80,
-          "y:3": -68,
+          "x:3": 200,
+          "y:3": 124,
           "id:3": 141,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 200,
+          "y:3": 204,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 96,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 124,
+          "id:3": 144,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 152,
+          "id:3": 145,
           "sizeY:3": 24
         }
       },
@@ -12820,13 +13211,13 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "props:props",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 489,
             "OreDict:8": ""
           },
           "bg_image:8": "",
-          "bg_size:3": 256,
+          "bg_size:3": 512,
           "desc:8": "    As we uncover knowledge lost by the Cleansing, we discover even more mysteries lost simply to time and space.\n\n    And then we also learn new things, and find new allies in strange places."
         }
       },
