@@ -4,20 +4,20 @@
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
 
-var agender_pride = VanillaFactory.createItem("pride_agender");
-var aromantic_pride = VanillaFactory.createItem("pride_aromantic");
-var asexual_pride = VanillaFactory.createItem("pride_asexual");
-var bi_pride = VanillaFactory.createItem("pride_bi");
-var enby_pride = VanillaFactory.createItem("pride_enby");
-var gay_pride = VanillaFactory.createItem("pride_gay");
-var genderfluid_pride = VanillaFactory.createItem("pride_genderfluid");
-var genderqueer_pride = VanillaFactory.createItem("pride_genderqueer");
-var intersex_pride = VanillaFactory.createItem("pride_intersex");
-var lesbian_pride = VanillaFactory.createItem("pride_lesbian");
-var pan_pride = VanillaFactory.createItem("pride_pan");
-var polyam_pride = VanillaFactory.createItem("pride_polyam");
-var polysexual_pride = VanillaFactory.createItem("pride_polysexual");
-var trans_pride = VanillaFactory.createItem("pride_trans");
+var agender_pride = VanillaFactory.createItem("pride_agendite");
+var aromantic_pride = VanillaFactory.createItem("pride_aromantine");
+var asexual_pride = VanillaFactory.createItem("pride_asexium");
+var bi_pride = VanillaFactory.createItem("pride_biron");
+var enby_pride = VanillaFactory.createItem("pride_enbyrium");
+var gay_pride = VanillaFactory.createItem("pride_gayrum");
+var genderfluid_pride = VanillaFactory.createItem("pride_genfluidium");
+var genderqueer_pride = VanillaFactory.createItem("pride_genqueerite");
+var intersex_pride = VanillaFactory.createItem("pride_intersectrum");
+var lesbian_pride = VanillaFactory.createItem("pride_lesbirion");
+var pan_pride = VanillaFactory.createItem("pride_pansteel");
+var polyam_pride = VanillaFactory.createItem("pride_polyamlyn");
+var polysexual_pride = VanillaFactory.createItem("pride_polysexium");
+var trans_pride = VanillaFactory.createItem("pride_transine");
 
 agender_pride.maxStackSize = 64;
 agender_pride.rarity = "rare";
