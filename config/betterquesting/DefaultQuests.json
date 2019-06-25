@@ -10730,6 +10730,7 @@
           "description:8": "Run a command script",
           "viaPlayer:1": 0,
           "index:3": 0,
+          "title:8": "bq_standard.reward.command",
           "command:8": "/bq_admin default load"
         }
       }
@@ -11638,6 +11639,53 @@
               "tag:10": {
                 "blueprint:8": "electrode"
               },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "141:10": {
+      "questID:3": 141,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "extendedcrafting:singularity_ultimate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "A Voice in the Dark",
+          "desc:8": "    Hello? Is this thing on?\n    §o[It\u0027s transmitting, Sir. Adjusting... They can hear you now.]§r\n    Good, thank you Bitsy. Ahem...\n    Hello there! My name is Caigan. I\u0027m the owner of The Ferret Business. We\u0027ve come across your dimensional signal as we have been searching for... well, an important employee of ours, to make it simple. We\u0027re trying to rescue them from a bit of a sticky dimensional trap they\u0027ve gotten into.\n    Alas, we\u0027ve not found any good leads yet. But we have found multiple new business opportunities, including FOGCraft and Port Burda! We\u0027ve begun discussions with The Conductor on how we can help each other, and they have allowed us to contact all of you Engineers via this Ledger.\n    Unfortunately, your world\u0027s run in with the Elder Gods has warped the dimensional and magical fabric and... uh... Well, I\u0027d rather not get into the technicalities, we\u0027ll be here for days. But what it means is we\u0027re fairly limited in what we can offer each other.\n    We can only send certain items back and forth, so I propose a trade offer. You have multiple metals and resources we are quite interested in, and there are some things we should be able to send you in return.\n    For now, please take this Absolute TFB Workbench. It will help you craft the specific things we are looking to trade for!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "extendedcrafting:table_elite",
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -12756,6 +12804,37 @@
     "5:10": {
       "quests:9": {
         "0:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": -68,
+          "id:3": 141,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Who We Can Trust",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "    As we uncover knowledge lost by the Cleansing, we discover even more mysteries lost simply to time and space.\n\n    And then we also learn new things, and find new allies in strange places."
+        }
+      },
+      "order:3": 5
+    },
+    "6:10": {
+      "quests:9": {
+        "0:10": {
           "sizeX:3": 48,
           "x:3": -12,
           "y:3": 56,
@@ -12782,7 +12861,7 @@
           "desc:8": "    §o[This section is the admin section, which contains various tools such as updating the quest book]"
         }
       },
-      "order:3": 5
+      "order:3": 6
     }
   },
   "questSettings:10": {
