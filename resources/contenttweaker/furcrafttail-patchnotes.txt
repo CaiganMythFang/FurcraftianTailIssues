@@ -27,10 +27,14 @@ RANDOM PATCHES
 >Fixes a few things, improves a few things
 BAUBLEY HEART CANNISTERS
 >Increase your max health! (Reward Only!)
-MEGALOOT
->Special weapons and armor in loot cases! (Reward Only!)
 GRAVITY GUN
 >Pick up and launch blocks and mobs! (Reward Only)
+PORTAL GUN
+>Jump between two points! WITH PORTALS! (Reward Only)
+JACK-O-LAUNCHER
+>Adds a jackolantern launcher, with customizable ammo (Reward Only)
+EIGHT FABLED BLADES
+>Adds 8 magic blades that can be awakened with great power (Reward Only)
 
 
 SWAPPED MODS
@@ -58,6 +62,8 @@ Questing
 >What We Know
 >>Bag of Junk!
 >>>Replaced Lootbag Storage task with Lootbag Opener, updated quest text
+>New Questline - Who We Can Trust
+>>Late game trading with The Ferret Business for special items you can't craft.
 
 The Hungry Machine
 >Added tooltip, since not all foods have been added to the Hungry Machine edible list.
@@ -69,6 +75,16 @@ Rail Tickets
 >Some creatures that were missing ticket drops have been fixed
 >Toads, Frogs, and Dart Frogs now drop Blue Tickets instead of White Tickets
 >Villagers now drop Yellow tickets
+
+New Custom Items
+>Pride Metals
+>>Themed for LGBT+ Pride, these metal alloys are craftable in TFB Workbenches.
+>>Turn these in via The Ledger for special rewards that are highly difficult to obtain elsewhere, including : 
+>>>Special Lootboxes
+>>>Vehicles
+>>>The Gravity Gun
+>>>Max Health Boosters
+>>>And More!
 
 UPDATED FORGE
 
