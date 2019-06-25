@@ -25,6 +25,13 @@ MOB DROPS YOUR WAY
 >Mod to help me work around changes to forge/some mods for scripting purposes
 RANDOM PATCHES
 >Fixes a few things, improves a few things
+BAUBLEY HEART CANNISTERS
+>Increase your max health! (Reward Only!)
+MEGALOOT
+>Special weapons and armor in loot cases! (Reward Only!)
+GRAVITY GUN
+>Pick up and launch blocks and mobs! (Reward Only)
+
 
 SWAPPED MODS
 
