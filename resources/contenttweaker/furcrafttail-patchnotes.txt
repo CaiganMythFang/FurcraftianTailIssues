@@ -71,6 +71,8 @@ Questing
 >>>Fixed to rquire 150 raw fish instead of 1.
 >>Bones of the Dead
 >>>Changed Necrotic Bone to Oredictionary: boneWithered, to include Withered Bone drops
+>>Added 4 Baubley Heart quests
+>>>Covers the rare occurance when plain Baubley Hearts drop.
 >New Questline - Who We Can Trust
 >>Late game trading with The Ferret Business for special items you can't craft.
 
