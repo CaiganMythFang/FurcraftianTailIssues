@@ -1397,7 +1397,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Pocket Pets",
-          "desc:8": "    The magic from the Cleansing corrupted in strange ways, and not all of them bad! Seemingly random toys and objects became magical, living things. You can\u0027t make them, but you may just get lucky enough to find them in the Lost Cities or some Dungeons!\n\n    We call them Inventory Pets. Each one does something different, and almost all of them eat a specific item to recharge. One example is a Coal Nugget.\n\n    Coal Nuggets are good as well for small batches of Smelting, so you don\u0027t waste an entire Coal piece. "
+          "desc:8": "    The magic from the Cleansing corrupted in strange ways, and not all of them bad! Seemingly random toys and objects became magical, living things. You can\u0027t make them, but you may just get lucky enough to find them in the Lost Cities or some Dungeons!\n\n    We call them Inventory Pets. Each one does something different, and almost all of them eat a specific item to recharge. One example is a Coal Nugget.\n\n    Some creatures consume pieces of Obsidian. Craft an Obsidian Nugget and I\u0027ll give you some other Inventory Pet food."
         }
       },
       "tasks:9": {
@@ -1410,7 +1410,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "inventorypets:nugget_coal",
+              "id:8": "inventorypets:nugget_obsidian",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -14484,6 +14484,88 @@
           }
         }
       }
+    },
+    "176:10": {
+      "questID:3": 176,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "rats:cooked_rat",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The Squeaky Squeak Gets the Cheese",
+          "desc:8": "    Rats, generally thought to be a nuisance, make absolutely fantastic pets... if you can tame them!\n\n    When you can\u0027t tame them, they become a terror to all food stockpiles. \n\n    Make a couple Rat Traps to protect your larder, and I\u0027ll give you a pile of cheese so you can try taming one!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rats:rattrap",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "rats:cheese",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ticket_purple",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "enchiridion:book",
+              "Count:3": 1,
+              "tag:10": {
+                "identifier:8": "Quick_Start___Rats"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -14741,6 +14823,13 @@
           "x:3": 88,
           "y:3": 72,
           "id:3": 127,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 176,
+          "y:3": 36,
+          "id:3": 176,
           "sizeY:3": 24
         }
       },
