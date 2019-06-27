@@ -11668,7 +11668,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "A Voice in the Dark",
-          "desc:8": "    Hello? Is this thing on?\n    §o[It\u0027s transmitting, Sir. Adjusting... They can hear you now.]§r\n    Good, thank you Bitsy. Ahem...\n    Hello there! My name is Caigan. I\u0027m the owner of The Ferret Business. We\u0027ve come across your dimensional signal as we have been searching for... well, an important employee of ours, to make it simple. We\u0027re trying to rescue them from a bit of a sticky dimensional trap they\u0027ve gotten into.\n    Alas, we\u0027ve not found any good leads yet. But we have found multiple new business opportunities, including FOGCraft and Port Burda! We\u0027ve begun discussions with The Conductor on how we can help each other, and they have allowed us to contact all of you Engineers via this Ledger.\n    Unfortunately, your world\u0027s run in with the Elder Gods has warped the dimensional and magical fabric and... uh... Well, I\u0027d rather not get into the technicalities, we\u0027ll be here for days. But what it means is we\u0027re fairly limited in what we can offer each other.\n    We can only send certain items back and forth, so I propose a trade offer. You have multiple metals and resources we are quite interested in, and there are some things we should be able to send you in return.\n    For now, please take this Absolute TFB Workbench. It will help you craft the specific things we are looking to trade for!"
+          "desc:8": "    Hello? Is this thing on?\n    §o[It\u0027s transmitting, Sir. Adjusting... They can hear you now.]§r\n    Good, thank you Bitsy. Ahem...\n    Hello there! My name is Caigan. I\u0027m the owner of The Ferret Business. We\u0027ve come across your dimensional signal as we have been searching for... well, an important employee of ours, to make it simple. We\u0027re trying to rescue them from a bit of a sticky dimensional trap they\u0027ve gotten into.\n    Alas, we\u0027ve not found any good leads yet. But we have found multiple new business opportunities, including Ferretopia and Port Burda! We\u0027ve begun discussions with The Conductor on how we can help each other, and they have allowed us to contact all of you Engineers via this Ledger.\n    Unfortunately, your world\u0027s run in with the Elder Gods has warped the dimensional and magical fabric and... uh... Well, I\u0027d rather not get into the technicalities, we\u0027ll be here for days. But what it means is we\u0027re fairly limited in what we can offer each other.\n    We can only send certain items back and forth, so I propose a trade offer. You have multiple metals and resources we are quite interested in, and there are some things we should be able to send you in return.\n    For now, please take this Absolute TFB Workbench. It will help you craft the specific things we are looking to trade for!"
         }
       },
       "tasks:9": {
@@ -15990,7 +15990,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
