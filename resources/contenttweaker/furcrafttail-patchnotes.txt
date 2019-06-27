@@ -67,6 +67,8 @@ Questing
 >>>Fixed task item (changed due to internal mod changes)
 >>Pocket Pets
 >>>Changed Tiny Coal task to Obsidian Nugget
+>>New Quest - Can You Dig It?
+>>>Covers Excavation and Excavation Integration mods
 >>New Quest - The Squeaky Squeak Gets the Cheese
 >>>Covers Rats mod
 >>>Includes Quickstart guide for Rats
