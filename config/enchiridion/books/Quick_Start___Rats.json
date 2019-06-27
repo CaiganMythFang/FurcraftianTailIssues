@@ -1,0 +1,249 @@
+{
+  "modid": "",
+  "uniqueName": "Quick_Start___Rats",
+  "saveName": "Quick_Start___Rats",
+  "displayName": "Quick Start - Rats",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 13,
+          "yPos": 14,
+          "width": 180.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[b]         RATS",
+              "size": 1.7000002
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 26,
+          "yPos": 28,
+          "width": 182.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "          [i]QUICKSTART GUIDE[/i]",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 261,
+          "yPos": 177,
+          "width": 30.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://www.curseforge.com/minecraft/mc-mods/rats"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "Open Wiki/Website",
+              "hoverXOffset": 30,
+              "hoverYOffset": 10,
+              "unhoveredText": "Open Wiki/Website",
+              "unhoveredXOffset": 30,
+              "unhoveredYOffset": 10,
+              "hoveredResource": "enchiridion:images/quick_start___minecraft/website-yes-highlight.png",
+              "unhoveredResource": "enchiridion:images/quick_start___minecraft/website-yes.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 233,
+          "yPos": 33,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Right Click a tame rat to access its inventory and command screen. You can put gear on the rat, like helmets! You can also put the Rat on your shoulder by Sneak+Right Clicking it. \n\n\n\nThe Cheese Staff is used to help command Rats, telling them where to go, what inventories to move items to, and more.\n\n\n\nThe Rat Cage can be used to breed more rats, increasing stats, and getting unique colors!",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 21,
+          "yPos": 43,
+          "width": 178.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Rats are simple creatures you can find commonly at night time. They can burrow holes into basic stone and wood, and raid your chests for food.\n\n\n\nTo stop them, you\u0027ll need to use a Rat Trap.\n\n\n\nBut for a better idea, put some Milk into a Cauldron and wait. This will give you Cheese, which you can drop near a wild rat to tame it. It\u0027ll take a LOT of cheese though!",
+              "size": 0.9
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 71,
+          "yPos": 115,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:milk_bucket",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 313,
+          "yPos": 12,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "minecraft:iron_helmet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 311,
+          "yPos": 77,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "rats:cheese_stick",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 100,
+          "yPos": 80,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "rats:rattrap",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 309,
+          "yPos": 129,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "rats:rat_cage",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 130,
+          "yPos": 116,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "rats:cauldron_cheese",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 101,
+          "yPos": 181,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "rats:cheese",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}
