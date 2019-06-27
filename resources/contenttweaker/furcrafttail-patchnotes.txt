@@ -62,6 +62,14 @@ Questing
 >What We Know
 >>Bag of Junk!
 >>>Replaced Lootbag Storage task with Lootbag Opener, updated quest text
+>>Stone Cold Tomb
+>>>Fixed icon
+>>>Fixed task item (changed due to internal mod changes)
+>>Pocket Pets
+>>>Changed Tiny Coal task to Obsidian Nugget
+>>New Quest - The Squeaky Squeak Gets the Cheese
+>>>Covers Rats mod
+>>>Includes Quickstart guide for Rats
 >What We Need
 >>Vegetables
 >>>Fixed to require 300 vegetables instead of 1.
@@ -73,27 +81,28 @@ Questing
 >>>Changed Necrotic Bone to Oredictionary: boneWithered, to include Withered Bone drops
 >>Added 4 Baubley Heart quests
 >>>Covers the rare occurance when plain Baubley Hearts drop.
+>What We Can Provide
+>>Added 9 Ticket Exchange quests
 >New Questline - Who We Can Trust
 >>Late game trading with The Ferret Business for special items you can't craft.
 
 The Hungry Machine
 >Added tooltip, since not all foods have been added to the Hungry Machine edible list.
 >Added Rats Cheese to food list
->Added
 
 Rail Tickets
 >Drop rate shifted slightly as drops have shifted from scripts to a mod
 >Some creatures that were missing ticket drops have been fixed
 >Toads, Frogs, and Dart Frogs now drop Blue Tickets instead of White Tickets
 >Villagers now drop Yellow tickets
+>You can exchange tickets in the What We Can Provide section of the Ledger
 
 New Custom Items
 >Pride Metals
 >>Themed for LGBT+ Pride, these metal alloys are craftable in TFB Workbenches.
 >>Turn these in via The Ledger for special rewards that are highly difficult to obtain elsewhere, including : 
->>>Special Lootboxes
 >>>Vehicles
->>>The Gravity Gun
+>>>Gravity and Portal Guns
 >>>Max Health Boosters
 >>>And More!
 
