@@ -242,7 +242,7 @@ Corail Recycler (2.0.0 to 3.2.3)
 -Recycler can now store energy
 -Bug Fixes
 
-Corail Tombstone (2.9.7 to 3.5.4)
+Corail Tombstone (2.9.7 to 3.5.5)
 -Perk system added, replacing inherited bonuses from before
 -Changes to how death is handled
 -Updates to textures
@@ -271,7 +271,7 @@ Custom NPCs (13may18 to 30jan19)
 -New GUI
 -Bug Fixes
 
-Cyclic (1.15.12 to 1.19.11)
+Cyclic (1.15.12 to 1.19.12)
 -New Blocks and Items
 -Health system now compatible with other health boosting mods
 -Improvements to Sack of Holding
@@ -330,14 +330,14 @@ Forge Multipart CBE (2.4.2.60 to 2.6.1.81)
 -Performance Improvements
 -Bug Fixes
 
-Forge Endertech (0125 to 0362)
+Forge Endertech (0125 to 0377)
 -Bug Fixes
 
-FTB Lib (5.1.0.22 to 5.4.3.118)
+FTB Lib (5.1.0.22 to 5.4.3.121)
 -Performance Improvements
 -Bug Fixes
 
-FTB Utilities (5.1.0.27 to 5.4.0.97)
+FTB Utilities (5.1.0.27 to 5.4.0.99)
 -Backups moved to separate mod
 -Performance Improvements
 -Bug Fixes
@@ -406,14 +406,14 @@ Journeymap (5.5.2 to 5.5.5b7)
 Just Enough Harvestcraft (1.5.1 to 1.6.4)
 -Added Water Filter support
 
-Just Enough Items (4.10.0.199 to 15.0.281)
+Just Enough Items (4.10.0.199 to 15.0.283)
 -Performance Improvements
 -Bug Fixes
 
 Just Enough Resources (0.8.6.28 to 0.9.2.60)
 -Bug Fixes
 
-LagGoggles (4.1 to 4.3)
+LagGoggles (4.1 to 4.4)
 -Bug Fixes
 
 Lootbags (2.5.6 to 2.5.8.5)
@@ -421,7 +421,7 @@ Lootbags (2.5.6 to 2.5.8.5)
 -Added many items to the Recycler blacklist
 -Bug Fixes
 
-LootTweaker (0.0.7 to 0.0.9)
+LootTweaker (0.0.7 to 0.0.10)
 -Bug Fixes
 
 Mantle (1.3.2.24 to 1.3.3.55)
@@ -529,7 +529,7 @@ PTRLib (1.0.2 to 1.0.4)
 -Performance Improvements
 -Bug Fixes
 
-Quark (125 to 162)
+Quark (125 to 165)
 -Lots of new blocks and items
 -New Creatures - Stonelings
 -Performance Improvements
