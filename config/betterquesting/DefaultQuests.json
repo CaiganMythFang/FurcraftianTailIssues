@@ -14585,7 +14585,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Can You Dig It?",
-          "desc:8": "    The classic methods of mining for resources and cutting down trees have been lost to time. They weren\u0027t lost to The Cleansing, however, but to the the advancement of technology. \n\n    Before, great digging machines, powerful mechanical tools, would be used to gather great amounts of resources. But we don\u0027t easily have access to such tools yet.\n\n    Excavation is an ability that can be enchanted onto tools, or added as a Modifier to your Tinker\u0027s Construct tools. Each Excavation Modifier increases the range you can reach with a single move. \n\n    Craft and show me an Excavation Modifier, and I\u0027ll hand you a few more to speed up your efforts.\n\n    To use an Excavation enhanced tool, hold Sneak while using the tool appropriately (Pickaxes on Ores, Axes on Wood, etc)."
+          "desc:8": "    The classic methods of mining for resources and cutting down trees have been lost to time. They weren\u0027t lost to The Cleansing, however, but to the the advancement of technology. \n\n    Before, great digging machines, powerful mechanical tools, would be used to gather great amounts of resources. But we don\u0027t easily have access to such tools yet.\n\n    Excavation is an ability that can be enchanted onto normal tools, or added as a Modifier to your Tinker\u0027s Construct tools. Tinker\u0027s Tools Excavation Modifiers has 25 levels, each one increasing the chance it activates, and how many blocks it can excavate.\n\n    Craft and show me an Excavation Modifier, and I\u0027ll hand you a few more to speed up your efforts.\n\n    To use an Excavation enhanced tool, hold Sneak while using the tool appropriately (Pickaxes on Ores, Axes on Wood, etc)."
         }
       },
       "tasks:9": {
@@ -16067,7 +16067,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
