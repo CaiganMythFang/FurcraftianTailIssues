@@ -9160,7 +9160,12 @@
           "desc:8": "    Building the rail network of The Plan is going to take a lot of metal. Train tracks, trains, rail stations, all of it is very dependant on metal supplies."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "107:10": {
@@ -9542,7 +9547,12 @@
           "desc:8": "    The Plan will burn through thousands of basic materials. Wood, stone, etc."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "113:10": {
@@ -9937,7 +9947,12 @@
           "desc:8": "    Ferretopia and Port Burda have very efficient farms, but we have focused on quick growing, highly nutritious crops. We have some variety, but the outside world has all sorts of flavors and ingredients."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "119:10": {
@@ -10265,7 +10280,12 @@
           "desc:8": "    We have some special requests from the Ferretopia and Port Burda leaders."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "124:10": {
@@ -10957,7 +10977,12 @@
           "desc:8": "    Creatures and Monsters have various supplies we can research and use."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "133:10": {
@@ -12533,7 +12558,12 @@
           "desc:8": "    We once had the knowledge to take advantage of these hearts. No longer, though we do have an ally who can help us...\n    You can repeatedly submit these items, as well."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "154:10": {
@@ -15962,7 +15992,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
