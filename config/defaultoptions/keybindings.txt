@@ -83,6 +83,8 @@ key_Key.SlashBlade.PS:0:NONE
 key_Key.SlashBlade.SA:45:NONE
 key_Key.SlashBlade.LO:42:NONE
 key_Key.SlashBlade.CA:29:NONE
+key_key.theeightfabledblades.swordmode.desc:52:NONE
+key_key.theeightfabledblades.swordsign.desc:56:NONE
 key_vc.key.moveForward:17:NONE
 key_vc.key.moveBack:31:NONE
 key_vc.key.moveLeft:30:NONE
